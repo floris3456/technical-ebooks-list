@@ -1,55 +1,52 @@
 # Technical Ebooks List
 
-A curated collection of ebook recommendations covering programming, software engineering, architecture, and related computer science topics.
+A curated, edition-aware catalog of programming, software engineering, and computer science ebooks. This repository catalogs **recommendations and legitimate source links**, not copyrighted ebook files.
 
-This repository is starting with a **category taxonomy**. Book recommendations will be added after the categories and their boundaries are refined.
+## Explore subjects
 
-## Core categories
+There are **7 navigation groups and 23 subjects**. Groups help people browse; individual subjects classify books.
 
-| # | Category | Topics and examples |
-|---|---|---|
-| 01 | **Programming** | Programming languages, paradigms, syntax, idioms, object-oriented and functional programming |
-| 02 | **Algorithms & Data Structures** | Algorithms, complexity, trees, graphs, sorting, searching, computational problem-solving |
-| 03 | **Software Design & Code Quality** | Design patterns, SOLID principles, clean code, modularity, dependency management, refactoring |
-| 04 | **Software Architecture** | Architectural patterns, domain-driven design (DDD), microservices, modular monoliths, system design, architectural decision-making |
-| 05 | **Databases & Data Modeling** | SQL, NoSQL, database internals, indexing, transactions, schemas, data modeling |
-| 06 | **Computer Systems & Operating Systems** | Memory management, processes, filesystems, operating systems, low-level computing, hardware interactions |
-| 07 | **Networking, APIs & Integration** | HTTP, TCP/IP, REST, GraphQL, API design, communication protocols, messaging |
-| 08 | **Concurrency & Distributed Systems** | Multithreading, asynchronous execution, distributed algorithms, consistency, fault tolerance |
-| 09 | **Software Testing & Quality Assurance** | Unit testing, integration testing, test-driven development (TDD), property-based testing, verification, automated testing |
-| 10 | **Debugging & Performance Engineering** | Debugging techniques, profiling, performance optimization, memory analysis, benchmarking |
-| 11 | **Software Security & Privacy** | Secure coding, cryptography, authentication, authorization, threat modeling, application security |
-| 12 | **DevOps, Cloud & Infrastructure** | CI/CD, containers, Kubernetes, infrastructure as code, cloud platforms, deployment automation |
-| 13 | **Reliability & Observability** | Monitoring, logging, tracing, site reliability engineering (SRE), incident response, production reliability |
-| 14 | **Software Maintenance & Legacy Systems** | Technical debt, legacy modernization, codebase comprehension, migration, maintaining existing systems |
-| 15 | **Requirements & Software Analysis** | Requirements engineering, specifications, problem analysis, modeling, stakeholder needs |
-| 16 | **Software Engineering Practices & Collaboration** | Git workflows, code reviews, documentation, agile methods, teamwork, technical leadership |
+| Navigation group | Subjects |
+| --- | --- |
+| [Foundations & Theory](TAXONOMY.md#1-foundations-and-theory) | Algorithms & Data Structures; Computer Systems & Operating Systems; Mathematics & Formal Methods; Programming Language Theory & Compilers |
+| [Programming & Platforms](TAXONOMY.md#2-programming-and-platforms) | Programming; Platform-Specific Development |
+| [Software Engineering & Architecture](TAXONOMY.md#3-software-engineering-and-architecture) | Software Design & Code Quality; Software Architecture; Requirements & Software Analysis; Software Maintenance & Legacy Systems; Software Engineering Practices & Collaboration |
+| [Data, Networking & Distributed Systems](TAXONOMY.md#4-data-networking-and-distributed-systems) | Databases & Data Modeling; Data Engineering; Networking, APIs & Integration; Concurrency & Distributed Systems |
+| [Quality, Performance & Security](TAXONOMY.md#5-quality-performance-and-security) | Software Testing & Quality Assurance; Debugging & Performance Engineering; Software Security & Privacy |
+| [Operations & Delivery](TAXONOMY.md#6-operations-and-delivery) | DevOps, Cloud & Infrastructure; Reliability & Observability |
+| [Specialized Computing](TAXONOMY.md#7-specialized-computing) | Artificial Intelligence & Machine Learning; User Experience & Human–Computer Interaction; Computer Graphics & Visualization |
 
-## Optional categories for future expansion
+Definitions, subject boundaries, controlled names, and validation rules live in **[TAXONOMY.md](TAXONOMY.md)**.
 
-These areas may eventually become independent categories as the collection grows.
+## Catalog conventions
 
-| Category | Topics and examples |
-|---|---|
-| **Programming Language Theory & Compilers** | Type systems, interpreters, parsing, compiler design |
-| **Mathematics & Formal Methods** | Discrete mathematics, logic, formal verification, correctness proofs |
-| **Artificial Intelligence & Machine Learning** | ML algorithms, deep learning, AI application engineering, model deployment |
-| **Data Engineering** | Data pipelines, ETL, streaming systems, data platforms |
-| **User Experience & Human–Computer Interaction** | Interface design, usability, accessibility, interaction design |
-| **Platform-Specific Development** | Frontend, backend, mobile, desktop, embedded, and game development |
-| **Computer Graphics & Visualization** | Rendering, graphics pipelines, visualization techniques, graphics programming |
+1. **One canonical record per included book edition** in `books/`. Different ebook formats of the same edition stay together, with format-specific ISBNs if available.
+2. **One primary subject** plus any substantial additional subjects. A book can appear under more than one subject without duplicate records.
+3. **Independent facets** for language, technology, subtopics, difficulty, focus, formats, access, author, year, and edition. A language tag is not the book's subject unless teaching that language is the focus.
+4. **Subject indexes** in `topics/` link to canonical book records. Generate the indexes from metadata when the collection grows; do not copy full descriptions between pages.
+5. **Separate research candidates from recommendations**. Each recommendation should have a grounded assessment and a legitimate publisher, author, or open-access source.
 
-## Organization guidelines
+## Repository guide
 
-- **Categories** describe the knowledge area covered by a book. Subcategories can be added where useful (for example, `Software Architecture → Distributed Architecture → Microservices`).
-- **Tags** describe cross-cutting attributes such as programming language, technology, difficulty, or focus (for example, `Java`, `Python`, `Advanced`, `Theoretical`, `Practical`).
-- **Primary category**: Each book should have one primary category for easier browsing, with additional tags for overlapping topics.
-- **Scope**: This is a working taxonomy, not a final judgment on where every topic belongs. Category names and boundaries can evolve as books are researched.
+| Path | Purpose |
+| --- | --- |
+| [TAXONOMY.md](TAXONOMY.md) | The authoritative subject vocabulary, classification rules, and validation plan |
+| [books/BOOK_TEMPLATE.md](books/BOOK_TEMPLATE.md) | A reusable, edition-aware metadata and review template |
+| [topics/README.md](topics/README.md) | How topic indexes will link to book records |
+| README.md | Introduction and navigation |
 
-## Taxonomy references
+## Project status
 
-The initial categories were informed by established software engineering and computer science frameworks:
+**Taxonomy v1 — not yet validated on a representative ebook sample.** Before compiling a large book list, evaluate the classification on roughly **25–30 real editions**, including books that span multiple subjects, and revise confusing boundaries.
 
-- [IEEE Computer Society — Guide to the Software Engineering Body of Knowledge (SWEBOK)](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
-- [ACM — Computer Science Curricula 2023 Knowledge Areas](https://csed.acm.org/knowledge-areas/)
+There are **no curated book entries yet**. This commit establishes a maintainable foundation, not a claim that the taxonomy has been proven optimal.
+
+## Research foundations
+
+- [IEEE Computer Society — Software Engineering Body of Knowledge (SWEBOK)](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
+- [ACM — Computer Science Curricula knowledge areas](https://csed.acm.org/knowledge-areas/)
 - [CNCF — Cloud Native Landscape](https://landscape.cncf.io/)
+- [Dublin Core Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+- [W3C — SKOS Primer](https://www.w3.org/TR/skos-primer/)
+
+This is a practical synthesis, not an official reproduction of those frameworks.
