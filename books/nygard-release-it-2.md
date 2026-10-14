@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://pragprog.com/titles/mnee2/release-it-second-edition/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "fc4e04d125275b9ca8880d61e453a36656a12ce2"
 ---
 
 # Release It! — second edition (2018)
@@ -54,7 +54,12 @@ All sources accessed 2026-10-14; access dates do not imply the source was newly 
 | [S5] | [Dapr circuit breaker](https://docs.dapr.io/operations/resiliency/policies/circuit-breakers/), half-open/open policy configuration | v1.18 docs; date of each technical claim unverified |
 | [S6] | [Envoy circuit breaking](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/circuit_breaking), upstream request/connection/retry limits | Viewed version 1.41.0-dev; page update unspecified |
 | [S7] | [Reader erratum report](https://devtalk.com/t/release-it-second-edition-typo-in-client-connection-diagram-page-174/214386), p.174 alleged mismatch | 2025-09-11, unverified report |
+| [S8] | [Microsoft circuit-breaker pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker), Solution and closed/open/half-open recovery states | Live guidance; update unspecified; inspected 2026-10-14 |
+
+## Subsequent-run review — cycle 2026-10-14-12
+
+**Passed**, reviewing published `fc4e04d125275b9ca8880d61e453a36656a12ce2`. Reinspected the original dependency diagrams on rendered PDF page 8 and the 2023 second-edition review, retaining its dated-implementation criticisms. [S2], [S3] Microsoft's recovery-state discussion confirms the continuing design problem, not identical behavior across resilience libraries. [S8] Architecture remains primary and operational resilience secondary. The sidebar discrepancy and unconfirmed reader report remain unresolved; no whole-book or exhaustive errata audit is claimed.
 
 ## Edition and next review
 
-Only this **2018 second edition** is recommended, with its print-versus-web sidebar ambiguity recorded and old OWASP/config examples caveated. Validate another original chapter, source errata resolution and current chaos/back-pressure standards in the next run. **Pending subsequent-run review.**
+Only this **2018 second edition** is recommended, with old OWASP/configuration examples caveated. Passed later-run review; inspect another original chapter, significant errata and application-specific back-pressure behavior during the staged final audit.

@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.informit.com/store/continuous-delivery-reliable-software-releases-through-9780321770424"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "fc4e04d125275b9ca8880d61e453a36656a12ce2"
 ---
 
 # Continuous Delivery — first edition (2010)
@@ -53,7 +53,12 @@ All accessed 2026-10-14, with source dates separately identified.
 | [S4] | [Buildkite artifacts](https://buildkite.com/docs/pipelines/configure/artifacts), integrity and upload/download | Live docs; update date unspecified |
 | [S5] | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/), Jenkinsfile/stages | Live docs; update date unspecified |
 | [S6] | [Steve Fenton](https://octopus.com/devops/reading-list/continuous-delivery/), scope comparison | 2026-02-06 |
+| [S7] | [OWASP Secrets Management](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html), CI/CD sections 3.1–3.3 | Live guidance; update unspecified; inspected 2026-10-14 |
+
+## Subsequent-run review — cycle 2026-10-14-12
+
+**Passed**, reviewing the published record at `fc4e04d125275b9ca8880d61e453a36656a12ce2`. Reopened original chapter 5 and Bas Vodde's critical reading; neither popularity nor publication age determined the decision. [S2], [S3] OWASP's current CI/CD guidance makes the existing configuration caveat concrete: versioning ordinary configuration is not permission to commit plaintext credentials. [S7] The pipeline/testing classification remains appropriate. No full errata clearance, modern deployment execution or final collection audit is claimed.
 
 ## Next review
 
-Reopen original configuration/data-migration chapters; check printing-specific errata and whether suggested configuration practices meet modern secrets and provenance requirements. **Pending subsequent-run review.**
+Passed later-run assessment with the limitations above. Inspect original configuration/data-migration chapters, printing-specific corrections and a representative current implementation. Preserve the distinction between reusable delivery principles and current secrets/provenance controls.

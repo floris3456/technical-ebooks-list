@@ -6,14 +6,15 @@ An evidence-backed catalog of programming, software engineering and computing eb
 
 | Measure | Distinct works |
 | --- | ---: |
-| Recommended after initial research | 22 |
-| Passed a subsequent-run review | 20 |
+| Recommended after initial research | 24 |
+| Passed a subsequent-run review | 22 |
 | Recommendations awaiting later-run review | 2 |
-| Research candidates, not counted | 1 |
+| Canonical research candidates, not counted | 1 |
+| Retained deferred works, including that candidate | 3 |
 | Completed final collection audit | 0 |
 | Target after review and final audit | 2,000 |
 
-Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Pro Git and Distributed Systems passed review of the prior catalog commit, with their stated limitations. Continuous Delivery and Release It! await a later-run review. The candidate is not a negative quality verdict. See [research/STATE.md](research/STATE.md) for unresolved evidence and [the source registry](research/SOURCES.md) for immediate visit logs and website novelty checks.
+Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Continuous Delivery and Release It! have now passed a subsequent-run review with their limitations retained. The two new recommendations below await later review. See [research/STATE.md](research/STATE.md) for the checkpoint, [UNSELECTED.md](research/UNSELECTED.md) for retained non-selections, and [the source registry](research/SOURCES.md) for exact visit logs and website novelty checks.
 
 ## Browse recommendations
 
@@ -39,14 +40,18 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 | [Dive into Deep Learning](books/zhang-lipton-li-smola-dive-into-deep-learning-2024.md) | Cambridge 2024; online v1.0.3 | Artificial Intelligence & Machine Learning | Passed later-run review |
 | [Systems Performance](books/gregg-systems-performance-2.md) | Second (2020) | Debugging & Performance Engineering | Passed later-run review |
 | [The Site Reliability Workbook](books/beyer-murphy-rensin-kawahara-thorne-site-reliability-workbook-2018.md) | 2018 | Reliability & Observability | Passed later-run review |
-| [Continuous Delivery](books/humble-farley-continuous-delivery-1.md) | First (2010; copyright 2011) | DevOps, Cloud & Infrastructure | Pending later-run review |
-| [Release It!](books/nygard-release-it-2.md) | Second (2018) | Software Architecture | Pending later-run review |
+| [Continuous Delivery](books/humble-farley-continuous-delivery-1.md) | First (2010; copyright 2011) | DevOps, Cloud & Infrastructure | Passed later-run review |
+| [Release It!](books/nygard-release-it-2.md) | Second (2018) | Software Architecture | Passed later-run review |
+| [Working Effectively with Legacy Code](books/feathers-working-effectively-with-legacy-code-1.md) | First (2004; copyright 2005) | Software Maintenance & Legacy Systems | Pending later-run review |
+| [Fundamentals of Data Engineering](books/reis-housley-fundamentals-of-data-engineering-1.md) | First (2022) | Data Engineering | Pending later-run review |
 
-## Uncounted candidates
+[Topic indexes](topics/README.md) include substantial secondary subjects without duplicating works. All 23 subjects have a recommendation link and 22 now have primary coverage; that is coverage, not proof the taxonomy is optimal.
 
-[Infrastructure as Code, third edition](books/morris-infrastructure-as-code-3.md): identity, scope and technical relevance researched; independent third-edition-specific evaluation or explicit educational adoption still needed. Author/employer material cannot fill that gap. Other leads, including the 2026 second edition of Site Reliability Engineering, remain in the research checkpoint.
+## Retained non-selections
 
-[Topic indexes](topics/README.md) include substantial secondary subjects without duplicating works. All 23 subjects now have at least one recommendation link; that is coverage, not proof the taxonomy is optimal.
+[UNSELECTED.md](research/UNSELECTED.md) is the compact curated list of evaluated works that did not meet the criteria, with reasons, evidence and reconsideration conditions. It distinguishes incomplete evidence from a quality rejection and retains removed recommendations rather than relying only on Git history.
+
+Currently deferred: [Infrastructure as Code, third edition](books/morris-infrastructure-as-code-3.md), the prior Site Reliability Engineering second-edition lead, and the uncertain Brutal Refactoring follow-up listing. Only the first has a canonical candidate file. None is rejected for age, format or acquisition status; see the retained list for exact reasons.
 
 ## Selection principles
 
@@ -58,7 +63,7 @@ Each recommendation needs at least three inspected substantive documents collect
 
 Record every external source attempt in Git immediately after its retrieval batch, including failures. Each cycle investigates at least 20 new websites, not repeated pages on the same website; revisiting known sites is encouraged but does not earn novelty credits. [Source records](research/SOURCES.md) distinguish breadth from evidence quality.
 
-Cycles review earlier work, investigate gaps, and add, revise, reclassify or remove records with reasons. New recommendations need later-run review before audited progress, and completion also needs a final evidence, relevance, categorization and deduplication audit. See [corrective decisions](research/REJECTIONS.md); earlier decisions are preserved unchanged.
+Cycles review earlier work, investigate gaps, and add, revise, reclassify or remove records with reasons. New recommendations need later-run review before audited progress, and completion also needs a final evidence, relevance, categorization and deduplication audit. Preserve work-level non-selections in [UNSELECTED.md](research/UNSELECTED.md) and claim-level corrections in [REJECTIONS.md](research/REJECTIONS.md); earlier decisions remain available.
 
 ## Explore all subjects
 

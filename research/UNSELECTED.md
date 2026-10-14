@@ -1,0 +1,13 @@
+# Evaluated but not selected
+
+Retain every evaluated work that does not meet the recommendation criteria, including removals. **Deferred** means evidence is incomplete, not that the book is poor. **Rejected** means a supported quality/scope decision; **retired** records a former recommendation's removal. None counts toward 2,000. Incidental titles in search results are not automatically evaluated works.
+
+Keep one compact row per work/edition decision: stable ID, title, disposition, concise reason, exact evidence, and a concrete reconsideration condition. Never delete a row merely because a canonical file is removed. On promotion, retain the decision and mark it superseded with the recommendation/commit link. Availability, price and age are not rejection grounds.
+
+| Work ID / edition | Work | Disposition | Why not selected; evidence | Reconsider when |
+| --- | --- | --- | --- | --- |
+| `morris-infrastructure-as-code` / 3e (2025) | [Infrastructure as Code](../books/morris-infrastructure-as-code-3.md) — Kief Morris | Deferred; canonical candidate | Publisher/author/employer material supports scope, not independent **third-edition** appraisal or adoption. [Saved assessment and exact sources](../books/morris-infrastructure-as-code-3.md#evidence-ledger). | A substantive independent edition-specific assessment or explicit course use is inspected. |
+| `site-reliability-engineering` / 2e (2026 lead) | Site Reliability Engineering | Deferred; carry-forward lead | Independent second-edition support was not established in the [preserved checkpoint](STATE-through-fc4e04d.md#next-priorities); earlier-edition evidence cannot silently fill the gap. Not a new full investigation this cycle. | Verify the edition and inspect independent evaluation/adoption alongside original material. |
+| `feathers-brutal-refactoring` / advertised first edition | Brutal Refactoring: More Working Effectively with Legacy Code — Michael Feathers | Deferred; completion unclear | [Publisher listing](https://www.informit.com/store/brutal-refactoring-more-working-effectively-with-legacy-9780321793201) displays 2040/2041 metadata against an inconsistent retrospective description. No completed original text or independent appraisal was established. Not treated as cancelled or as a second edition of the 2004 book. | Completed-work identity and substantive independent evidence can be verified. |
+
+**Last assessed/retained: 2026-10-14.** Three deferred works, one of which has a canonical candidate file. No recommendation was removed this cycle and no quality-based rejection is invented to fill the list. Earlier rejected claims, corrected assumptions and historical promotions remain in [REJECTIONS.md](REJECTIONS.md) and its archive.

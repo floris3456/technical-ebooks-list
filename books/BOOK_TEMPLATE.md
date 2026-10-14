@@ -62,4 +62,8 @@ At least three substantive inspected documents are needed for a recommendation, 
 ### Next review
 List concrete checks needed in the following run. Candidates must say exactly what evidence is missing. Self-review is not a substitute for subsequent-run review.
 
+## Retaining unselected and removed works
+
+Whenever an evaluated work is not selected, add or update its compact entry in [research/UNSELECTED.md](../research/UNSELECTED.md). Preserve work ID, edition, disposition, concise reasoning, exact supporting evidence and a reconsideration condition. Distinguish **deferred evidence** from a supported **quality rejection** or **retirement**. When deleting a former recommendation or list, retain its work decisions and former commit/path reference first; version control is not a substitute for a discoverable decision list. Promotions mark prior decisions superseded rather than erase them. Never count these retained entries as recommendations.
+
 Do not purchase books, store copyrighted book binaries, or link to unauthorized copies. Preserve rejected claims and decisions in the research log rather than padding the recommendation count.
