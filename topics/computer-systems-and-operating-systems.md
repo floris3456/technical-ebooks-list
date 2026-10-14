@@ -2,6 +2,6 @@
 
 | Recommended work | Relationship | Review |
 | --- | --- | --- |
-| [Operating Systems: Three Easy Pieces — 1.10](../books/arpaci-dusseau-ostep-1-10.md) | Primary subject | Pending subsequent-run review |
+| [Operating Systems: Three Easy Pieces — 1.10](../books/arpaci-dusseau-ostep-1-10.md) | Primary: processes, memory and persistence | Passed |
 
-[All topic indexes](README.md). The record explains its edition uncertainty and distinction between enduring OS concepts and current kernel implementation details.
+These are links to canonical book assessments, not distinct edition counts. [All subject indexes](README.md).

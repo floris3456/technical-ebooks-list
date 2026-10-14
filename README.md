@@ -6,21 +6,24 @@ An evidence-backed catalog of programming, software engineering, and computing e
 
 | Measure | Works |
 | --- | ---: |
-| Recommended after initial research | 2 |
-| Passed a subsequent-run review | 0 |
-| Research candidates, not counted | 2 |
+| Recommended after initial research | 5 |
+| Passed a subsequent-run review | 2 |
+| Research candidates, not counted | 0 |
 | Target after review and final audit | 2,000 |
 
-Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
+Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. The two earlier recommendations have now passed one subsequent-run review; the remaining three await it. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
 
 ## Browse recommendations
 
 | Work | Edition recorded | Primary subject | Review |
 | --- | --- | --- | --- |
-| [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10, 2023; online-version caveat documented | Computer Systems & Operating Systems | Pending subsequent-run review |
-| [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth, 2022 | Algorithms & Data Structures | Pending subsequent-run review |
+| [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10 (2023) | Computer Systems & Operating Systems | Passed later-run review |
+| [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth (2022) | Algorithms & Data Structures | Passed later-run review |
+| [Designing Data-Intensive Applications](books/kleppmann-riccomini-ddia-2.md) | Second (2026) | Software Architecture | Pending later-run review |
+| [Crafting Interpreters](books/nystrom-crafting-interpreters-2021.md) | 2021 | Programming Language Theory & Compilers | Pending later-run review |
+| [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Pending later-run review |
 
-[Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Candidates are linked separately in the research checkpoint; they are not recommendations.
+[Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Future unresolved candidates remain separate in the research checkpoint.
 
 ## Selection principles
 

@@ -7,23 +7,23 @@ publication_year: 2021
 isbn_by_format: {}
 primary_subject: programming-language-theory-and-compilers
 additional_subjects: []
-concepts: [interpreters, scanning, parsing]
-languages: []
+concepts: [interpreters, scanning, parsing, bytecode, virtual-machines]
+languages: [Java, C]
 technologies: []
-difficulty: unknown
-focus: [practical]
-formats: []
+difficulty: intermediate
+focus: [practical, conceptual]
+formats: [web]
 access: unknown
 official_url: "https://craftinginterpreters.com/"
 last_verified: "2026-10-14"
-status: candidate
+status: recommended
 review_status: pending
 reviewed_commit: null
 ---
 
 # Crafting Interpreters — 2021 publication
 
-**Uncounted candidate.** Current educational recommendations support investigating this work, but the cycle did not obtain enough inspected book-content evidence to substantiate a full recommendation. Unknown formats or access do not affect the decision.
+**Recommend** for programmers learning how scanners, interpreters and bytecode virtual machines work by building them. The author's chapters have now been inspected directly through the original source repository, beyond the previous course references. It is a practical Java/C language-implementation book, not a Rust textbook or an exhaustive formal compiler theory treatment.
 
 ## Inspected evidence
 
@@ -33,22 +33,43 @@ The University of San Francisco's Spring 2026 Rust/scanning lecture recommends t
 
 These sources support a provisional compiler/interpreter subject fit and a reason to investigate current usefulness. They do not establish the book's complete contents, exact printing, all prerequisites, limitations, errata, or comparative quality.
 
+## Author chapter inspection and present-day fit (2026-10-14)
+
+The original author's GitHub repository contains actual book manuscripts and implementations. The **Introduction** describes two interpreter implementations and explicitly prioritizes hands-on techniques over formal theory. The **Scanning** chapter explains character-to-token conversion and scanner/error-handling scaffolding in Java. The **A Virtual Machine** chapter builds bytecode execution in C and explicitly warns that its convenient single global VM is not ideal for embedded or multiple VM instances. Those concrete chapter excerpts establish the subject, prerequisites, technical substance, and a limitation; none imply every chapter or every exercise was completed. [S3], [S4], [S5]
+
+Portland State's Winter 2026 course **assigns Nystrom chapters 2 and 15 on March 3**, more substantive adoption than a passive reference list. It still uses Siek's *Essentials of Compilation* as its main book. The University of San Francisco Spring 2026 lecture lists Nystrom as scanner/parser further reading, not Rust implementation. Tokenization, bytecode and VM tradeoffs remain relevant regardless of current framework fashion. [S1], [S2], [S3], [S5]
+
+The author source is represented as an online work (web); no price/availability prerequisite or unverified edition ISBN is introduced. A subsequent-run reviewer should verify the pinned author source revision and inspect any significant errata.
+
 ## Retrieval and next actions
 
-The author site and chapter links appeared in search results, but this cycle's full-page retrieval attempts failed. Search snippets were not substituted for inspected chapters. This is a research-tool evidence gap, not a claim that the ebook is unavailable or should be rejected.
+Earlier author-site fetches failed, but this cycle **inspected the full Markdown chapter source directly through the author's GitHub repository**. Earlier failed retrieval is not evidence of missing quality or availability.
 
-Next run: inspect the author introduction and a representative implementation chapter through a working authorized public route; verify publication/edition and revision or errata information; inspect an independent detailed implementation experience or review. Compare pedagogical scope with the Siek text named in the PSU course. Do not invent implementation-language or format metadata while that evidence remains unchecked.
+Next run: independently review the now-inspected author's sections and current course assignments, verify exact edition/printing and errata, and compare pedagogical scope with Siek's book. Compare pedagogical scope with the Siek text named in the PSU course. Do not invent implementation-language or format metadata while that evidence remains unchecked.
 
 ## Evidence ledger
 
-Both sources were inspected/accessed **2026-10-14**. Neither page supplied a reliable exact last-update date.
+The author-book source files and two educational sources were inspected **2026-10-14**. Neither page supplied a reliable exact last-update date.
 
 | ID | Source and inspected location | Source date/context |
 | --- | --- | --- |
 | [S1] | PSU course page, main-text description and Other Books/reference list | Winter 2026; Nystrom publication cited as 2021 |
 | [S2] | USF CS631 Rust Programming and Scanning, Learning Objectives, Scanning, Further Reading | Spring 2026, lecture dated 2026-01-29 by page path; footer alone is not an update date |
+| [S3] | Author book/introduction.md, opening purpose and Why Learn This Stuff? | Book source; revision date not stated |
+| [S4] | Author book/scanning.md, scanner introduction, Interpreter Framework, Error Handling | Book source; revision date not stated |
+| [S5] | Author book/a-virtual-machine.md, Instruction Execution Machine, single-VM limitation | Book source; revision date not stated |
+| [S6] | Author repository README, book prose and two interpreter codebases and testing | Repository snapshot; update date not established |
 
 [S1]: https://web.cecs.pdx.edu/~apt/cs510comp/
 [S2]: https://cs631-s26.cs.usfca.edu/lectures/01-cs631-2026-01-29-rust-scanning/
 
-Author-site URL in metadata is a research lead, not a claim that its page content was successfully inspected. Only two substantive external documents are established here, so the three-document recommendation threshold is not met.
+The author's original Markdown chapters, rather than failed HTML site fetches, are the source for the inspected technical content. Three author-source chapter documents, an author-repository overview and two independent 2026 university references are now inspected. The three-document threshold is met without treating search snippets as inspected evidence.
+
+[S3]: https://github.com/munificent/craftinginterpreters/blob/4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4/book/introduction.md
+[S4]: https://github.com/munificent/craftinginterpreters/blob/4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4/book/scanning.md
+[S5]: https://github.com/munificent/craftinginterpreters/blob/4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4/book/a-virtual-machine.md
+[S6]: https://github.com/munificent/craftinginterpreters
+
+## Next review
+
+A later run must recheck the published author-source links, printing/errata and how this hands-on title differs from a formal compiler text. This promotion is pending later-run review.

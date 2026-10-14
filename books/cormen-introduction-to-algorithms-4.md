@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "66ba2abdc241a80f999bd7e58ad4ca5853ffc487"
 ---
 
 # Introduction to Algorithms — Fourth edition
@@ -64,12 +64,18 @@ All listed sources were inspected/accessed **2026-10-14**; access dates are not 
 | [S3] | JHU 601.433/633 Resources, Books and Mathematics | Fall 2026; page update date not supplied |
 | [S4] | JHU tentative schedule, September–October assignments and later chapter-number discrepancy | Fall 2026; explicitly preliminary |
 | [S5] | Official fourth-edition errata, printing/severity selection and reporting guidance | Fourth edition; full current correction list not exposed by retrieval |
+| [S6] | MIT Press Selected Solutions, fourth-edition cover and Exercise 2.3-6, worked binary-search algorithm (PDF p. 10) | Companion fourth-edition solutions; PDF update date not established |
 
 [S1]: https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/
 [S2]: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/11599/4e_toc.pdf
 [S3]: https://introalgorithmsfall26.cs.jhu.edu/resources/
 [S4]: https://introalgorithmsfall26.cs.jhu.edu/schedule/
 [S5]: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/11599/e4-bugs.html
+[S6]: https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/11599/selected_solutions.pdf#page=10
+
+## Subsequent-run review (2026-10-14)
+
+Reviewed the published recommendation in `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. MIT Press fourth-edition companion *Selected Solutions* includes Exercise 2.3-6 on binary search, adding inspected worked material beyond the table of contents. Johns Hopkins Fall 2026 explicitly teaches using the fourth edition; mismatched preliminary schedule chapter numbers do not override publisher contents. The work remains relevant for analysis, proofs and classic algorithms. Printing-specific errata were not fully enumerated and no full reading is claimed. Decision: pass with these caveats. [S1], [S2], [S3], [S4], [S5], [S6]
 
 ## Next review
 

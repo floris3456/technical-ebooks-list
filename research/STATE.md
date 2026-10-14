@@ -1,64 +1,47 @@
 # Research checkpoint
 
-## Cycle 2026-10-14-01
+## Cycle 2026-10-14-02
 
-Date: **2026-10-14**, Europe/Amsterdam. This is the first substantive research cycle. Use the commit containing this checkpoint as the next review target; do not interpret self-review as a later-run approval.
+Date: **2026-10-14** (Europe/Amsterdam). Reviewed published parent commit `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`, all four book records, the latest commit's changed files, taxonomy, template, existing topic indexes and both research logs. No accessible unfinished data beyond those files; no claim of reading another run's live work.
 
-Reviewed starting HEAD: `f8a688837c94e9f8c47e6d22cebf9c2cf376be64`.
-Starting tree: `3c36ab47fd611f50378b1d9776fa8ea7f0917848`.
-The pinned tree contained only README, TAXONOMY, book template, and topic guide. `research/STATE.md` did not exist. There were no prior book records or saved research files to sample or review. The latest commit's documentation changes were inspected; no access to another run's unpublished work is claimed.
+## Distinct-work counts
 
-## Actual collection counts
-
-| Measure | Distinct works |
+| Measure | Count |
 | --- | ---: |
-| Recommended, initial evidence assessment complete | 2 |
-| Recommended and passed subsequent-run review | 0 |
-| Pending subsequent-run review | 2 |
-| Candidates, excluded from recommendation count | 2 |
-| Retired or formally rejected works | 0 |
-| Final-audit-qualified target progress | 0 / 2,000 |
+| Recommended, research-backed | **5** |
+| Passed subsequent-run review | **2** |
+| Pending subsequent-run review | **3** |
+| Uncounted candidates | **0** |
+| Retired/removed works | **0** |
+| Final-audit-qualified works | **0 / 2,000** |
 
-The first two recommendations are useful progress, but **not yet counted as fully audited**. Count by `work_id`; editions, translations, formats, duplicate links, and templates never add works. A later run must inspect each recommendation's published content and evidence, record the reviewed SHA, and explicitly pass it. Material revisions reset the review. Recompute these figures from the live tree on every cycle rather than trusting stale totals.
+Count stable unique `work_id` among `status: recommended`, never editions, translations, formats or index appearances. A review pass is not the eventual staged final audit. The 7 browsing groups and 23 subject slugs remain provisional.
 
-## Records and handoff
+## Reviewed and newly substantiated work
 
-| Work | Current decision | Next action |
+| Work | Decision | Evidence and unresolved check |
 | --- | --- | --- |
-| [OSTEP 1.10](../books/arpaci-dusseau-ostep-1-10.md) | Recommended; pending review | Recheck version/extraction discrepancy, significant errata, source fit, and scheduler caveat |
-| [Introduction to Algorithms 4](../books/cormen-introduction-to-algorithms-4.md) | Recommended; pending review | Inspect more substantive worked material and printing-specific corrections; preserve explicit course-schedule caveat |
-| [DDIA 2](../books/kleppmann-riccomini-ddia-2.md) | Candidate | Obtain independent second-edition evaluation or clearly identified adoption, and more explanatory material |
-| [Crafting Interpreters](../books/nystrom-crafting-interpreters-2021.md) | Candidate | Obtain inspected author/book content and edition/errata evidence; current course references already captured |
+| [OSTEP](../books/arpaci-dusseau-ostep-1-10.md) | **Passed** review of parent commit | Official 1.10 and UCSD Fall 2026 adoption corroborated; rendered chapter 9 shows 1.10/CFS but extraction said 1.20/EEVDF. Keep documentation caveat; errata audit incomplete. |
+| [Introduction to Algorithms](../books/cormen-introduction-to-algorithms-4.md) | **Passed** review of parent commit | MIT Press selected fourth-edition binary-search solutions inspected; JHU Fall 2026 edition adoption verified; inconsistent preliminary course chapter numbering retained as caution; errata not fully enumerated. |
+| [DDIA second edition](../books/kleppmann-riccomini-ddia-2.md) | **Promoted** from candidate; pending new review | O'Reilly February 2026 exact edition, chapter introductions, Fall 2026 Waterloo exact-edition assignments, March 2026 independent review, official PostgreSQL transaction model. First-edition criticism not transferred. |
+| [Crafting Interpreters](../books/nystrom-crafting-interpreters-2021.md) | **Promoted** from candidate; pending new review | Author's actual Markdown introduction/scanner/VM chapters and implementations inspected via original repo; PSU Winter 2026 **assigned** chapters 2 and 15; USF 2026 reference. No Rust tag. |
+| [Software Engineering at Google](../books/winters-manshreck-wright-software-engineering-at-google-2020.md) | **Added** recommended, pending new review | O'Reilly/Abseil official 2020 edition, substantive testing/test-double chapters, independent 2024 reader analysis, official Google review guidance. Context-specific and 2026 agent omissions disclosed. |
 
-## Review findings and changes
+Review `reviewed_commit` in the **two passed records** identifies `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. Only a *later* invocation may review the other three against the **published SHA of this cycle**. Material changes reset a pass.
 
-- Removed the old template's requirement to verify **availability before promotion**. Availability is metadata only and is not a filter. Added explicit present-day relevance, source-date, inspection-limit, and subsequent-review rules.
-- Added stable work identifiers and a reviewed-commit field. Candidate files and duplicate subject appearances cannot inflate the count.
-- Retained all 23 subjects unchanged. The small sample supports primary/secondary indexing but is insufficient to justify a structural split or declare the taxonomy optimal. The concurrency/distributed-systems subject needs broader testing, not an unsupported immediate rename.
-- Added three populated topic pages and updated navigation. OSTEP appears twice but counts once. CLRS is not tagged AI merely because it has an ML chapter.
-- Preserved incomplete investigations as two candidate records. No actual book record was deleted; rejected claims and approaches are in [REJECTIONS.md](REJECTIONS.md).
+## Reasoned taxonomy decisions
 
-## Evidence caveats to carry forward
+Keep 23 subjects pending the 25–30-edition pilot. DDIA uses architecture primary plus database, data engineering and distributed systems, since its chapters sustain all four areas. OSTEP's concurrency index is secondary; Crafting Interpreters belongs to compiler theory despite its project style; Google's collaboration book has meaningful testing and maintenance coverage. Five works are inadequate to justify splitting or renaming categories. Cross-index links are not duplicate records.
 
-OSTEP: the author site and UCSD specify 1.10, but one retrieved chapter's extracted text reported 1.20/EEVDF while the rendered page showed 1.10/CFS. Neither a complete 1.20 release nor EEVDF coverage in 1.10 was assumed. The recommendation keeps verified 1.10 identity and uses kernel documentation for current scheduler context. Reconcile this tooling/source discrepancy before making stronger edition claims.
+Availability is **not a filter** and no work was screened by price, access, region or file format. Older content is accepted only with verified present-day usefulness; the 2020 Google work is assessed using later independent critique and public engineering guidance without claiming unchanged internal practices.
 
-CLRS: the JHU resources explicitly identify fourth edition, but some later preliminary schedule chapter numbers match a different numbering scheme. Publisher contents govern the record. The errata interface loaded without a full selected correction list; no clean-bill-of-health claim is made.
+## Next-run priorities
 
-DDIA: inspected 2024 independent criticism applies to first edition, not the February 2026 second edition. Current PostgreSQL documentation supports topic relevance, not the book's pedagogical quality. An inaccessible 2026 interview was not counted as evidence.
+1. **Independently review the three pending recommendations** against the exact new commit; check original source links, dated evidence, content locators and material limitations. Pay particular attention to DDIA secondary subject breadth, author GitHub revision pin in Crafting Interpreters, and Google chapter/maintenance coverage. Mark pass or revert to candidate where required.
+2. Run a small rotating audit of older passes: OSTEP PDF rendering/text-extraction conflict and Linux EEVDF caveat; CLRS printing-specific errata and JHU preliminary schedule. Do not claim issues resolved by inability to read them.
+3. Research underrepresented **security, testing, networking, requirements and accessibility** works, with substantial contents, independent critical assessment or documented 2026 adoption, exact edition and current applicability. Leads (not endorsements): *Essentials of Compilation*, *Algorithm Design*, *Computer Systems: A Programmer's Perspective*.
+4. Validate all new/revised Markdown metadata, source identifiers, indexes and unique work IDs against the actual branch head. Complete the 25–30-edition classification pilot before structural taxonomy changes; eventually final-audit 2,000 works.
 
-Crafting Interpreters: two current educational references were inspected. Full author-site/chapter fetches failed; snippets did not count. This is not an availability-based rejection. PSU lists it as supplementary, not the main text; USF use does not make it a Rust book.
+## Publication and limitations
 
-## Coverage and next priorities
-
-Primary coverage now: OS and algorithms. Architecture/data systems and compilers have live candidates. Other subject areas remain unresearched; no claim of comprehensive pilot coverage is made.
-
-1. Review this cycle's published diff and the two recommendations first, including source conflicts and metadata. Record the exact reviewed SHA and pass, revise, or demote each explicitly.
-2. Resolve DDIA's edition-specific evidence and Crafting Interpreters' content evidence without repeatedly restarting searches already documented in their records.
-3. Research software design/testing or security next to avoid a fundamentals-only collection. Build independent evidence before naming recommendations.
-4. Alternative leads, not approved books: JHU's resources list *Algorithm Design* and *Randomized Algorithms*; Pomona compares OSTEP with *Computer Systems: A Programmer's Perspective*; PSU's main text is *Essentials of Compilation*. Follow the already-cited course sources, then verify exact editions and contents.
-
-## Validation and publication protocol
-
-This change set preserves the base tree, uses a new child commit, and must be published only after re-fetching `main` and accepting a conditional non-force ref update. If the head changes, reconcile rather than overwrite. Validate work identifiers, subject slugs, source identifiers/locators, statuses, relative links, and index membership. Verify the remote head and committed files after publication. A commit SHA is reported in the cycle response; this file does not embed its own circular self-hash.
-
-External sources were inspected with the web tool, not bulk copied into the repository. PDF table/figure checks used rendered pages where needed. No full-book reading, executed exercises, exhaustive errata audit, complete live-URL crawler, or empirical taxonomy user test is claimed.
+Publish only against the freshly confirmed `main` head using a conditional non-force update. Source access date **2026-10-14** is not a source publication date. No full-book reading, completed exercises, exhaustive errata inspection, real-user taxonomy experiment, external purchase or unauthorized book-copy storage is claimed. The records hold exact source URLs, locations and date distinctions. Commit SHA cannot be embedded here without a circular self-reference.

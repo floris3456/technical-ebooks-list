@@ -2,6 +2,6 @@
 
 | Recommended work | Relationship | Review |
 | --- | --- | --- |
-| [Introduction to Algorithms — fourth edition](../books/cormen-introduction-to-algorithms-4.md) | Primary subject | Pending subsequent-run review |
+| [Introduction to Algorithms — fourth edition](../books/cormen-introduction-to-algorithms-4.md) | Primary: algorithm analysis, structures and problem-solving | Passed |
 
-[All topic indexes](README.md). Classification rationale, sources, and limitations live in the book record.
+These are links to canonical book assessments, not distinct edition counts. [All subject indexes](README.md).

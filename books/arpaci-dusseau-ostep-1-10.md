@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://pages.cs.wisc.edu/~remzi/OSTEP/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "66ba2abdc241a80f999bd7e58ad4ca5853ffc487"
 ---
 
 # Operating Systems: Three Easy Pieces — Version 1.10
@@ -74,6 +74,10 @@ All sources below were inspected/accessed **2026-10-14**. Source dates are separ
 [S5]: https://cs.pomona.edu/classes/cs105/resources.html
 [S6]: https://docs.kernel.org/scheduler/sched-eevdf.html
 [S7]: https://pages.cs.wisc.edu/~remzi/OSTEP/combined.html
+
+## Subsequent-run review (2026-10-14)
+
+Reviewed published commit `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. Authors and Fall 2026 UCSD course confirm v1.10. Reviewed concurrency chapter and current kernel EEVDF documentation. The rendered scheduler PDF shows 1.10/CFS while one text extraction reports 1.20/EEVDF; this conflict remains unresolved. The book remains valuable for OS concepts, not as a live kernel reference. Errata not exhaustively checked. Decision: pass with caveats. [S1], [S2], [S3], [S4], [S6], [S7]
 
 ## Next review
 
