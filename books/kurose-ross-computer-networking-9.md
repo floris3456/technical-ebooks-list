@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.pearson.com/en-us/subject-catalog/p/computer-networking-a-top-down-approach/P200000013385/9780135415603"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "ded3ed1422b6a73ac795da6c52693ebb084bc7df"
 ---
 
 # Computer Networking: A Top-Down Approach — Ninth edition
@@ -70,6 +70,10 @@ All accessed **2026-10-14**. Dates below describe the original source, not the v
 [S7]: https://www.rfc-editor.org/rfc/rfc9000
 [S8]: https://www.rfc-editor.org/rfc/rfc9114
 
+## Independent subsequent-run review — 2026-10-14
+
+Reviewed the published ninth-edition assessment in `ded3ed1422b6a73ac795da6c52693ebb084bc7df`. Pearson identifies the 2025 publication/2026 copyright and eTextbook ISBN; the authors' ninth-edition companion's chapter 3 §3.4 and §3.8 contain real reliable-transport and QUIC teaching questions. Rochester's **Fall 2026** course explicitly uses edition 9, and IETF RFC **9000** and **9114** independently define QUIC and HTTP/3. No test-question distractor was interpreted as a technical answer. The companion questions do **not** establish that the original ninth-edition prose has been read or that printing-specific errata were reviewed; the recommendation is strongest for breadth and structured course-aligned study, not as a substitute for current RFCs. **Decision: pass with explicit scope/inspection limits.** [S1], [S2], [S3], [S4], [S5], [S7], [S8]
+
 ## Next review
 
-Inspect substantive original ninth-edition prose, correct any quiz-to-book mismatches, check printing-specific errata, and compare with Rochester's systems-oriented alternative. Pending subsequent-run review, then catalog-wide audit.
+Inspect substantive original ninth-edition prose, correct any quiz-to-book mismatches, check printing-specific errata, and compare with Rochester's systems-oriented alternative. This record passed subsequent-run review; direct ninth-edition prose and printing-specific errata remain catalog-audit priorities.

@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.cl.cam.ac.uk/archive/rja14/book.html"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "ded3ed1422b6a73ac795da6c52693ebb084bc7df"
 ---
 
 # Security Engineering — Third edition
@@ -70,6 +70,10 @@ All sources inspected **2026-10-14**; the access date is not the source date.
 [S7]: https://www.cisecurity.org/about-us/media/press-release/cis-and-safecode-release-secure-by-design-v1-1-a-guide-to-assessing-software-security-practices
 [S8]: https://www.cl.cam.ac.uk/archive/rja14/book/v3errata.html
 
+## Independent subsequent-run review — 2026-10-14
+
+Reviewed the already published recommendation in `ded3ed1422b6a73ac795da6c52693ebb084bc7df` against the author's actual third-edition chapter 1 (§1.2, security policy, mechanisms, assurance, incentives), chapter 27 (secure system development), author-hosted third-edition errata, Sven Dietrich's **2021-05-31** third-edition expert review, and the University of Edinburgh **2026/27** course's **explicit third-edition** prerequisite reading. The source/edition match is verified, and the combination of conceptual frameworks, independent critique, and current teaching justifies retaining the recommendation. The author's errata include substantive page-specific corrections, so readers must consult them; the material is not modern threat intelligence. The July 2026 CIS/SAFECode update informs newer software-security details rather than validating every book example. **Decision: pass with dated-implementation and errata limitations**, not a claim of exhaustive verification. [S2], [S3], [S4-ch27], [S5], [S6], [S7], [S8]
+
 ## Next review
 
-Independently inspect the chapter claims and page locators, significant errata, and comparison with a security-specialist text that includes newer secure-software practice. Pending subsequent-run review and final catalog audit.
+Independently inspect the chapter claims and page locators, significant errata, and comparison with a security-specialist text that includes newer secure-software practice. This record passed subsequent-run review with substantial errata still to be checked; final catalog audit remains.

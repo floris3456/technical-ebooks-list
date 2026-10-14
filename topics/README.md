@@ -16,6 +16,9 @@ Subjects link to canonical book records via primary and substantial additional c
 | [Programming Language Theory & Compilers](programming-language-theory-and-compilers.md) | 1 |
 | [Software Engineering Practices & Collaboration](software-engineering-practices-and-collaboration.md) | 1 |
 | [Software Testing & Quality Assurance](software-testing-and-quality-assurance.md) | 1 |
+| [Requirements & Software Analysis](requirements-and-software-analysis.md) | 1 |
+| [User Experience & Human–Computer Interaction](user-experience-and-human-computer-interaction.md) | 1 |
+| [Platform-Specific Development](platform-specific-development.md) | 1 |
 | [Software Maintenance & Legacy Systems](software-maintenance-and-legacy-systems.md) | 1 |
 
-**14 appearances represent eight unique recommended works.** Five passed subsequent-run review and three await it. The [research checkpoint](../research/STATE.md) distinguishes reviewed and pending entries. No generator is implemented yet; update all affected indexes when status or classification changes. Approved slugs are in [TAXONOMY.md](../TAXONOMY.md).
+**17 appearances represent ten unique recommended works.** Eight passed subsequent-run review and two await it. One separate testing candidate remains uncounted. The [research checkpoint](../research/STATE.md) distinguishes reviewed and pending entries. No generator is implemented yet; update all affected indexes when status or classification changes. Approved slugs are in [TAXONOMY.md](../TAXONOMY.md).

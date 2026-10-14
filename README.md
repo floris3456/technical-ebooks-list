@@ -6,12 +6,12 @@ An evidence-backed catalog of programming, software engineering, and computing e
 
 | Measure | Works |
 | --- | ---: |
-| Recommended after initial research | 8 |
-| Passed a subsequent-run review | 5 |
-| Research candidates, not counted | 0 |
+| Recommended after initial research | 10 |
+| Passed a subsequent-run review | 8 |
+| Research candidates, not counted | 1 |
 | Target after review and final audit | 2,000 |
 
-Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Five recommendations have passed a subsequent-run review; the three newest await it. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
+Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Eight recommendations have passed a subsequent-run review; the two newest await it. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
 
 ## Browse recommendations
 
@@ -22,9 +22,11 @@ Counts are by stable `work_id`, not editions, translations, formats, or appearan
 | [Designing Data-Intensive Applications](books/kleppmann-riccomini-ddia-2.md) | Second (2026) | Software Architecture | Passed later-run review |
 | [Crafting Interpreters](books/nystrom-crafting-interpreters-2021.md) | 2021 | Programming Language Theory & Compilers | Passed later-run review |
 | [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Passed later-run review |
-| [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Pending later-run review |
-| [Computer Networking: A Top-Down Approach](books/kurose-ross-computer-networking-9.md) | Ninth (2025) | Networking, APIs & Integration | Pending later-run review |
-| [A Philosophy of Software Design](books/ousterhout-philosophy-of-software-design-2.md) | Second (2021) | Software Design & Code Quality | Pending later-run review |
+| [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Passed later-run review |
+| [Computer Networking: A Top-Down Approach](books/kurose-ross-computer-networking-9.md) | Ninth (2025) | Networking, APIs & Integration | Passed later-run review |
+| [A Philosophy of Software Design](books/ousterhout-philosophy-of-software-design-2.md) | Second (2021) | Software Design & Code Quality | Passed later-run review |
+| [Accessibility for Everyone](books/kalbag-accessibility-for-everyone-2017.md) | Original (2017) | User Experience & Human–Computer Interaction | Pending later-run review |
+| [Mastering the Requirements Process](books/robertson-mastering-the-requirements-process-4.md) | Fourth (2024) | Requirements & Software Analysis | Pending later-run review |
 
 [Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Future unresolved candidates remain separate in the research checkpoint.
 

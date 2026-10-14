@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://web.stanford.edu/~ouster/cgi-bin/book.php"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "ded3ed1422b6a73ac795da6c52693ebb084bc7df"
 ---
 
 # A Philosophy of Software Design — Second edition
@@ -63,6 +63,10 @@ Access date **2026-10-14**; publication dates remain distinct.
 
 **Uninspected lead, not counted as evidence:** the official second-edition author extract https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf failed retrieval as a large PDF. Do not imply its prose was reviewed.
 
+## Independent subsequent-run review — 2026-10-14
+
+Reviewed the already published second-edition assessment in `ded3ed1422b6a73ac795da6c52693ebb084bc7df`. The Stanford author's precise 2021 second-edition change summary and March **2024** detailed second-edition analysis by Milan Milanović support chapter/edition identity; a separate **2026-01-17** chapter-by-chapter discussion and the author's **2025-04-09** interview support current relevance of deep modules, information hiding, comments and managing complexity. The 2024 analysis raises real limitations about examples and design prescriptions, and the author openly disagrees with some TDD and small-method conventions; **no universal superiority claim is accepted**. The large author second-edition extract still could not be inspected, so this review certifies sourced judgment and candid limitations, **not** original-text coverage. Under the three-substantive-document criterion the independent corroboration suffices to retain the qualified recommendation; the original excerpt and comparative evidence remain final-audit priorities. **Decision: pass with evidence-gap recorded.** [S1], [S2], [S3], [S4]
+
 ## Next review
 
-Prioritize access to the actual second-edition extract or original chapter text; re-evaluate the recommendation if the original examples do not support the reviewers' assessments. Compare contested TDD/short-method advice with independent counterarguments, then check edition errata. Pending later-run review and collection-wide final audit.
+Prioritize access to the actual second-edition extract or original chapter text; re-evaluate the recommendation if the original examples do not support the reviewers' assessments. Compare contested TDD/short-method advice with independent counterarguments, then check edition errata. Passed later-run review with primary second-edition excerpt still uninspected; final collection-wide audit remains.

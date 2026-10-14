@@ -1,47 +1,48 @@
 # Research checkpoint
 
-## Cycle 2026-10-14-03
+## Cycle 2026-10-14-04
 
-Date: **2026-10-14**, Europe/Amsterdam. Reviewed the published parent commit `c1251db102898b3acc3c8ffec259153ae2dc0711`, all five prior book records, latest commit diff, README, taxonomy, template, indexes and research logs. Independently rechecked author primary sources, course adoption and expert reviews. No other run's unpublished work was visible.
+Date **2026-10-14** (Europe/Amsterdam). Reviewed the live parent commit `ded3ed1422b6a73ac795da6c52693ebb084bc7df`, its diff, README, TAXONOMY, template, prior checkpoint, all three new pending records and older sampling (CLRS/OSTEP). No accessible competing unpublished work was assumed. Prior taxonomy remains at **7 groups/23 subjects**; findings do not yet justify a split.
 
-## Actual counts (unique work_id, not editions or index appearances)
+## Actual work counts
 
-| Measure | Works |
+| Metric | Distinct works |
 | --- | ---: |
-| Research-backed recommendations | **8** |
-| Passed subsequent-run review | **5** |
-| New recommendations pending later-run review | **3** |
-| Uncounted candidate files | **0** |
-| Retired/removed works | **0** |
-| Final collection-wide audit completed | **0 / 2,000** |
+| Recommended (including awaiting later-run review) | **10** |
+| Passed subsequent-run independent review | **8** |
+| Pending later-run review | **2** |
+| Research candidates, not counted | **1** |
+| Retired/rejected works | **0** |
+| Completed collection-wide final audit | **0 / 2,000** |
 
-Passing a subsequent-run review is **not** the collection-wide final audit. All entries and topic pages remain mutable; quality outranks count.
+**17 topic appearances** represent ten unique recommended works, not seventeen recommendations. Counts use unique `work_id` across edition records, not translations, formats, indexes or candidate files. Review passed does **not** equal final-audit qualified. Every new recommendation gets reviewed in a following invocation against the *published SHA containing this checkpoint*. If later evidence fails, revise/demote/delete without preserving artificial totals.
 
-## Review of previous commit `c1251db102898b3acc3c8ffec259153ae2dc0711`
+## Previous-commit review — `ded3ed1422b6a73ac795da6c52693ebb084bc7df`
 
-- **DDIA second edition: passed.** O'Reilly chapter 1/6 actual introductions, Waterloo **Fall 2026 exact-second-edition** chapter assignments and the March 30, 2026 second-edition independent review establish this edition's content and present-day use. PostgreSQL 18 supports continuing relevance of transactions, not a full correctness guarantee. A 2024 first-edition critique is not misapplied. Architectural and three substantial secondary subjects remain provisional until retrieval-pilot testing.
-- **Crafting Interpreters: passed.** Author's GitHub revision `4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4` actually contains the introduction, scanning and VM manuscripts, including the caveat about the simplistic global VM. PSU Winter 2026 assigned chapters 2 and 15; USF's additional reference is not a Rust-language teaching claim.
-- **Software Engineering at Google: passed.** Abseil chapters 11 and 13, Cornell **Spring 2026 assigned book readings**, February 2026 independent engineering analysis and a September 2025 critical review corroborate lasting collaboration, testing and maintenance topics. Google-specific tooling and 2020 procedures must not be universalized; a previously recorded 2024 reviewer link failed on reinspection.
-- **OSTEP and CLRS: prior passes retained.** Rotating audit corrected stale “awaits review” text without resetting a substantive pass or claiming their unresolved chapter-version and printing/syllabus discrepancies are fixed.
+- [Anderson — Security Engineering 3e](../books/anderson-security-engineering-3.md): **pass**. Independently checked actual third-edition author PDF chapter 1 §1.2 and chapter 27, author's third-edition errata, third-edition expert review (Dietrich, 2021-05-31), Edinburgh 2026/27 exact-edition prerequisite reading, and July 2026 CIS/SAFECode context. Page-specific errata need further assessment; old cases are not present-day threat feeds.
+- [Kurose/Ross — Computer Networking 9e](../books/kurose-ross-computer-networking-9.md): **pass**. Rechecked Pearson edition distinction (publication 2025/©2026), actual chapter-three author exercises, Rochester Fall 2026 exact 9e adoption, IETF QUIC/HTTP3 RFC 9000/9114. Exercise choices are not facts. Direct ninth-edition chapter prose and errata remain uninspected and are openly qualified.
+- [Ousterhout — A Philosophy of Software Design 2e](../books/ousterhout-philosophy-of-software-design-2.md): **pass with explicit limits**. Stanford 2021 second-edition changes, independent Milanović **2024-03-14** detailed second-edition chapter analysis, 2026 practitioner notes and 2025 author interview support content/current value. The full official second-edition PDF excerpt again was not inspected due to retrieval limitations. Do **not** claim first-hand source reading or universally valid advice (esp. TDD and module sizing). Prioritize original extract at final audit. Edition-specific reviewer critique supplies substantive inspection corroboration.
+- Rotating older sample: [CLRS 4](../books/cormen-introduction-to-algorithms-4.md) retains verified 2026 course use but preliminary JHU chapter-number discrepancy/printing errata; [OSTEP 1.10](../books/arpaci-dusseau-ostep-1-10.md) retains CFS-vs-EEVDF extractor/render conflict. No unsupported cleanup or review-status regression.
 
-The three passes record the **already-published parent SHA** in their respective `reviewed_commit` fields. The three new works below must receive a later-run review of **the commit containing this checkpoint**, not self-approval now.
+These three new passes record this already-published **parent** SHA. No review of a newly created record was self-approved.
 
-## Three researched additions, later-run review pending
+## New researched works
 
-| Work | Substantive inspected evidence | Main residual limitation |
-| --- | --- | --- |
-| [Anderson, Security Engineering, 3rd (2020)](../books/anderson-security-engineering-3.md) | Wiley exact electronic ISBN; author actual chapters 1/2/27 and official errata; Sven Dietrich's IEEE expert review; Edinburgh 2026/27 exact-edition prerequisite reading; CIS/SAFECode secure design guidance from July 2026 | Old case studies do not define current regulations, exploits or AI/supply-chain risks; selected chapter/errata review only |
-| [Kurose/Ross, Computer Networking, 9th (2025/©2026)](../books/kurose-ross-computer-networking-9.md) | Pearson exact edition, publisher chapters and electronic ISBN; author actual §3.4 and §3.8 protocol exercises; Rochester Fall 2026 exact-edition primary course; GWU 2026 course; IETF QUIC/HTTP3 standards | Companion exercises are not validated solutions or full book prose; edition errata remain unverified |
-| [Ousterhout, A Philosophy of Software Design, 2nd (2021)](../books/ousterhout-philosophy-of-software-design-2.md) | Author's second-edition changes; explicit second-edition March 2024 critical analysis; Jan 2026 chapter notes; Apr 2025 expert interview on deep modules and AI-assisted development | Author's actual large second-edition excerpt failed retrieval; current recommendation transparently rests on detailed first-hand readers and author notes, **priority re-review** |
+- [Laura Kalbag — Accessibility for Everyone (2017)](../books/kalbag-accessibility-for-everyone-2017.md), **recommended, review pending**. Primary web HCI/inclusive design; secondary platform-specific development for substantive browser/HTML chapters. Inspected actual author-hosted chapters 1, 4, 5, 6; independent reviews from 2017; a substantive negative reader critique; authoritative W3C WCAG 2.2 (2024-12-12). The author's 2026 warning confirms dated vendor tools and no second edition; this is a conceptual introductory book, **not** a 2026 legal or ARIA implementation authority. Relevance is supported, not inferred from its age.
+- [Robertson/Robertson, with Adrian Reed — Mastering the Requirements Process (4e, 2024)](../books/robertson-mastering-the-requirements-process-4.md), **recommended, review pending**. Primary requirements analysis; original publisher excerpt inspected (chapter 15, printed pp.167–170, neobank Figure 15.2 on p.168), detailed O'Reilly 45-chapter contents, critical 2025 independent firsthand fourth-edition comparison, 2026 requirements engineering research. The critic dislikes over-simplified methods, chopped chapter organization and dated AI chapter: this is a **qualified** practical recommendation.
+- [Jorgensen/DeVries — Software Testing: A Craftsman's Approach (5e, 2021)](../books/jorgensen-devries-software-testing-5.md), **uncounted candidate**. Publisher bibliographic description and fifth-edition preface leads identified; search results for detailed independent reviews actually concerned **older editions**. Promote only after verifying the fifth-edition technical sample and independent evaluation/adoption. Not an availability rejection.
 
-There are **8 distinct works**, **14 subject-index appearances**, **23 controlled subjects** in **7 groups**. The dataset is too small to justify splitting categories before the promised 25–30-edition validation pilot. Three new primary indexes now serve security, networking and software component design.
+## Classification and data hygiene
 
-## Next priorities
+Added two new primary subject indexes (HCI and requirements) plus **Platform-Specific Development** as an additional route to the accessibility book. The small pilot does not justify changing taxonomy labels; re-evaluate secondary assignment at next audit. Updated three review index badges and corrected the earlier **Software Engineering at Google** testing index's stale pending badge. Rebuilt the research rejection log table for consistent formatting and added new evidence decisions.
 
-1. Independently review the three new recommendations against this published SHA. Prioritize **reading Ousterhout's primary chapter extract** and demote if the evidence falls short; inspect Anderson's third-edition page-specific errata and Kurose/Ross original ninth-edition prose if possible. Check precise source dates, technical currency, duplicates, and every subject/index link.
-2. Broaden toward **software testing, requirements, accessibility/HCI, data engineering**, which lack dedicated recommendations. Do not simply repeat foundations. Unvetted leads from courses/research include Siek's *Essentials of Compilation*, Peterson/Davie's *Computer Networks: A Systems Approach*, and Kalbag's *Accessibility for Everyone*.
-3. Continue rotating older review audits: OSTEP scheduler PDF renders 1.10/CFS while another extraction gave 1.20/EEVDF; CLRS's fourth-edition table differs from an explicitly preliminary JHU course schedule. Errata remain incomplete.
-4. Finish the 25–30-edition classification/findability pilot before renaming/splitting controlled subjects. Keep independent metadata separate. Candidate and retired records never count. Count **works**, not editions/translations/formats or index references.
-5. Preserve checkpoint and decisions, validate metadata/source links, self-review diff, and publish only from a **fresh confirmed `main` head** via a conditional **non-force** update.
+## Next cycle priorities
 
-No cover-to-cover book readings, completed book exercises, complete live-source crawler, conclusive errata audit, availability/access filtering, purchases or unauthorized ebook copies are claimed. Source access date 2026-10-14 is not automatically a source publication date. The commit SHA of this checkpoint is deliberately not embedded inside itself.
+1. Inspect **this published commit**, independently reassess Kalbag original web chapters against current W3C techniques and Robertson fourth-edition printed sample (esp. author credits/critic's review); pass, revise or demote **only on the next invocation**, recording reviewed SHA.
+2. Investigate independent **fifth-edition-specific** Jorgensen evaluation and actual exercises, then either promote or retain with reason. Avoid mixing 2013 fourth edition with 2021 fifth edition.
+3. Rotate into underrepresented **DevOps/reliability, database fundamentals, formal verification, graphics and contemporary AI**, while preserving evidence depth; do not just fill numeric quotas.
+4. Audit ongoing limitations: Ousterhout full primary second-edition excerpt; Kurose original 9e prose and errata; Anderson significant errata; OSTEP version/extraction conflict; CLRS course schedule/printing.
+5. Run the **25–30 edition retrieval/classification pilot** before structural category changes. Check distinct intellectual work IDs, subject indexes, source credibility/date, and present-day relevance. **Availability is never a selection filter.**
+6. On every publish, re-fetch `main`, reconcile overlap, use conditional non-force update and verify the new HEAD and file content. No cover-to-cover reading, executed exercises, exhaustive live-link scan, purchases, or false ISBN/format claims were made.
+
+Source access dates in records reflect **2026-10-14**, not necessarily original publication/update dates. This checkpoint deliberately does not embed its own commit SHA.
