@@ -1,0 +1,9 @@
+# Source checks 010 — accessed 2026-10-14
+
+- C10-S18 https://www.augmentedmind.de/2023/04/30/release-it-book-summary/ — Read Introduction, Key topics and Conclusion. Explicit 2018 second-edition firsthand assessment, dated 2023-04-30/2023-05-01. Praises stability and deployment material; criticizes dated server configuration and shallow security/chaos coverage. Do not transfer the reviewer's broad metrics claim to all monitoring systems. No derivative summary PDF fetched.
+- C10-S19 https://peterdaugaardrasmussen.com/2018/09/18/book-review-release-it-by-michael-t-nygard/ — Read complete short firsthand second-edition review, dated 2018-09-18. Supports audience and stability-pattern value; affiliate links disclosed by page context, not controlled effectiveness evidence.
+- C10-S20 https://failsafe.dev/circuit-breaker/ — Read How it Works, Configuration and Best Practices. Failure thresholds and half-open trial requests are concrete contemporary implementations of resilience principles. Exact API compatibility not tested; update date unspecified.
+- C10-S21 https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/circuit_breaking — New website envoyproxy.io, technical body read. Page labels 1.41.0-dev, so not asserted stable-release documentation. Resource/request/retry limits and eventual-consistency overshoot differ from a simple failure-counter state machine; do not universalize one pattern implementation.
+- C10-S22 https://istio.io/latest/docs/tasks/traffic-management/circuit-breaking/ — New website istio.io, opening succeeded but navigation dominated returned excerpt; substantive configuration body still to inspect. Current-site banner alone does not verify example execution.
+
+New domains count only once. Relevance evidence and book-quality evidence remain different. No tools, tutorials or failure tests executed.
