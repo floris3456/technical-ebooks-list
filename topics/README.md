@@ -1,11 +1,13 @@
 # Topic indexes
 
-Topic pages in this directory will provide **multiple ways to find canonical book records**, not multiple copies of the same book metadata.
+These pages link to canonical book records. Include a recommendation under both its primary subject and any substantial additional subjects; never duplicate the full assessment.
 
-- The list of subject slugs and definitions lives in [TAXONOMY.md](../TAXONOMY.md).
-- Each topic index should include records where either `primary_subject` or `additional_subjects` matches the topic slug.
-- Each listing links to the actual record in `books/`. Do not copy bibliographic or review information across topic files.
-- Create topic pages as real, verified entries arrive rather than precreating empty pages.
-- Once the collection warrants it, **generate** subject indexes from record metadata. No automatic generator has been implemented yet.
+| Subject | Recommended works linked |
+| --- | ---: |
+| [Algorithms & Data Structures](algorithms-and-data-structures.md) | 1 |
+| [Computer Systems & Operating Systems](computer-systems-and-operating-systems.md) | 1 |
+| [Concurrency & Distributed Systems](concurrency-and-distributed-systems.md) | 1 |
 
-The catalog has **no book records yet**. The next step is the [pilot validation](../TAXONOMY.md#validation-plan--not-yet-performed) on 25–30 editions before building extensive subject lists.
+The three appearances represent **two distinct works**, both awaiting subsequent-run review. Do not add appearances to compute collection size. Candidates are tracked in [research/STATE.md](../research/STATE.md), not mixed into these recommendation indexes.
+
+Subject names and slugs come from [TAXONOMY.md](../TAXONOMY.md). Add new subject pages when recommendations justify them; empty pages are unnecessary. Update all affected indexes when a record changes subject or status. No automated generator exists yet.

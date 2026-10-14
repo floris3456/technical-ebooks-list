@@ -1,13 +1,10 @@
 # Book Record Template
 
-**Template only — not an actual recommendation.**
-
-For each verified book edition, copy the YAML front matter and headings below into a new `books/<author>-<short-title>-<edition>.md` file. Keep one canonical record per edition, grouping distinct ebook formats of that edition together.
-
-## Metadata
+Template only; exclude this file from book counts. Copy the front matter and body structure into `books/<author>-<title>-<edition>.md`.
 
 ```yaml
 ---
+work_id: ""
 title: ""
 authors: []
 edition: ""
@@ -25,33 +22,44 @@ access: unknown
 official_url: ""
 last_verified: null
 status: candidate
+review_status: pending
+reviewed_commit: null
 ---
 ```
 
-**How to fill it out:** Use an exact subject slug from [TAXONOMY.md](../TAXONOMY.md) for `primary_subject` and different, distinct approved slugs in `additional_subjects`. Identify the format for each ISBN in `isbn_by_format`, e.g. `epub` or `pdf`; different formats and editions can use different ISBNs. Leave unverified identifiers blank. Use `YYYY-MM-DD` for `last_verified`. Valid `status` values: `candidate`, `recommended`, and `retired`.
+## Metadata rules
 
-## Suggested book-record body
+`work_id` is a permanent lowercase kebab-case identifier for the intellectual work, shared across editions, formats, and translations. A filename distinguishes an edition. Counts use distinct work identifiers, never file counts.
 
-```markdown
-# Book title — edition
+Use exactly one approved `primary_subject` from [TAXONOMY.md](../TAXONOMY.md). Additional subjects must be substantial, distinct, and different from the primary. The taxonomy defines difficulty, focus, and status values. Concepts are narrower topics, not duplicate categories.
 
-## Why consider it?
-What does it teach, and why is it a worthwhile candidate?
+`isbn_by_format` is optional. Keys such as `pdf` or `epub` must be verified; `ebook-unspecified` may label a publisher's electronic ISBN when the file subtype is not established. Do not invent a format to accommodate an ISBN. Empty `formats` and `access: unknown` do not block recommendation.
 
-## Audience and prerequisites
-Who is this for, and what should readers know already?
+`last_verified` is the evidence-check date, in `YYYY-MM-DD` form, not proof that every fact or link will remain current. Each source also needs its own publication/update date when provided, or an explicit unknown. A recent access date does not turn an old review into current-edition evidence.
 
-## Subject fit
-Why is the primary subject appropriate? Why were any additional subjects assigned?
+`status`: `candidate`, `recommended`, or `retired`. `review_status`: `pending` or `passed`. Only a later research run may set `passed`, recording the exact previously published commit it inspected in `reviewed_commit`, and its decision in `research/STATE.md`. Material changes to the recommendation or its evidence reset review to pending. Candidate or retired records never count toward the target, even if previously reviewed.
 
-## Evaluation
-Document strengths, limitations, independent assessments, and any caveats.
+## Required assessment sections
 
-## Editions, formats, and access
-Distinguish editions. Include legitimate publisher, author, or open-access locations.
+### Recommendation and audience
+State the decision, prerequisites, intended reader, concrete learning value, and inspection limits. Do not imply a full-book reading or executed exercises unless actually performed.
 
-## Sources
-- [Official source](https://example.com/)
-```
+### Contents and subject fit
+Use inspected contents or sample text to justify the primary subject and meaningful secondary subjects. A contents page establishes scope, not the correctness of every chapter.
 
-Do not add copyrighted ebook binaries or link to unauthorized copies. A `candidate` is not a recommendation; verify the edition, availability, and claims before promotion.
+### Why it remains relevant today
+Identify the teachings still useful now and cite current evidence. Distinguish durable concepts from outdated products, APIs, examples, and advice. Old books are welcome; historical significance alone is not enough.
+
+### Limitations and alternatives
+Explain exclusions from the book's scope, dated material, prerequisites, competing options, and what independent evaluation does and does not establish. Do not transfer reviews of older editions to a new edition without qualification.
+
+### Edition and errata check
+Record the edition evaluated, source conflicts, known revisions, and the extent of errata inspection. A missing errata list does not prove correctness. Availability is not a selection criterion and must not delay a qualified recommendation.
+
+### Evidence ledger
+At least three substantive inspected documents are needed for a recommendation, collectively covering identity/edition, contents, independent expert assessment or educational adoption, and current relevance. Use short local source identifiers to link each material claim to an exact URL plus section/page locator. Record source dates separately from access dates. Mark uninspected leads as leads, not evidence. Unknown metadata and unavailable purchase links are not rejection reasons; unsupported quality claims remain unresolved.
+
+### Next review
+List concrete checks needed in the following run. Candidates must say exactly what evidence is missing. Self-review is not a substitute for subsequent-run review.
+
+Do not purchase books, store copyrighted book binaries, or link to unauthorized copies. Preserve rejected claims and decisions in the research log rather than padding the recommendation count.

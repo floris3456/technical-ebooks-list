@@ -1,10 +1,40 @@
 # Technical Ebooks List
 
-A curated, edition-aware catalog of programming, software engineering, and computer science ebooks. This repository catalogs **recommendations and legitimate source links**, not copyrighted ebook files.
+An evidence-backed catalog of programming, software engineering, and computing ebooks, aiming for **2,000 distinct, high-quality works that remain useful today**. This repository stores assessments and sources, not ebook binaries.
 
-## Explore subjects
+## Collection status
 
-There are **7 navigation groups and 23 subjects**. Groups help people browse; individual subjects classify books.
+| Measure | Works |
+| --- | ---: |
+| Recommended after initial research | 2 |
+| Passed a subsequent-run review | 0 |
+| Research candidates, not counted | 2 |
+| Target after review and final audit | 2,000 |
+
+Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
+
+## Browse recommendations
+
+| Work | Edition recorded | Primary subject | Review |
+| --- | --- | --- | --- |
+| [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10, 2023; online-version caveat documented | Computer Systems & Operating Systems | Pending subsequent-run review |
+| [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth, 2022 | Algorithms & Data Structures | Pending subsequent-run review |
+
+[Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Candidates are linked separately in the research checkpoint; they are not recommendations.
+
+## Selection principles
+
+**Present-day usefulness, not newness.** Older works qualify when their central teachings remain applicable. Explain the enduring value, identify dated examples or obsolete advice, and substantiate currency-sensitive claims with current primary sources. Historical influence alone is insufficient.
+
+**Availability is not a filter.** Price, paywalls, print status, geography, missing purchase/download links, or unknown ebook formats must not exclude or downgrade a work. Format and access metadata are optional descriptive information, not admission criteria.
+
+Each recommendation needs at least three inspected substantive documents collectively establishing identity/edition, contents, independent assessment or educational adoption, and relevance today. Link material claims to precise sources and sections/pages. Keep source publication/update dates separate from access dates. Search snippets, ratings, publisher praise, and recycled lists alone are insufficient. Disclose inspection limits and unresolved evidence.
+
+Research cycles review earlier work, investigate gaps, and add, revise, reclassify, or remove entries with reasons. A later run must review each recommendation before it counts toward audited progress; completion also requires a final evidence, relevance, categorization, and deduplication audit. See [research/REJECTIONS.md](research/REJECTIONS.md) for rejected claims and approaches.
+
+## Explore all subjects
+
+The **7 browsing groups and 23 controlled subjects** remain provisional. Classification is being tested on real books; the current small sample does not prove the taxonomy optimal.
 
 | Navigation group | Subjects |
 | --- | --- |
@@ -16,37 +46,12 @@ There are **7 navigation groups and 23 subjects**. Groups help people browse; in
 | [Operations & Delivery](TAXONOMY.md#6-operations-and-delivery) | DevOps, Cloud & Infrastructure; Reliability & Observability |
 | [Specialized Computing](TAXONOMY.md#7-specialized-computing) | Artificial Intelligence & Machine Learning; User Experience & Human–Computer Interaction; Computer Graphics & Visualization |
 
-Definitions, subject boundaries, controlled names, and validation rules live in **[TAXONOMY.md](TAXONOMY.md)**.
+## Record conventions
 
-## Catalog conventions
+One canonical record per included edition, with one primary subject and substantial additional subjects from [TAXONOMY.md](TAXONOMY.md). All editions and translations of a work share a stable `work_id`. Languages, technologies, concepts, difficulty, and formats are separate attributes. Do not add subjects merely because a chapter mentions them.
 
-1. **One canonical record per included book edition** in `books/`. Different ebook formats of the same edition stay together, with format-specific ISBNs if available.
-2. **One primary subject** plus any substantial additional subjects. A book can appear under more than one subject without duplicate records.
-3. **Independent facets** for language, technology, subtopics, difficulty, focus, formats, access, author, year, and edition. A language tag is not the book's subject unless teaching that language is the focus.
-4. **Subject indexes** in `topics/` link to canonical book records. Generate the indexes from metadata when the collection grows; do not copy full descriptions between pages.
-5. **Separate research candidates from recommendations**. Each recommendation should have a grounded assessment and a legitimate publisher, author, or open-access source.
-
-## Repository guide
-
-| Path | Purpose |
-| --- | --- |
-| [TAXONOMY.md](TAXONOMY.md) | The authoritative subject vocabulary, classification rules, and validation plan |
-| [books/BOOK_TEMPLATE.md](books/BOOK_TEMPLATE.md) | A reusable, edition-aware metadata and review template |
-| [topics/README.md](topics/README.md) | How topic indexes will link to book records |
-| README.md | Introduction and navigation |
-
-## Project status
-
-**Taxonomy v1 — not yet validated on a representative ebook sample.** Before compiling a large book list, evaluate the classification on roughly **25–30 real editions**, including books that span multiple subjects, and revise confusing boundaries.
-
-There are **no curated book entries yet**. This commit establishes a maintainable foundation, not a claim that the taxonomy has been proven optimal.
+Use [books/BOOK_TEMPLATE.md](books/BOOK_TEMPLATE.md). Unknown metadata is acceptable; invented metadata is not. Topic indexes link to records and include both primary and secondary classifications. No index generator has been implemented yet.
 
 ## Research foundations
 
-- [IEEE Computer Society — Software Engineering Body of Knowledge (SWEBOK)](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
-- [ACM — Computer Science Curricula knowledge areas](https://csed.acm.org/knowledge-areas/)
-- [CNCF — Cloud Native Landscape](https://landscape.cncf.io/)
-- [Dublin Core Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
-- [W3C — SKOS Primer](https://www.w3.org/TR/skos-primer/)
-
-This is a practical synthesis, not an official reproduction of those frameworks.
+The initial subject vocabulary drew on [IEEE SWEBOK](https://www.computer.org/education/bodies-of-knowledge/software-engineering), [ACM computing knowledge areas](https://csed.acm.org/knowledge-areas/), and the [CNCF landscape](https://landscape.cncf.io/). Its cataloging approach was informed by [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) and [SKOS](https://www.w3.org/TR/skos-primer/). These are background references, not endorsements of this taxonomy or evidence for individual book recommendations.
