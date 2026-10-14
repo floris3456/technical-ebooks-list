@@ -21,45 +21,60 @@ review_status: passed
 reviewed_commit: "b02eb3227d76c32381edbed90862b0b2b8d69876"
 ---
 
-# Pro Git — Second edition (2014; corrected online text)
+# Pro Git — Second edition (2014; maintained web text)
 
 ## Recommendation and audience
 
-**Recommend for students, programmers, and engineering teams learning how Git represents history and enables collaboration**, rather than for unqualified 2026 hosting-platform screenshots or a step-by-step manual of future Git defaults. The [official Git project publication](https://git-scm.com/book/en/v2) credits Scott Chacon and Ben Straub, Apress, and **second edition (2014)**, with subsequent corrections from many contributors. A [third edition is publicly in progress](https://progit3.com/) in August 2026 but is **not** a verified completed replacement. The year alone is not a quality filter. [S1], [S7]
+**Recommend for programmers and teams learning version-control concepts and collaborative workflows.** Scott Chacon and Ben Straub's completed second edition is distinct from the still-in-progress third edition. The latter's discussion of future Git changes is not evidence those changes have shipped. This is a narrated conceptual/practical reference, not an authoritative guide to every current hosting interface. [S1], [S7]
 
-## Inspected content and subject fit
+## Inspected contents and subject fit
 
-Original [§3.1, Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), explains how branch names reference commit history, how HEAD tracks the current checkout, and why moving a branch pointer is inexpensive. Original [§3.2, Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), traces divergence, fast-forward and merge conflict resolution. Original [§7.1, Revision Selection](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection), details identifying and traversing commits. The [full chapter map](https://git-scm.com/book/en/v2) covers staging, local and remote history, distributed collaboration, internals, and hooks; contents establish breadth, while inspected chapters substantiate the mechanics. These are version-control collaboration practices, so **Software Engineering Practices & Collaboration** is primary. Git's references and branching do not make the book primarily a compiler, cloud, or distributed-consensus text. [S1]–[S4]
+Earlier inspection covered original §§3.1–3.2 on branches, HEAD, divergence and merging, and §7.1 on revision selection. The later-run review inspected **§10.2, Git Objects**, including Tree Objects and Commit Objects. It distinguishes content objects from trees recording names/modes and commits connecting trees, history and metadata. Sample hashes depend on details and are not test results from this research. [S2]–[S4], [S9]
 
-## Independent educational use and present-day relevance
+The main teaching purpose is working with version history, so **Software Engineering Practices & Collaboration** remains primary. Git's distributed workflow is not equivalent to a book teaching distributed consensus or cloud infrastructure.
 
-[Youngstown State University's Fall 2026 CSCI 5802 syllabus](https://catalog.ysu.edu/syllabi/2026-fall/csci-5802-01-44236/) lists *Pro Git* as a **required reading** and assigns **chapters 1–3, 7 and 10** in the August 31 module on Git as a database, workflow and communication medium. [Cornell CS3410 Fall 2026](https://courses.cs.cornell.edu/cs3410/2026fa/rsrc/git.html) separately recommends the book to learn fundamentals. These support contemporary instructional applicability, not an experimentally demonstrated superiority over alternatives. [S5], [S6]
+## Current relevance and independent educational use
 
-Git's graph-of-commits, merge and history concepts are still useful; users must check the live [git-switch manual](https://git-scm.com/docs/git-switch) rather than assuming older `git checkout` examples are the only current workflow. The manual identifies changes up to Git **2.55.0 (2026-06-29)**. The older book uses `master` as a branch example and includes time-specific GitHub interface instructions; these should **not** be mistaken for universal current defaults or UI guidance. The third-edition work-in-progress advertises further default/object-format changes; such plans are **not** treated as already-released stable behavior. [S1], [S7], [S8]
+Youngstown State's **Fall 2026 CSCI 5802** lists *Pro Git* as required reading and assigns chapters **1–3, 7 and 10** in its August 31 module. That was reopened in this review. Cornell's separately documented Fall 2026 guide is supplementary evidence from the preceding run, not falsely counted as a new source inspection here. Educational use supports applicability, not measured superiority. [S5], [S6]
 
-## Limitations, comparisons, edition and errata
+Current command documentation qualifies older examples. The rechecked `git-init` manual explicitly lists SHA-1 as its default object format and `master` as the current fallback initial branch, with configuration overrides and a future Git 3.0 change. Thus the overlapping review's blanket claim that these are no longer current defaults was too broad. Upstream defaults, hosting conventions and future plans are different. Likewise, `git switch` offers a contemporary command reference alongside older `checkout` examples. The book's graph/object reasoning survives these version-specific differences. [S8], [S10]
 
-Best for conceptual and practical Git literacy, not as a focused guide to GitHub Actions, modern organizational security controls, or an authoritative manual for a specific future release. Compared with official command reference pages, it supplies mental models and narrated workflows; the official manuals remain authoritative for exact flags and current behavior. Compared with *Software Engineering at Google*, it focuses narrowly on a version-control tool rather than the broader long-term practices of large engineering teams. The Git project says this web edition incorporates corrections, but a full version-pinned errata audit has **not** been performed. No commands, exercises, or complete Git-version compatibility suite were executed.
+## Limitations and alternatives
+
+The text is not a modern GitHub Actions or organizational security handbook. Historical branch examples and hosting screenshots can age; use official manuals for the exact installed version. Compared with *Software Engineering at Google*, its value is focused tool literacy rather than broad engineering-over-time practices. No commands, exercises or full-version compatibility suite were executed; no complete book reading or comprehensive errata audit is claimed. Maintained web corrections do not prove every printing is identical. [S1], [S7], [S8], [S10]
+
+## Subsequent-run review — 2026-10-14
+
+**Passed after reviewing the published record at `b02eb3227d76c32381edbed90862b0b2b8d69876`.** The original internals chapter, current `git-init` details, draft status and explicit current course assignments corroborate the recommendation while preserving the existing version/UI caveats. The overlapping commit `50c8a773af139821e48680cd76015d4fa0f1dda5` already recorded this pass. This reconciliation preserves it while correcting that commit's overbroad default-name statement against the official manual. It is not another approval or another work. It is not final collection-audit clearance. [S5], [S7], [S9], [S10]
 
 ## Evidence ledger
 
-**Inspected/accessed 2026-10-14**. A current access date is not a source publication date.
+Accessed **2026-10-14**. S9–S10 were added by this review; S5/S7 were reopened. Other evidence and limits are retained from the prior published record. Exact visit outcomes are in [cycle logs](../research/sources/2026-10-14-10/README.md).
 
-| ID | Document and precise location | Source publication/update |
+| ID | Exact source and locator | Source date/version |
 | --- | --- | --- |
-| [S1] | [Git book home](https://git-scm.com/book/en/v2), second-edition label, authors, chapters 2–10, corrections notice | Second edition 2014; web revision date not specified |
-| [S2] | [Original §3.1](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), branch and HEAD pointer model | Second-edition maintained web text; section revision date not provided |
-| [S3] | [Original §3.2](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), divergence and merges | Same; revision date not provided |
-| [S4] | [Original §7.1](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection), commit selectors and ancestor syntax | Same; revision date not provided |
-| [S5] | [Youngstown State Fall 2026](https://catalog.ysu.edu/syllabi/2026-fall/csci-5802-01-44236/), *Course Readings* and Aug 31 schedule | Fall 2026; exact page revision unknown |
-| [S6] | [Cornell Fall 2026 Git guide](https://courses.cs.cornell.edu/cs3410/2026fa/rsrc/git.html), recommended Pro Git introduction | Fall 2026; exact update unknown |
-| [S7] | [Third-edition draft site](https://progit3.com/), in-progress status and dated Aug 2026 blog entries | Dated 2026-08-02 and 2026-08-04 |
-| [S8] | [Official Git switch manual](https://git-scm.com/docs/git-switch), version history and synopsis | Git 2.55.0 update 2026-06-29 |
+| S1 | [Official book](https://git-scm.com/book/en/v2), authors, edition and chapter map | Second edition 2014; web update unknown |
+| S2 | [Original §3.1](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), branch/HEAD model | Maintained 2e; section date unknown |
+| S3 | [Original §3.2](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), divergence and merges | Maintained 2e; section date unknown |
+| S4 | [Original §7.1](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection), selectors and ancestors | Maintained 2e; section date unknown |
+| S5 | [YSU Fall 2026 syllabus](https://catalog.ysu.edu/syllabi/2026-fall/csci-5802-01-44236/), Course Readings and August 31 assignments | Fall 2026; revision unknown |
+| S6 | [Cornell Fall 2026 guide](https://courses.cs.cornell.edu/cs3410/2026fa/rsrc/git.html), further reading | Prior-run inspection, Fall 2026 |
+| S7 | [Third-edition draft](https://progit3.com/), in-progress notice | Blog dates August 2026; overall revision unknown |
+| S8 | [Git switch](https://git-scm.com/docs/git-switch), command reference | Prior-run check noted 2.55.0, 2026-06-29 |
+| S9 | [Original §10.2](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects), Tree Objects and Commit Objects | Maintained second-edition text; date unknown |
+| S10 | [Git init](https://git-scm.com/docs/git-init), object-format and initial-branch options | Last listed substantive change 2.54.0, 2026-04-20 |
 
 ## Next review
 
-**Passed subsequent-run review** of this commit. Reopen at least one original deep-internals chapter, verify the completed-vs-draft edition boundary and default-branch examples, review Git commands against current docs, and compare a narrower Git-learning alternative. Availability and ebook price played no role.
+For final audit, examine version-pinned corrections and test representative commands in an identified environment. Revisit third-edition completion later without counting another edition as another work. Availability remains irrelevant to selection.
 
-## Independent subsequent-run review — 2026-10-14
-
-Reassessed the published `b02eb3227d76c32381edbed90862b0b2b8d69876` record against original [Git Objects §10.2](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects) (blob/tree/commit relationships), [Git init](https://git-scm.com/docs/git-init) (configurable initial branch and object format), and the [third-edition project](https://progit3.com/) (still in progress). Verified that the Fall 2026 YSU syllabus assigns chapters 1–3, 7 and 10. The second edition's structural Git model remains useful, but SHA-1 examples, `master` branch names and hosting UI are not current defaults. Independent adoption and original excerpts support continued recommendation. A complete errata review and executed commands remain outstanding; this is a passed **later-run assessment**, not final audit.
+[S1]: https://git-scm.com/book/en/v2
+[S2]: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+[S3]: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+[S4]: https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection
+[S5]: https://catalog.ysu.edu/syllabi/2026-fall/csci-5802-01-44236/
+[S6]: https://courses.cs.cornell.edu/cs3410/2026fa/rsrc/git.html
+[S7]: https://progit3.com/
+[S8]: https://git-scm.com/docs/git-switch
+[S9]: https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+[S10]: https://git-scm.com/docs/git-init
