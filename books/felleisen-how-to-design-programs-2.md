@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://htdp.org/2026-5-28/Book/index.html"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "33f4e80a5dfd28a23b6b4b38732bfeffe46aa763"
 ---
 
 # How to Design Programs — Second Edition
@@ -37,7 +37,7 @@ Assign **Programming** as the primary subject. Although testing and clean struct
 
 ## Independent current evidence of relevance
 
-Brown University's **Fall 2026 CSCI 0190** placement work explicitly assigns **HtDP second edition Part II chapters 8–9** and requires a design recipe containing a signature, purpose statement, examples and tests; these are direct contemporary uses of its concrete methods. [S4] The [UBC 2026W1 CPSC 311 course assignments](https://www.students.cs.ubc.ca/~cs-311/2026W1/nav/assignments.html) reference the same HtDP design-recipe learning approach in a later course context, but this UBC material was **not** used to verify exact second-edition identity. Brown's course is associated with a book coauthor, so adoption is genuine evidence of use but **not an arm's-length critical review**. [S4], [S5]
+The previously cited Brown Fall 2026 placement page did **not** reopen; its exact chapter-assignment claim is withdrawn. The [current Brown 2026 course FAQ](https://cs.brown.edu/courses/cs019/2026/AFQ.html), *Why do we change programming languages?*, confirms using Racket to learn HtDP content; a separate [Brown 2025 placement reading list](https://cs.brown.edu/courses/cs019/2025/placement-readings.html) explicitly prescribes the **second edition** and Part II chapters 8–10. The 2025 edition assignment is not mislabeled as Fall 2026. Brown has a coauthor on staff, so course use is educational adoption, not independent critical evaluation. [S4], [S6] UBC 2026W1 mentions HtDP design methods but does not identify an edition. [S5]
 
 The principles of describing problem data, decomposing functions and designing examples/tests are generalizable in 2026. By design, this is taught with Racket's Beginning Student language and DrRacket instead of current industrial stack APIs. iTunes and some legacy data exercises are historically situated examples, not a recommendation to use their old integrations today. The 2026 source update is evidence the material continues to be maintained, not proof that every embedded tool instruction is current. [S2], [S3]
 
@@ -54,9 +54,15 @@ All sources below inspected/accessed **2026-10-14**, separating document dates f
 | [S1] | [MIT Press second-edition listing](https://mitpress.mit.edu/9780262534802/how-to-design-programs/), Authors, Paperback/eBook ISBN and publication dates, Description | May 2018 second edition |
 | [S2] | [Authors' second-edition page](https://htdp.org/2026-5-28/Book/index.html), title, named authors, explicit release date and chapter outline | Release May 28, 2026 |
 | [S3] | [Original Part I](https://htdp.org/2026-5-28/Book/part_one.html), ch.3 §§3.1 and 3.5; examples and tests | Author-hosted second-edition revision, 2026-05-28 |
-| [S4] | [Brown Fall 2026 CSCI 0190](https://cs.brown.edu/courses/cs019/2026/pl2due.html), §2.2 Reading / §2.3 Design Recipe | Fall 2026; exact page update date unknown |
+| [S4] | [Brown Fall 2026 CSCI 0190 FAQ](https://cs.brown.edu/courses/cs019/2026/AFQ.html), *Why do we change programming languages?* | Fall 2026, updated date unknown |
 | [S5] | [UBC 2026W1 assignments](https://www.students.cs.ubc.ca/~cs-311/2026W1/nav/assignments.html), HtDP reading/design recipe references | 2026W1; exact edition not specified |
+| [S6] | [Brown 2025 placement readings](https://cs.brown.edu/courses/cs019/2025/placement-readings.html), *second edition*, Part II chs.8–10 | 2025; exact edition, not current-year assignments |
+| [S7] | [Original Part II chapters 8–9](https://htdp.org/2026-5-28/Book/part_two.html), recursive data/template/testing in §9 | Author web revision 2026-05-28 |
+
+## Subsequent-run independent review — 2026-10-14
+
+**Passed with corrections after reviewing published commit `33f4e80a5dfd28a23b6b4b38732bfeffe46aa763`.** Original [Part II §9](https://htdp.org/2026-5-28/Book/part_two.html) derives a natural-recursion template from a self-referential list definition, covering empty/cons cases, function contracts, examples and tests. [MIT Press](https://mitpress.mit.edu/9780262534802/how-to-design-programs/) confirms edition and eISBN. The older cited 2026 Brown assignment deep link failed retrieval; the accessible 2026 course FAQ plus 2025 exact-edition list replace the overstated claim. The Racket instructional approach remains relevant; legacy APIs and some dated exercises are not current integration guidance. No exercises were executed and no comprehensive errata audit was done.
 
 ## Next review
 
-**Awaiting independent subsequent-run review.** Re-examine original Part II chapters 8–9 and formal test recipe against Brown assignments; check errata/version differences between the 2018 print and author-hosted 2026 text. Seek an independent expert critical assessment beyond university use. Do not count the online revision as a second work.
+**Subsequent-run review passed.** Re-examine original Part II chapters 8–9 and formal test recipe against Brown assignments; check errata/version differences between the 2018 print and author-hosted 2026 text. Seek an independent expert critical assessment beyond university use. Do not count the online revision as a second work.

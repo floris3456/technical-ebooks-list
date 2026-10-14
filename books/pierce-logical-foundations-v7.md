@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://softwarefoundations.cis.upenn.edu/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "33f4e80a5dfd28a23b6b4b38732bfeffe46aa763"
 ---
 
 # Logical Foundations — Software Foundations Volume 1, Version 7.0
@@ -56,6 +56,10 @@ All sources below were inspected/accessed **2026-10-14**. Access is not publicat
 | [S5] | [Original TOC](https://kodu.ut.ee/~kalmera/sf/lf/toc.html), chapters on functional programming, induction and logic | Host's v7.0 copy |
 | [S6] | [University of Tartu course](https://courses.cs.ut.ee/2026/vfa/spring/Main/HomePage), Book recommendation, Preparation, Forms of learning | Spring 2026; specifies Rocq 9.1.0 |
 
+## Subsequent-run independent review — 2026-10-14
+
+**Passed for the catalogued v7.0 after review of published commit `33f4e80a5dfd28a23b6b4b38732bfeffe46aa763`.** Reopened the original [Induction chapter](https://kodu.ut.ee/~kalmera/sf/lf/Induction.html), especially failed simplification/destruction attempts and the worked `add_0_r` inductive proof using a hypothesis, plus [Tartu's 2026 course](https://courses.cs.ut.ee/2026/vfa/spring/Main/HomePage). The [UPenn official current preface](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html) now cites **v7.1 (2026)**: this v7.0 record does **not** claim newest edition. The 7.0 preface says tested Rocq 9.0.0, while Tartu used 9.1.0; scripts were not executed or proven portable. Foundational reasoning remains valuable; assess v7.1 separately within the same work ID.
+
 ## Next review
 
-**Awaiting independent subsequent-run review.** Reopen current official series version and this exact 7.0 preface, check more original worked proofs and meaningful errata, determine whether the university mirror tracks the official v7.0 release, and test any claimed cross-version compatibility before asserting it. Do not equate educational adoption with a controlled effectiveness evaluation.
+**Subsequent-run review passed for v7.0.** Reopen current official series version and this exact 7.0 preface, check more original worked proofs and meaningful errata, determine whether the university mirror tracks the official v7.0 release, and test any claimed cross-version compatibility before asserting it. Do not equate educational adoption with a controlled effectiveness evaluation.
