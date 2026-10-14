@@ -15,10 +15,11 @@ Subjects link to canonical book records via primary and substantial additional c
 | [Data Engineering](data-engineering.md) | 1 |
 | [Programming Language Theory & Compilers](programming-language-theory-and-compilers.md) | 1 |
 | [Software Engineering Practices & Collaboration](software-engineering-practices-and-collaboration.md) | 1 |
-| [Software Testing & Quality Assurance](software-testing-and-quality-assurance.md) | 1 |
+| [Software Testing & Quality Assurance](software-testing-and-quality-assurance.md) | 2 |
 | [Requirements & Software Analysis](requirements-and-software-analysis.md) | 1 |
 | [User Experience & Human–Computer Interaction](user-experience-and-human-computer-interaction.md) | 1 |
 | [Platform-Specific Development](platform-specific-development.md) | 1 |
 | [Software Maintenance & Legacy Systems](software-maintenance-and-legacy-systems.md) | 1 |
+| [Computer Graphics & Visualization](computer-graphics-and-visualization.md) | 1 |
 
-**17 appearances represent ten unique recommended works.** Eight passed subsequent-run review and two await it. One separate testing candidate remains uncounted. The [research checkpoint](../research/STATE.md) distinguishes reviewed and pending entries. No generator is implemented yet; update all affected indexes when status or classification changes. Approved slugs are in [TAXONOMY.md](../TAXONOMY.md).
+**19 appearances represent twelve unique recommended works.** Ten have passed subsequent-run review and the two new recommendations await it. The former testing candidate is now recommended, pending subsequent review. The [research checkpoint](../research/STATE.md) distinguishes reviewed and pending entries. No generator is implemented yet; update all affected indexes when status or classification changes. Approved slugs are in [TAXONOMY.md](../TAXONOMY.md).

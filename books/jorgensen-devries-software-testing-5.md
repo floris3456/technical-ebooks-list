@@ -7,36 +7,66 @@ publication_year: 2021
 isbn_by_format: {}
 primary_subject: software-testing-and-quality-assurance
 additional_subjects: []
-concepts: [unit-testing, integration-testing, test-design, boundary-testing]
-languages: []
-technologies: []
-difficulty: unknown
+concepts: [boundary-value-testing, equivalence-partitioning, decision-tables, graph-testing, integration-testing, model-based-testing]
+languages: [Java]
+technologies: [JUnit]
+difficulty: intermediate
 focus: [conceptual, practical]
 formats: []
 access: unknown
-official_url: "https://www.routledge.com/"
+official_url: "https://www.softwaretestcraft.com/"
 last_verified: "2026-10-14"
-status: candidate
+status: recommended
 review_status: pending
 reviewed_commit: null
 ---
 
-# Uncounted candidate — Software Testing: A Craftsman's Approach (fifth edition)
+# Software Testing: A Craftsman's Approach — Fifth Edition (2021)
 
-**Not a recommendation yet.** Fifth-edition identity and broad testing contents have been located, but the independent recommendations retrieved were about **earlier editions**, so edition-specific quality and current applicability need further inspection. This is an **evidence gap, not an availability judgment**. Do not link this file from the recommended-work subject index or add it to the 2,000-work target.
+## Recommendation and audience
 
-## Investigated
+**Qualified recommendation for systematic test-design study**, especially developers/test engineers with basic programming and mathematical-model experience. This is not primarily a contemporary JUnit setup guide: its distinctive value is designing tests using boundaries, partitions, code-path graphs and model-based techniques. Fifth-edition authors Paul C. Jorgensen and Byron DeVries use a running *Foodies Wish List* application and Java/JUnit. [S1], [S2]
 
-- The publisher/Routledge catalog and bibliographic listings identify **Paul C. Jorgensen and Byron DeVries**, fifth edition **2021**. Earlier editions can identify the original work but **not** evaluate 2021 revisions. Confirm exact publisher imprint and printing in the next run. [S1]
-- An author's fifth-edition preface discusses Java/JUnit testing material, unit through integration/system testing and the need to update examples; the full fifth-edition body and exercises were **not** inspected here. [S2]
-- A detailed Goodreads/technical review retrieved in 2026 refers to a **2013** publication/earlier edition, so it is **not independent evidence of fifth-edition quality**. Do not silently promote it. [S3]
+This assessment inspected the authors' detailed fifth-edition technical outline and exercise instructions, explicit university fifth-edition teaching appraisal/adoption, and a newer professional syllabus. **Full fifth-edition prose and exercises have not been personally read or executed**; that limitation remains for subsequent review.
 
-## Next evidence targets
+## Actual subject coverage
 
-Find a substantive source inspecting **fifth-edition** examples and treatment of test theory; obtain an independent *fifth-edition* expert review or explicit course adoption. Evaluate test-design fundamentals against current testing standards, and describe limitations of legacy framework/API examples. If proven, promote this existing work ID without creating a duplicate; if not, retain as an uncounted lead or record a reasoned rejection. No availability checks are required.
+The fifth-edition official outline describes normal/robust/worst-case boundary-value testing (chapter **5**), equivalence partitioning with *Triangle* and *NextDate* (chapter **6**), decision tables and cause-effect (chapter **7**), code-flow graphs and basis paths (chapter **8**), and dataflow and JUnit test doubles (chapter **9**). Chapters **12–14** cover integration, system and model-based testing. Chapters **17–19** include feature interactions, event-driven systems such as a garage-door controller and pairwise tests. The authors' accompanying *Spreadsheet Exercises* explain comparing naïve, specification-based and code-driven ways to derive tests for Triangle/NextDate; that explanation was inspected, **not** executed. These topics justify the single testing primary subject and the listed facets. [S2], [S3]
 
-## Research sources (accessed 2026-10-14)
+## Why the theory is still useful today
 
-[S1]: https://www.routledge.com/Software-Testing-A-Craftsmans-Approach/Jorgensen-DeVries/p/book/9780367358495
-[S2]: https://www.researchgate.net/publication/348339534_Software_Testing_A_Craftsmans_Approach_Fifth_Edition_Preface
-[S3]: https://www.goodreads.com/book/show/374504.Software_Testing
+The independent **ISTQB CTFL v4.0.1 syllabus dated 2024-09-15, §4.2 printed pp.39–42 and §4.3** continues to cover equivalence partitioning, boundaries, decision tables, state transitions and white-box coverage. That independently supports present-day *conceptual* applicability of the corresponding fifth-edition outline, not that Java examples or legacy test frameworks reflect 2026 best practices. [S2], [S5]
+
+## Expert adoption and critical limits
+
+University of Kansas professor **Hossein Saiedian's Fall 2022 software quality-assurance course** explicitly names **Jorgensen and DeVries, fifth edition 2021**, commends its **graph models, case studies and integration testing**, and includes it as a selected supporting reading. Pezzè and Young is listed as the primary text. This is **edition-specific independent teaching assessment**, not proof the book is universally best or exhaustively taught. [S4]
+
+**Important bibliographic conflict:** this university course refers to “chapter 8: Path Testing” while the authors' fifth-edition outline titles chapter 8 **Code-Based Testing** (including *Basis Path Testing*). The syllabus can corroborate educational use but cannot serve as definitive fifth-edition chapter navigation. Reviews describing 2013 editions were explicitly **not** used to evaluate fifth-edition revisions. [S2], [S4]
+
+Strength: explicit design techniques, including uncommon event/interaction models. Limitations: mathematical density, narrower focus than a comprehensive modern automation/CI reference, uncertain currency of framework commands. For alternatives compare Pezzè/Young and Ammann/Offutt in a later cycle. Ebook availability, print status and price had no influence.
+
+## Edition and corrections
+
+Authors and Kansas identify fifth edition **2021**. No format-specific ISBN, complete fifth-edition corrections ledger or hands-on execution was established; no identifiers are invented. A subsequent run should inspect actual fifth-edition book prose and look for significant errata before passing review.
+
+## Evidence ledger
+
+Accessed **2026-10-14**; source dates below are publication dates where known, not access timestamps.
+
+| ID | Exact inspected material | Source date |
+| --- | --- | --- |
+| [S1] | Authors' fifth-edition homepage, edition/authors/Java-JUnit changes | Work 2021; page update unknown |
+| [S2] | Authors' detailed fifth-edition *Outline*, chapter 5–9, 12–14, 17–19 headings and examples | Fifth edition 2021; page update unknown |
+| [S3] | Authors' *Spreadsheet Exercises*, first sections describing approaches and Triangle/NextDate | Fifth-edition companion; update unknown |
+| [S4] | Kansas software-quality course by Hossein Saiedian, *Textbooks* and fall assignments | Fall 2022 |
+| [S5] | ISTQB CTFL Syllabus v4.0.1, §4.2 printed pp.39–42 and §4.3 | 2024-09-15 |
+
+[S1]: https://www.softwaretestcraft.com/
+[S2]: https://www.softwaretestcraft.com/outline
+[S3]: https://www.softwaretestcraft.com/spreadsheet-exercises
+[S4]: https://people.eecs.ku.edu/~saiedian/Teaching/814/
+[S5]: https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf#page=40
+
+## Next review
+
+**Pending independent subsequent-run assessment**, not self-approved. Read fifth-edition original prose or practical sample, check course-syllabus version mismatch, significant errata and a competing test-design book. Demote if edition-specific assessment proves materially incomplete.

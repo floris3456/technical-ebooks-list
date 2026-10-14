@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://accessibilityforeveryone.site/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "5aaf861920311aeb9b335600078847a93934ae18"
 ---
 
 # Accessibility for Everyone — Laura Kalbag (2017)
@@ -77,6 +77,12 @@ All sources inspected **2026-10-14**. Publication dates below are distinct from 
 [S8]: https://www.w3.org/TR/WCAG22/
 [S9]: https://www.goodreads.com/book/show/36312164
 
-## Next review
+## Subsequent-run assessment (2026-10-14)
 
-Later-run reviewer should independently validate the HTML/interaction claims against selected WCAG 2.2 techniques, the breadth of critiques, the secondary platform subject, and whether chapter 7 needs a more prominent outdated-law warning. Record the exact published parent SHA when passed. Final catalog audit is separate.
+**Decision: pass with limitations.** Independently reviewed the published version at `5aaf861920311aeb9b335600078847a93934ae18` against the original author's chapters *Accessibility and HTML* (form labels, native buttons and keyboard interactions) and *Evaluating and Testing*. [W3C Forms Labeling](https://www.w3.org/WAI/tutorials/forms/labels/) corroborates explicit input-label relationships; [WCAG 2.2 technique G202](https://www.w3.org/WAI/WCAG22/Techniques/general/G202) independently confirms keyboard-operation expectations. These are current technical cross-checks, not certification that a 2017 book implements every present standard. [S4], [S5], [S8]
+
+The author's web text remains the original **2017 edition**, not a newly revised edition. Original independent 2017 assessments are relevant to the book's inclusive design teaching but not 2026 browser-tool recommendations. Historic legal examples, named tools and simplistic inference from semantic HTML to complete compliance must be rejected. HCI remains its primary subject; its substantive HTML/browser chapter justifies additional platform-specific development. No full-book or final collection-wide audit is claimed.
+
+## Further checks
+
+Audit outdated legislation in chapter 7, tool-specific recommendations and detailed WCAG 2.2 mapping later. Passed subsequent review is not final-audit approval.

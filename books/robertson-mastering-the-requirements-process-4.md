@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.oreilly.com/library/view/mastering-the-requirements/9780137969647/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "5aaf861920311aeb9b335600078847a93934ae18"
 ---
 
 # Mastering the Requirements Process — Fourth edition (2024)
@@ -67,6 +67,14 @@ All sources accessed **2026-10-14**; their dates and types are distinct.
 [S3]: https://www.goodreads.com/en/book/show/802028.Mastering_the_Requirements_Process
 [S4]: https://arxiv.org/abs/2602.10972
 
-## Next review
+## Subsequent-run assessment (2026-10-14)
 
-Later run must independently re-open the publisher fourth-edition excerpt, validate the authorship credits and independent reviewer claims, contrast fit criteria with a current authoritative software requirements practice/standard, and check for material fourth-edition errata. It remains pending later-run review; no final collection audit passed yet.
+**Decision: pass with a qualified audience recommendation.** Independently re-opened the published record at `5aaf861920311aeb9b335600078847a93934ae18` and inspected the original [Pearson fourth-edition excerpt](https://www.pearson.de/media/muster/ext/9780137969579.pdf#page=5), printed chapter 15 pp.167–170 and Figure 15.2. The neobank prototype example distinguishes user-interface mockups from required business rules and warns about prototype-only specifications in mission-critical systems. The original author credits identify **James and Suzanne Robertson, with Adrian Reed**. [S2]
+
+Alejandro Teruel's **2025-06-20** [firsthand review](https://www.goodreads.com/en/book/show/802028.Mastering_the_Requirements_Process) says he read editions two and four, praises practical fit-criteria concepts but criticizes shorter fragmented fourth-edition chapters, simplified examples and dated AI treatment. Goodreads's generic **1999** bibliographic header applies to the intellectual work, not the specific edition discussed by this dated review. [S3]
+
+The [IREB requirements elicitation guidance](https://cpre.ireb.org/en/concept/requirements-elicitation) independently describes stakeholder involvement, conflicts, elicitation and validation as current practices (accessed 2026-10-14, revision date unspecified). This substantiates domain currency, **not** every proprietary requirement template or the book's AI claims. Its best fit is introductory-to-intermediate process practice, not deep formal specification. [S4]
+
+## Further checks
+
+Seek printing-specific fourth-edition errata, compare deeper alternatives and test actual learner fit. No full-book or final catalog audit is claimed.
