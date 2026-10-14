@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.informit.com/store/systems-performance-9780136821649"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "154e499e02b872a859e7ee6b641b72365dd245a9"
 ---
 
 # Systems Performance — Second Edition
@@ -39,4 +39,10 @@ The lengthy Linux focus is less suitable for a quick language-specific profiler 
 
 Evidence inspected/accessed **2026-10-14**: [S1 publisher date/TOC/ebook](https://www.informit.com/store/systems-performance-9780136821649), 2020-12-09; [S2 original ch3 §§3.2.1, 3.2.9, PDF pp.42 and 56](https://www.informit.com/content/images/9780136820154/samplepages/9780136820154_Sample.pdf#page=42), 2e; [S3 original ch2 exposed preview](https://www.oreilly.com/library/view/systems-performance-2nd/9780136821694/ch02.xhtml), 2020; [S4 independent 2024-01-14 firsthand translation review](https://blog.serizawa.me/p/2024-01-14-system-performance-2nd); [S5 author USE method](https://www.brendangregg.com/usemethod.html), update unknown; [S6 current Linux Ftrace manual](https://docs.kernel.org/trace/ftrace.html), update unknown.
 
-**Pending separate-run review:** examine deeper original methodologies and 2e errata, independent corroboration and one modern tracing exercise; reassess OS secondary indexing.
+## Subsequent-run independent review — 2026-10-14
+
+**Passed after independent inspection of published commit `154e499e02b872a859e7ee6b641b72365dd245a9`.** Reopened the original [publisher chapter 3 sample](https://www.informit.com/content/images/9780136820154/samplepages/9780136820154_Sample.pdf#page=42) at **PDF pp. 42 and 56** (printed pp. 91 and 105) and checked the kernel/system-call/CPU scheduling diagrams. Revisited the [2024-01-14 firsthand second-edition translation review](https://blog.serizawa.me/p/2024-01-14-system-performance-2nd) and [current Linux Ftrace manual](https://docs.kernel.org/trace/ftrace.html). Translation review is **not** evidence of English page identity; documentation confirms tracing remains operational, **not** that all old flags or commands will work. The book is distinct from OSTEP because its dominant teaching purpose is diagnosis of live systems, not OS introduction, so its OS secondary tag remains justified. No benchmark or command was executed and no exhaustive errata audit is claimed. Decision: **pass with kernel/version and inspection caveats**.
+
+## Next review
+
+Passed subsequent review. Inspect later chapters on CPU and BPF, author errata and other independent evaluations, then test one dated tracing command in a pinned environment. Retain platform-specific qualifications; do not transfer kernel examples uncritically.

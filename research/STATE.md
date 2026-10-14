@@ -1,44 +1,46 @@
 # Research checkpoint
 
-## Cycle 2026-10-14-08
+## Cycle 2026-10-14-09
 
-**Reviewed starting `main` SHA:** `33f4e80a5dfd28a23b6b4b38732bfeffe46aa763`. Examined live README, TAXONOMY, BOOK_TEMPLATE, prior STATE/REJECTIONS, latest commit diff, both pending new books, related indexes and rotating older passed DDIA. Live Git tree/front matter confirmed **16 unique recommended work IDs; 14 reviewed, 2 pending** before this cycle. Did not claim access to unseen parallel work.
+**Reviewed starting main:** `154e499e02b872a859e7ee6b641b72365dd245a9` (tree `2ca4538433c0730fb0cccba5c2d1ad1163858067`). Read current README, TAXONOMY, record template, prior STATE/REJECTIONS, latest commit diff and complete tree. Reexamined two previous pending records and rotating older DDIA/OSTEP; reviewed relevant indexes and publication checks. Work in other live runs is not visible and was not assumed.
 
-| Count after this commit | Distinct works |
+| Verified post-commit measure | Distinct works |
 | --- | ---: |
-| Recommended | **18** |
-| Passed independent subsequent-run review | **16** |
-| Pending independent subsequent-run review | **2** |
+| Recommended (unique `work_id`) | **20** |
+| Passed subsequent-run independent review | **18** |
+| Awaiting a later-run independent review | **2** |
 | Canonical uncounted candidate files | **0** |
-| Removed or retired this cycle | **0** |
-| Completed final collection audit | **0 / 2,000** |
+| Added / revised existing records / removed | **2 / 2 / 0** |
+| Final collection-wide audit complete | **0 / 2,000** |
 
-**26 appearances in 22 populated subject indexes represent 18 works**, not 26. Recompute these figures from remote files; do not inflate by edition/translation/format.
+**28 subject-index appearances across 22 populated subject indexes ≠ 28 works.** Preserve stable IDs across editions, formats and translations. Never mark this cycle's additions passed in the same commit. Recompute counts from live remote tree, not this file alone.
 
-## Review-first conclusions
+## Review of prior published work
 
-- [*Logical Foundations* v7.0](../books/pierce-logical-foundations-v7.md): **passed later-run review of above SHA** after inspecting the [original induction proof and `replace` examples](https://kodu.ut.ee/~kalmera/sf/lf/Induction.html), university use and compiler-version caveats. **New finding:** [UPenn current preface](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html) cites **v7.1**; this record is **v7.0**, tested Rocq 9.0.0; Tartu 2026 uses 9.1.0. Neither v7.1 parity nor cross-version script execution verified. Next run compare revisions within one work ID.
-- [*How to Design Programs* 2e](../books/felleisen-how-to-design-programs-2.md): **passed later-run review** after inspecting original [Part II §§8–9](https://htdp.org/2026-5-28/Book/part_two.html) list-recursion design templates and tests. Previously claimed precise Brown Fall 2026 readings were unsupported by a now-unavailable deep link: [live 2026 Brown FAQ](https://cs.brown.edu/courses/cs019/2026/AFQ.html) supports current teaching use, [2025 reading list](https://cs.brown.edu/courses/cs019/2025/placement-readings.html) names exact second edition. Brown coauthor association prevents calling this an arm's-length evaluation. No extra edition counted for 2026 web release.
-- Older passed [DDIA 2e](../books/kleppmann-riccomini-ddia-2.md) sample shows primary architecture with substantive data/distributed additional subjects, still requiring full taxonomy retrieval testing.
+- [Dive into Deep Learning (Cambridge 2024 / online v1.0.3)](../books/zhang-lipton-li-smola-dive-into-deep-learning-2024.md) **passed** independent review of `154e499e02b872a859e7ee6b641b72365dd245a9`. Original author §§3.1.3 and 5.3.3 were reopened; Cambridge 2024 copyright+contents visually checked; [Cornell Spring 2026](https://www.cs.cornell.edu/courses/cs4782/2026sp/) calls it a primary textbook among other texts. No print/web exact pagination parity, framework execution or errata completeness asserted. Print paperback ISBN not copied as ebook ISBN.
+- [Systems Performance second edition](../books/gregg-systems-performance-2.md) **passed** independent review of `154e499e02b872a859e7ee6b641b72365dd245a9`: visually rechecked original publisher sample PDF pp.42/56 (printed 91/105), [2024 independent review of Japanese second edition](https://blog.serizawa.me/p/2024-01-14-system-performance-2nd), and [live Linux tracing documentation](https://docs.kernel.org/trace/ftrace.html). Source translation cannot establish English page numbers; old CLI and kernel specifics remain caveated.
+- Rotating older [DDIA 2e](../books/kleppmann-riccomini-ddia-2.md) revisited for substantial architecture/database/distributed-secondary fit, with remaining protocol depth and errata gaps. Older [OSTEP 1.10](../books/arpaci-dusseau-ostep-1-10.md) retains the known 1.10 rendered vs 1.20 extraction conflict and scheduler-currency caveat; neither falsely reapproved as a new review.
 
-## Research and new recommendations
+## New deeply researched recommendations (pending later run)
 
-- [*Dive into Deep Learning*](../books/zhang-lipton-li-smola-dive-into-deep-learning-2024.md): **recommended, pending later-run review**. [Cambridge original print frontmatter, first published 2024](https://assets.cambridge.org/97810093/89433/frontmatter/9781009389433_frontmatter.pdf#page=4) and rendered contents; author original [§3.1 regression](https://d2l.ai/chapter_linear-regression/linear-regression.html) and [§5.3 backprop](https://d2l.ai/chapter_multilayer-perceptrons/backprop.html) inspected; independent [Cornell CS4782 Spring 2026](https://www.cs.cornell.edu/courses/cs4782/2026sp/) uses the book but not exclusively. Author's 2023 citation, online docs v1.0.3 and publisher print 2024 are distinct. Modern ML principles endure, sample framework APIs may drift. AI/ML gained first recommended book.
-- [*Systems Performance* 2e](../books/gregg-systems-performance-2.md): **recommended, pending later-run review**. [Publisher 2020-12-09 edition/ebook](https://www.informit.com/store/systems-performance-9780136821649), original [ch3 printed pp.91 and 105 (PDF pp.42 and 56)](https://www.informit.com/content/images/9780136820154/samplepages/9780136820154_Sample.pdf#page=42) visually inspected, original [ch2 preview](https://www.oreilly.com/library/view/systems-performance-2nd/9780136821694/ch02.xhtml), independent [2024 firsthand review of Japanese translation](https://blog.serizawa.me/p/2024-01-14-system-performance-2nd), author [USE method](https://www.brendangregg.com/usemethod.html) and [current Ftrace docs](https://docs.kernel.org/trace/ftrace.html). Methods remain useful; old kernel flags not certified. Primary Debugging/Performance and additional substantial OS subject. First primary entry in performance.
+- [Pro Git 2e](../books/chacon-straub-pro-git-2.md): [official 2014 second edition](https://git-scm.com/book/en/v2); inspected original branch/merging/revision chapters; [Youngstown State Fall 2026](https://catalog.ysu.edu/syllabi/2026-fall/csci-5802-01-44236/) required reading, assigned chs.1–3,7,10; [Cornell Fall 2026](https://courses.cs.cornell.edu/cs3410/2026fa/rsrc/git.html) supplemental endorsement; [Git switch](https://git-scm.com/docs/git-switch) provides present-day command context. [Pro Git third edition](https://progit3.com/) is **in progress**, not an already complete book. Branch/default and GitHub UI examples may be dated.
+- [Distributed Systems 4e](../books/van-steen-tanenbaum-distributed-systems-4.md): [author 2023 edition and v4.03 Jan 2025 corrections](https://www.distributed-systems.net/index.php/books/ds4/); visually inspected [LiU 2026 instructor original section-level reading map pp.1–2](https://www.ida.liu.se/~TDDD25/lectures/TDDD25-lasanvisningar-vanSteen-4e.pdf#page=1) (RPC, clocks, consistency, fault tolerance); independently [Linköping 2026](https://www.ida.liu.se/~TDDD25/info/courseinfo.en.shtml) and [UMass 2025](https://lass.cs.umass.edu/~shenoy/courses/spring25/materials/) adopt 4e; [etcd API](https://etcd.io/docs/v3.6/learning/api/) shows live consistency semantics. **Direct full original chapter prose not inspected**—first priority at later-run review. Educational adoption supports value, not a guarantee every code example remains current.
 
-All cited documents inspected/accessed **2026-10-14**, without implying publication that day. Book records contain source locators, caveats, inspection limits and dated citations. No cover-to-cover reading, runnable-code test, exhaustive errata audit, or complete live-link crawler claimed. Availability, year alone and popularity never used as admission filters.
+## Quality, taxonomy, corrections
 
-## Corrections and category decisions
+- Fixed **stale Pending index status** for already-passed *Software Engineering at Google*. Newly-passed D2L and Systems Performance now show Passed in every subject index (including OS secondary).
+- Retained **7 groups / 23 subjects**. Adding one formal distributed-systems text and one Git practices book improved retrieval under existing slugs, without evidence for taxonomy split. One primary per work; no duplicate index records.
+- No availability/price/format filtering. No cover-to-cover book claims, full-page errata review, reproduced copyrighted binaries or executed code claims.
+- See [REJECTIONS.md](REJECTIONS.md) for old-versus-current Git guidance, incomplete distributed chapter direct inspection, and metadata/index correction.
 
-No category split or slug rewrite: **7 groups/23 subjects** remain provisional pending a 25–30 real-edition browsing pilot. Fixed unavailable Brown evidence, discovered official Logical Foundations v7.1, separated print-vs-online D2L versions and old-vs-current Linux interfaces; see [REJECTIONS.md](REJECTIONS.md). No existing book removed.
+## Next research priorities
 
-## Next priorities
+1. **First review this commit**, especially direct original *Distributed Systems* fourth-edition prose, professor-section mapping, v4.03 corrections, 2025/2026 course interpretation; demote if independent inspection raises central errors. Review Pro Git third-edition draft status, current Git defaults and a deep internals original chapter. A new book must not pass in the same publishing run.
+2. Investigate still-empty **DevOps, Cloud & Infrastructure** as primary subject. Research Kief Morris *Infrastructure as Code* **third edition (2025)** through exact original chapter/sample and independent **third-edition** review or teaching—not through 2023 reviews of older editions.
+3. Continue 2026 *Site Reliability Engineering* 2e as an uncounted lead until independent edition-specific assessment or adoption. Do not use publisher announcement as a substitute.
+4. Compare [Logical Foundations 7.1](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html) against catalogued v7.0; avoid double counting and untested Rocq 9.x compatibility.
+5. Develop automated validation of stable work IDs, distinct approved slugs, record statuses, index membership and evidence locators. Check OSTEP version conflict and CLRS printing-specific errata in later audit.
 
-1. **Independently review this published commit first**, especially original D2L online-vs-print differences and Systems Performance's translated-edition reviewer/source fit. Pass, revise or demote each after real inspections. Recheck one older passed book each cycle.
-2. Compare official [*Logical Foundations* v7.1](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html) against recorded v7.0 and actual Rocq 9.x requirements; any material edition update stays the same work ID but resets review.
-3. Research underrepresented **DevOps/Cloud**, distributed algorithms, and current AI alternatives; keep *Site Reliability Engineering* 2026 second edition uncounted until independent edition-specific evidence exists.
-4. Continue known weaknesses: OSTEP v1.10/CFS vs newer source extracts; CLRS printing errata; older accessibility/OS protocol examples. Start machine checks for subject/ID/index integrity.
+## Publication and coordination
 
-## Coordination
-
-Re-fetch remote `main` before writes, create tree atop its head, conditional non-force update only, verify commit and canonical records remotely. Resume from this checkpoint; do not invent success or hidden concurrent state.
+All material source URLs and section/page locators are in canonical records; source dates distinct from 2026-10-14 access checks. Commit only atop observed branch head and with conditional non-force update; verify remote ref and published records afterward. This checkpoint intentionally does not include its own commit SHA.
