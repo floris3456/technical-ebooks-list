@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.softwaretestcraft.com/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "8a660aa5ed1ae68c9d0ad5efc92f6c6cf613d4eb"
 ---
 
 # Software Testing: A Craftsman's Approach — Fifth Edition (2021)
@@ -67,6 +67,10 @@ Accessed **2026-10-14**; source dates below are publication dates where known, n
 [S4]: https://people.eecs.ku.edu/~saiedian/Teaching/814/
 [S5]: https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf#page=40
 
+## Subsequent-run evidence review — 2026-10-14
+
+**Passed, with qualifications.** Independently reviewed published source `8a660aa5ed1ae68c9d0ad5efc92f6c6cf613d4eb`, reopened the original [authors' 5e outline](https://www.softwaretestcraft.com/outline) and [accompanying fifth-edition exercises](https://www.softwaretestcraft.com/spreadsheet-exercises), plus [Kansas Fall 2022 fifth-edition course assessment](https://people.eecs.ku.edu/~saiedian/Teaching/814/). Modern [ISTQB CTFL v4.0.1 (2024), §4.2](https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf#page=40) corroborates current importance of boundary/partition/decision/white-box design. **Edition-correction:** Kansas's shorthand calls ch8 Path Testing and ch9 Data Flow Testing, but authors name them **Code-Based Testing** (§8.4 basis paths) and **Testing Object-Oriented Software** (§9.3 dataflow). Educational use does not dictate chapter titles. This remains recommended for systematic test-design thinking, not for contemporary JUnit installation or APIs. Full fifth-edition prose, all errata and exercise execution have not been checked; no availability-based exclusion is implied.
+
 ## Next review
 
-**Pending independent subsequent-run assessment**, not self-approved. Read fifth-edition original prose or practical sample, check course-syllabus version mismatch, significant errata and a competing test-design book. Demote if edition-specific assessment proves materially incomplete.
+**Passed subsequent-run review**, subject to the limitations above and later collection-wide audit. Read fifth-edition original prose or practical sample, check course-syllabus version mismatch, significant errata and a competing test-design book. Demote if edition-specific assessment proves materially incomplete.

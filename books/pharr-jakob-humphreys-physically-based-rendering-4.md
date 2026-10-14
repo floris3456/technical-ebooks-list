@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://pbr-book.org/4ed/contents"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "8a660aa5ed1ae68c9d0ad5efc92f6c6cf613d4eb"
 ---
 
 # Physically Based Rendering: From Theory to Implementation — Fourth Edition (2023)
@@ -69,6 +69,10 @@ All inspected **2026-10-14**; unknown revision dates are not portrayed as curren
 [S7]: https://people.engr.tamu.edu/nimak/Courses/CSCE641-CompGraph/Spring2026/index.html
 [S8]: https://pbrt.org/errata-4ed
 
+## Subsequent-run evidence review — 2026-10-14
+
+**Passed, advanced subject reference.** Independently reexamined the published `8a660aa5ed1ae68c9d0ad5efc92f6c6cf613d4eb` record and actual fourth-edition [§13.4 MIS path tracing](https://pbr-book.org/4ed/Light_Transport_I_Surface_Reflection/A_Better_Path_Tracer) and [§15.1 GPU wavefront mapping](https://pbr-book.org/4ed/Wavefront_Rendering_on_GPUs/Mapping_Path_Tracing_to_the_GPU). [Texas A&M Spring 2026 CSCE641](https://people.engr.tamu.edu/nimak/Courses/CSCE641-CompGraph/Spring2026/index.html) lists fourth edition as **recommended** and assigns §13.4. Original [4e errata](https://pbrt.org/errata-4ed) correct specific numeric/mathematical errors around printed pp.63–64 and p.105. MIS, BVHs and light transport remain current topics; no claim of current Vulkan/DXR/engine compatibility, compiled renderer testing or cover-to-cover reading is made. Consult the corrections when working examples.
+
 ## Next review
 
-**Pending a later independent run**, not approved by the creator. Recheck §13.4 and §15.1 descriptions, exact-fourth-edition 2026 course readings and errata significance; contrast a specific rendering learning task against an alternative. Only a later run may mark passed, using the published SHA.
+**Passed subsequent-run review**, with math/implementation caveats and final collection audit outstanding. Recheck §13.4 and §15.1 descriptions, exact-fourth-edition 2026 course readings and errata significance; contrast a specific rendering learning task against an alternative. Only a later run may mark passed, using the published SHA.
