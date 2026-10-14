@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.distributed-systems.net/index.php/books/ds4/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "b02eb3227d76c32381edbed90862b0b2b8d69876"
 ---
 
 # Distributed Systems — Fourth edition (2023; v4.03 corrections 2025)
@@ -59,4 +59,8 @@ Errata/revision evidence is limited to the author's notice of **v4.03 small corr
 
 ## Next review
 
-**Pending subsequent-run review**. Prioritize inspecting author-published substantive fourth-edition prose or worked examples and identifying specific v4.03 corrections; compare to contemporary consensus/fault-tolerance literature. Confirm an unbiased expert pedagogical evaluation beyond independent 2025/2026 educational adoption. Do not assert whole-chapter verification or code execution without actually doing so.
+**Passed subsequent-run review**. Prioritize inspecting author-published substantive fourth-edition prose or worked examples and identifying specific v4.03 corrections; compare to contemporary consensus/fault-tolerance literature. Confirm an unbiased expert pedagogical evaluation beyond independent 2025/2026 educational adoption. Do not assert whole-chapter verification or code execution without actually doing so.
+
+## Independent subsequent-run review — 2026-10-14
+
+Reviewed published `b02eb3227d76c32381edbed90862b0b2b8d69876` record, the [author's 4.03x request page](https://www.distributed-systems.net/index.php/books/ds4/ds4-ebook/) and 2026 Linköping [instructor-authored fourth-edition reading map](https://www.ida.liu.se/~TDDD25/lectures/TDDD25-lasanvisningar-vanSteen-4e.pdf#page=1). The author says **4.03x** contains newer small corrections than print-corresponding **4.03**, with unchanged pagination; this is a correction revision, not another work or fifth edition. Direct full original chapter prose was not obtainable via an anonymous reading route and was **not** claimed inspected. The independently specified 2026 assigned sections and UMass adoption support identity, contents and current utility, while [etcd 3.6](https://etcd.io/docs/v3.6/learning/api/) checks present-day relevance of consistency concepts. Pass with explicit source-depth limitation, not blanket validation of Python examples or all errata; retain full-chapter inspection as a final-audit priority.

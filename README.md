@@ -6,12 +6,12 @@ An evidence-backed catalog of programming, software engineering, and computing e
 
 | Measure | Works |
 | --- | ---: |
-| Recommended after initial research | 20 |
-| Passed a subsequent-run review | 18 |
+| Recommended after initial research | 22 |
+| Passed a subsequent-run review | 20 |
 | Research candidates, not counted | 0 |
 | Target after review and final audit | 2,000 |
 
-Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Eighteen recommendations have passed a subsequent-run review; the two newest await it. Further uncounted second-edition SRE research remains in the checkpoint. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
+Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Twenty recommendations have passed a subsequent-run review; the two newest await it. Further uncounted second-edition SRE research remains in the checkpoint. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities. Exact research source checks, including unsuccessful attempts, are preserved under [research/sources](research/sources/2026-10-14-10/000-start.md).
 
 ## Browse recommendations
 
@@ -20,12 +20,12 @@ Counts are by stable `work_id`, not editions, translations, formats, or appearan
 | [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10 (2023) | Computer Systems & Operating Systems | Passed later-run review |
 | [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth (2022) | Algorithms & Data Structures | Passed later-run review |
 | [Database System Concepts](books/silberschatz-korth-sudarshan-database-system-concepts-7.md) | Seventh (2019) | Databases & Data Modeling | Passed later-run review |
-| [Distributed Systems](books/van-steen-tanenbaum-distributed-systems-4.md) | Fourth (2023; v4.03 corrections 2025) | Concurrency & Distributed Systems | Pending later-run review |
+| [Distributed Systems](books/van-steen-tanenbaum-distributed-systems-4.md) | Fourth (2023; v4.03/4.03x revisions) | Concurrency & Distributed Systems | Passed later-run review |
 | [Designing Data-Intensive Applications](books/kleppmann-riccomini-ddia-2.md) | Second (2026) | Software Architecture | Passed later-run review |
 | [Crafting Interpreters](books/nystrom-crafting-interpreters-2021.md) | 2021 | Programming Language Theory & Compilers | Passed later-run review |
 | [Logical Foundations](books/pierce-logical-foundations-v7.md) | Vol. 1, v7.0 (2026; official current v7.1 noted) | Mathematics & Formal Methods | Passed later-run review |
 | [How to Design Programs](books/felleisen-how-to-design-programs-2.md) | Second (2018; revised web release 2026) | Programming | Passed later-run review |
-| [Pro Git](books/chacon-straub-pro-git-2.md) | Second (2014; maintained online text) | Software Engineering Practices & Collaboration | Pending later-run review |
+| [Pro Git](books/chacon-straub-pro-git-2.md) | Second (2014; maintained online text) | Software Engineering Practices & Collaboration | Passed later-run review |
 | [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Passed later-run review |
 | [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Passed later-run review |
 | [Computer Networking: A Top-Down Approach](books/kurose-ross-computer-networking-9.md) | Ninth (2025) | Networking, APIs & Integration | Passed later-run review |
@@ -37,6 +37,8 @@ Counts are by stable `work_id`, not editions, translations, formats, or appearan
 | [Dive into Deep Learning](books/zhang-lipton-li-smola-dive-into-deep-learning-2024.md) | Cambridge print 2024; online v1.0.3 | Artificial Intelligence & Machine Learning | Passed later-run review |
 | [Systems Performance](books/gregg-systems-performance-2.md) | Second (2020) | Debugging & Performance Engineering | Passed later-run review |
 | [The Site Reliability Workbook](books/beyer-murphy-rensin-kawahara-thorne-site-reliability-workbook-2018.md) | 2018 | Reliability & Observability | Passed later-run review |
+| [Continuous Delivery](books/humble-farley-continuous-delivery-1.md) | First (2010) | DevOps, Cloud & Infrastructure | Pending later-run review |
+| [Release It!](books/nygard-release-it-2.md) | Second (2018) | Software Architecture | Pending later-run review |
 
 [Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Unresolved research leads remain separate in the research checkpoint.
 

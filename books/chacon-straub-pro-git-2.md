@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://git-scm.com/book/en/v2"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "b02eb3227d76c32381edbed90862b0b2b8d69876"
 ---
 
 # Pro Git — Second edition (2014; corrected online text)
@@ -58,4 +58,8 @@ Best for conceptual and practical Git literacy, not as a focused guide to GitHub
 
 ## Next review
 
-**Pending subsequent-run review** of this commit. Reopen at least one original deep-internals chapter, verify the completed-vs-draft edition boundary and default-branch examples, review Git commands against current docs, and compare a narrower Git-learning alternative. Availability and ebook price played no role.
+**Passed subsequent-run review** of this commit. Reopen at least one original deep-internals chapter, verify the completed-vs-draft edition boundary and default-branch examples, review Git commands against current docs, and compare a narrower Git-learning alternative. Availability and ebook price played no role.
+
+## Independent subsequent-run review — 2026-10-14
+
+Reassessed the published `b02eb3227d76c32381edbed90862b0b2b8d69876` record against original [Git Objects §10.2](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects) (blob/tree/commit relationships), [Git init](https://git-scm.com/docs/git-init) (configurable initial branch and object format), and the [third-edition project](https://progit3.com/) (still in progress). Verified that the Fall 2026 YSU syllabus assigns chapters 1–3, 7 and 10. The second edition's structural Git model remains useful, but SHA-1 examples, `master` branch names and hosting UI are not current defaults. Independent adoption and original excerpts support continued recommendation. A complete errata review and executed commands remain outstanding; this is a passed **later-run assessment**, not final audit.
