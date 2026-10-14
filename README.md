@@ -6,12 +6,12 @@ An evidence-backed catalog of programming, software engineering, and computing e
 
 | Measure | Works |
 | --- | ---: |
-| Recommended after initial research | 14 |
-| Passed a subsequent-run review | 12 |
+| Recommended after initial research | 16 |
+| Passed a subsequent-run review | 14 |
 | Research candidates, not counted | 0 |
 | Target after review and final audit | 2,000 |
 
-Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Twelve recommendations have passed a subsequent-run review; the two newest await it. Further uncounted second-edition SRE research remains in the checkpoint. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
+Counts are by stable `work_id`, not editions, translations, formats, or appearances in subject indexes. New recommendations remain pending review. Fourteen recommendations have passed a subsequent-run review; the two newest await it. Further uncounted second-edition SRE research remains in the checkpoint. See [research/STATE.md](research/STATE.md) for the current checkpoint, unresolved evidence, and next priorities.
 
 ## Browse recommendations
 
@@ -19,9 +19,11 @@ Counts are by stable `work_id`, not editions, translations, formats, or appearan
 | --- | --- | --- | --- |
 | [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10 (2023) | Computer Systems & Operating Systems | Passed later-run review |
 | [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth (2022) | Algorithms & Data Structures | Passed later-run review |
-| [Database System Concepts](books/silberschatz-korth-sudarshan-database-system-concepts-7.md) | Seventh (2019) | Databases & Data Modeling | Pending later-run review |
+| [Database System Concepts](books/silberschatz-korth-sudarshan-database-system-concepts-7.md) | Seventh (2019) | Databases & Data Modeling | Passed later-run review |
 | [Designing Data-Intensive Applications](books/kleppmann-riccomini-ddia-2.md) | Second (2026) | Software Architecture | Passed later-run review |
 | [Crafting Interpreters](books/nystrom-crafting-interpreters-2021.md) | 2021 | Programming Language Theory & Compilers | Passed later-run review |
+| [Logical Foundations](books/pierce-logical-foundations-v7.md) | Vol. 1, v7.0 (2026) | Mathematics & Formal Methods | Pending later-run review |
+| [How to Design Programs](books/felleisen-how-to-design-programs-2.md) | Second (2018; revised web release 2026) | Programming | Pending later-run review |
 | [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Passed later-run review |
 | [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Passed later-run review |
 | [Computer Networking: A Top-Down Approach](books/kurose-ross-computer-networking-9.md) | Ninth (2025) | Networking, APIs & Integration | Passed later-run review |
@@ -30,7 +32,7 @@ Counts are by stable `work_id`, not editions, translations, formats, or appearan
 | [Mastering the Requirements Process](books/robertson-mastering-the-requirements-process-4.md) | Fourth (2024) | Requirements & Software Analysis | Passed later-run review |
 | [Software Testing: A Craftsman's Approach](books/jorgensen-devries-software-testing-5.md) | Fifth (2021) | Software Testing & Quality Assurance | Passed later-run review |
 | [Physically Based Rendering: From Theory to Implementation](books/pharr-jakob-humphreys-physically-based-rendering-4.md) | Fourth (2023) | Computer Graphics & Visualization | Passed later-run review |
-| [The Site Reliability Workbook](books/beyer-murphy-rensin-kawahara-thorne-site-reliability-workbook-2018.md) | 2018 | Reliability & Observability | Pending later-run review |
+| [The Site Reliability Workbook](books/beyer-murphy-rensin-kawahara-thorne-site-reliability-workbook-2018.md) | 2018 | Reliability & Observability | Passed later-run review |
 
 [Topic indexes](topics/README.md) include substantial secondary subjects without duplicating book records. Unresolved research leads remain separate in the research checkpoint.
 

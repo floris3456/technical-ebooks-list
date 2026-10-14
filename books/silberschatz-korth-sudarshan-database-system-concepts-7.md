@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://db-book.com/index.html"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "55a8a4e84730c2843885472e26536526288e9604"
 ---
 
 # Database System Concepts — Seventh Edition
@@ -57,6 +57,12 @@ Breadth and mathematical detail make it valuable for foundations and later refer
 | [S8] | [PostgreSQL 15 official release](https://www.postgresql.org/docs/15/release-15.html), removed statistics collector | 2022 release |
 | [S9] | [Current PostgreSQL index methods](https://www.postgresql.org/docs/current/indexes-types.html), access types | Live; revision unknown |
 
+## Subsequent-run independent review — 2026-10-14
+
+**Pass, qualified; reviewed published commit `55a8a4e84730c2843885472e26536526288e9604`.** Reopened the original author's seventh-edition [chapter 27, §27.1 and example queries](https://db-book.com/online-chapters-dir/27.pdf#page=2), which derives tuple-calculus queries from existential and universal quantification rather than merely advertising SQL coverage. Rechecked [chapter 32, PostgreSQL processes and statistics](https://db-book.com/online-chapters-dir/32.pdf#page=4) against [PostgreSQL 15 release §E.20.3.1.5](https://www.postgresql.org/docs/15/release-15.html), which **removed the separate statistics-collector process** in favor of shared-memory statistics. This is a concrete correction for live implementations, not a reason to reject enduring relational theory. Independent [Bilkent Fall 2026 CS353](https://www.cs.bilkent.edu.tr/~dibeklioglu/teaching/cs353/) specifies the seventh edition; its 2026 curriculum uses the kinds of indexing, query optimization, transactions, and relational modeling examined here. Edition identification and pedagogical adoption survive recheck.
+
+**Limits:** This does not establish every PostgreSQL implementation detail as current, full-book reading, comprehensive errata clearance, or superiority over other database textbooks. Original chapter 27's older semester examples are illustrations, not current academic administration data. Availability did not influence the decision.
+
 ## Next review
 
-**Pending independent later-run assessment** of original chapter claims, exact edition course use, significant errata and competing texts. Preserve the explicit outdated PostgreSQL case-study warning.
+Later final-audit tasks: compare a focused database internals book and current PostgreSQL MVCC documentation; investigate significant errata without treating lack of an accessible errata list as proof of no errors. **Subsequent-run review passed; full catalog audit remains outstanding.**

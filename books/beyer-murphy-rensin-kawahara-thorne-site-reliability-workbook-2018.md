@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://sre.google/workbook/index/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "55a8a4e84730c2843885472e26536526288e9604"
 ---
 
 # The Site Reliability Workbook — 2018
@@ -55,6 +55,12 @@ Strong as a worked operational *process* reference, with testable alerting crite
 | [S8] | [Current Google Cloud SLO documentation](https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate), alerting | Live; revision unknown |
 | [S9] | [Current Prometheus alerting](https://prometheus.io/docs/practices/alerting/), symptom alerts | Live; revision unknown |
 
+## Subsequent-run independent review — 2026-10-14
+
+**Pass, with implementation caveats; reviewed published commit `55a8a4e84730c2843885472e26536526288e9604`.** Reexamined the original authors' [chapter 2, *Implementing SLOs*](https://sre.google/workbook/implementing-slos/), especially measurement choices and error budgets; [chapter 5, *Alerting on SLOs*](https://sre.google/workbook/alerting-on-slos/), especially precision/recall and multiwindow burn-rate logic; and [chapter 9, *Incident Response*](https://sre.google/workbook/incident-response/), including incident commander, communications, and operations roles. These are substantive operational methods, not merely a contents page. [Current Google Cloud burn-rate guidance](https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate) and [Prometheus alerting practices](https://prometheus.io/docs/practices/alerting/) independently corroborate continued practical importance of alert quality and user-visible symptoms. [System Design Space's detailed practitioner assessment](https://system-design.space/en/chapter/sre-workbook/) discusses both applicability and Google-scale limits; it is not a peer-reviewed comparative outcome study.
+
+**Correction and scope:** A 5xx-only HTTP success criterion in an example is not a universal SLI. The historical Prometheus configurations, responder rosters, and tooling require current environment-specific checks; no 2018 command or configuration was executed. The five credited names are editors of a multi-author volume, not sole authors of every chapter. Do not infer comprehensive errata inspection from a missing or inaccessible errata view. The independent review passes the recommendation's enduring SLO/alerting/incident pedagogy, not every literal example.
+
 ## Next review
 
-**Pending a subsequent independent review** of original chapters, third-party evidence quality, significant errata and literal configuration drift; do not mistake useful 2018 principles for current tooling instructions.
+For final audit, test one multiwindow burn-rate rule with current tool documentation, compare incident-role guidance across team sizes, seek stronger independent studies or critical assessments, and review significant corrections. **Subsequent-run review passed; full catalog audit remains outstanding.**
