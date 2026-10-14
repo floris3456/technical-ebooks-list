@@ -81,4 +81,4 @@ Reviewed published commit `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. Authors an
 
 ## Next review
 
-Recheck the chapter-version conflict and official release information without inferring dates from copyright footers. Verify source-to-claim fit, assess significant errata, and consider whether the broad concurrency subject remains an adequate browsing route. This record has not yet passed subsequent-run review.
+Recheck the chapter-version conflict and official release information without inferring dates from copyright footers. Verify source-to-claim fit, assess significant errata, and consider whether the broad concurrency subject remains an adequate browsing route. This work passed its prior later-run review; the 1.10/1.20 chapter-extraction discrepancy and significant errata checks remain open.

@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://abseil.io/resources/swe-book"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "c1251db102898b3acc3c8ffec259153ae2dc0711"
 ---
 
 # Software Engineering at Google — 2020
@@ -51,6 +51,9 @@ All documents inspected **2026-10-14**; access date does not imply recent public
 | [S4] | Book chapter 13, Test Doubles, introductory examples and tradeoffs | 2020 work; page update unknown |
 | [S5] | The Code She Writes, reading notes on reviews, teams, documentation, testing | Updated 2024-12-18 |
 | [S6] | Google engineering practices, Standard of Code Review | Page update unknown; accessed 2026-10-14 |
+| [S7] | Cornell CS5150 Spring 2026 syllabus, Materials & services: several readings from this book | Spring 2026; exact syllabus update unknown |
+| [S8] | Dr Milan Milanović independent detailed reading analysis, sections on reviews, testing and long-lived code | Published 2026-02-26 |
+| [S9] | Javin Paul independent practical assessment, strengths and "What could have been done better?" | Published 2025-09-02 |
 
 [S1]: https://www.oreilly.com/library/view/software-engineering-at/9781492082781/
 [S2]: https://abseil.io/resources/swe-book
@@ -58,7 +61,14 @@ All documents inspected **2026-10-14**; access date does not imply recent public
 [S4]: https://abseil.io/resources/swe-book/html/ch13.html
 [S5]: https://thecodeshewrites.com/2024/05/12/software-engineering-at-google-book-takeaways/
 [S6]: https://google.github.io/eng-practices/review/reviewer/standard.html
+[S7]: https://www.cs.cornell.edu/courses/cs5150/2026sp/syllabus.html
+[S8]: https://newsletter.techworld-with-milan.com/p/what-i-learned-at-swe-at-google-book
+[S9]: https://javinpaul.medium.com/review-is-software-engineering-at-google-book-worth-it-e97091b9d5e2
+
+## Subsequent-run review (2026-10-14)
+
+Reviewed the published record in `c1251db102898b3acc3c8ffec259153ae2dc0711`, independently reopening the Abseil chapter substance and comparing it with additional current evidence. Cornell **Spring 2026 CS5150** explicitly assigns multiple *Software Engineering at Google* readings; this is direct modern educational use, not an assertion about unchanged internal 2020 tools. Dr Milan Milanović's 2026 analysis describes engineering-over-time, knowledge sharing, review and test doubles; Javin Paul's 2025 critique points out context-specific monorepo/tooling and missing open-source perspectives. These independent assessments and the sustained original chapters justify both testing and maintenance secondary subjects. The older 2024 reviewer link did not load for this reinspection, so was not needed for the pass. Principles are relevant; 2026 AI practices and Google policies need newer sources. **Decision: pass with transferability caveats.** [S2], [S3], [S4], [S6], [S7], [S8], [S9]
 
 ## Next review
 
-Pending subsequent-run review of the published record, independence/source-to-claim fit, dated company-specific methods, and whether both secondary subjects are substantial.
+Track evolving public review guidance, edition-specific errata and compare specialized testing/legacy engineering texts. A later-run review passed; the collection-wide final audit is outstanding.

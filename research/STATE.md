@@ -1,47 +1,47 @@
 # Research checkpoint
 
-## Cycle 2026-10-14-02
+## Cycle 2026-10-14-03
 
-Date: **2026-10-14** (Europe/Amsterdam). Reviewed published parent commit `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`, all four book records, the latest commit's changed files, taxonomy, template, existing topic indexes and both research logs. No accessible unfinished data beyond those files; no claim of reading another run's live work.
+Date: **2026-10-14**, Europe/Amsterdam. Reviewed the published parent commit `c1251db102898b3acc3c8ffec259153ae2dc0711`, all five prior book records, latest commit diff, README, taxonomy, template, indexes and research logs. Independently rechecked author primary sources, course adoption and expert reviews. No other run's unpublished work was visible.
 
-## Distinct-work counts
+## Actual counts (unique work_id, not editions or index appearances)
 
-| Measure | Count |
+| Measure | Works |
 | --- | ---: |
-| Recommended, research-backed | **5** |
-| Passed subsequent-run review | **2** |
-| Pending subsequent-run review | **3** |
-| Uncounted candidates | **0** |
+| Research-backed recommendations | **8** |
+| Passed subsequent-run review | **5** |
+| New recommendations pending later-run review | **3** |
+| Uncounted candidate files | **0** |
 | Retired/removed works | **0** |
-| Final-audit-qualified works | **0 / 2,000** |
+| Final collection-wide audit completed | **0 / 2,000** |
 
-Count stable unique `work_id` among `status: recommended`, never editions, translations, formats or index appearances. A review pass is not the eventual staged final audit. The 7 browsing groups and 23 subject slugs remain provisional.
+Passing a subsequent-run review is **not** the collection-wide final audit. All entries and topic pages remain mutable; quality outranks count.
 
-## Reviewed and newly substantiated work
+## Review of previous commit `c1251db102898b3acc3c8ffec259153ae2dc0711`
 
-| Work | Decision | Evidence and unresolved check |
+- **DDIA second edition: passed.** O'Reilly chapter 1/6 actual introductions, Waterloo **Fall 2026 exact-second-edition** chapter assignments and the March 30, 2026 second-edition independent review establish this edition's content and present-day use. PostgreSQL 18 supports continuing relevance of transactions, not a full correctness guarantee. A 2024 first-edition critique is not misapplied. Architectural and three substantial secondary subjects remain provisional until retrieval-pilot testing.
+- **Crafting Interpreters: passed.** Author's GitHub revision `4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4` actually contains the introduction, scanning and VM manuscripts, including the caveat about the simplistic global VM. PSU Winter 2026 assigned chapters 2 and 15; USF's additional reference is not a Rust-language teaching claim.
+- **Software Engineering at Google: passed.** Abseil chapters 11 and 13, Cornell **Spring 2026 assigned book readings**, February 2026 independent engineering analysis and a September 2025 critical review corroborate lasting collaboration, testing and maintenance topics. Google-specific tooling and 2020 procedures must not be universalized; a previously recorded 2024 reviewer link failed on reinspection.
+- **OSTEP and CLRS: prior passes retained.** Rotating audit corrected stale “awaits review” text without resetting a substantive pass or claiming their unresolved chapter-version and printing/syllabus discrepancies are fixed.
+
+The three passes record the **already-published parent SHA** in their respective `reviewed_commit` fields. The three new works below must receive a later-run review of **the commit containing this checkpoint**, not self-approval now.
+
+## Three researched additions, later-run review pending
+
+| Work | Substantive inspected evidence | Main residual limitation |
 | --- | --- | --- |
-| [OSTEP](../books/arpaci-dusseau-ostep-1-10.md) | **Passed** review of parent commit | Official 1.10 and UCSD Fall 2026 adoption corroborated; rendered chapter 9 shows 1.10/CFS but extraction said 1.20/EEVDF. Keep documentation caveat; errata audit incomplete. |
-| [Introduction to Algorithms](../books/cormen-introduction-to-algorithms-4.md) | **Passed** review of parent commit | MIT Press selected fourth-edition binary-search solutions inspected; JHU Fall 2026 edition adoption verified; inconsistent preliminary course chapter numbering retained as caution; errata not fully enumerated. |
-| [DDIA second edition](../books/kleppmann-riccomini-ddia-2.md) | **Promoted** from candidate; pending new review | O'Reilly February 2026 exact edition, chapter introductions, Fall 2026 Waterloo exact-edition assignments, March 2026 independent review, official PostgreSQL transaction model. First-edition criticism not transferred. |
-| [Crafting Interpreters](../books/nystrom-crafting-interpreters-2021.md) | **Promoted** from candidate; pending new review | Author's actual Markdown introduction/scanner/VM chapters and implementations inspected via original repo; PSU Winter 2026 **assigned** chapters 2 and 15; USF 2026 reference. No Rust tag. |
-| [Software Engineering at Google](../books/winters-manshreck-wright-software-engineering-at-google-2020.md) | **Added** recommended, pending new review | O'Reilly/Abseil official 2020 edition, substantive testing/test-double chapters, independent 2024 reader analysis, official Google review guidance. Context-specific and 2026 agent omissions disclosed. |
+| [Anderson, Security Engineering, 3rd (2020)](../books/anderson-security-engineering-3.md) | Wiley exact electronic ISBN; author actual chapters 1/2/27 and official errata; Sven Dietrich's IEEE expert review; Edinburgh 2026/27 exact-edition prerequisite reading; CIS/SAFECode secure design guidance from July 2026 | Old case studies do not define current regulations, exploits or AI/supply-chain risks; selected chapter/errata review only |
+| [Kurose/Ross, Computer Networking, 9th (2025/©2026)](../books/kurose-ross-computer-networking-9.md) | Pearson exact edition, publisher chapters and electronic ISBN; author actual §3.4 and §3.8 protocol exercises; Rochester Fall 2026 exact-edition primary course; GWU 2026 course; IETF QUIC/HTTP3 standards | Companion exercises are not validated solutions or full book prose; edition errata remain unverified |
+| [Ousterhout, A Philosophy of Software Design, 2nd (2021)](../books/ousterhout-philosophy-of-software-design-2.md) | Author's second-edition changes; explicit second-edition March 2024 critical analysis; Jan 2026 chapter notes; Apr 2025 expert interview on deep modules and AI-assisted development | Author's actual large second-edition excerpt failed retrieval; current recommendation transparently rests on detailed first-hand readers and author notes, **priority re-review** |
 
-Review `reviewed_commit` in the **two passed records** identifies `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. Only a *later* invocation may review the other three against the **published SHA of this cycle**. Material changes reset a pass.
+There are **8 distinct works**, **14 subject-index appearances**, **23 controlled subjects** in **7 groups**. The dataset is too small to justify splitting categories before the promised 25–30-edition validation pilot. Three new primary indexes now serve security, networking and software component design.
 
-## Reasoned taxonomy decisions
+## Next priorities
 
-Keep 23 subjects pending the 25–30-edition pilot. DDIA uses architecture primary plus database, data engineering and distributed systems, since its chapters sustain all four areas. OSTEP's concurrency index is secondary; Crafting Interpreters belongs to compiler theory despite its project style; Google's collaboration book has meaningful testing and maintenance coverage. Five works are inadequate to justify splitting or renaming categories. Cross-index links are not duplicate records.
+1. Independently review the three new recommendations against this published SHA. Prioritize **reading Ousterhout's primary chapter extract** and demote if the evidence falls short; inspect Anderson's third-edition page-specific errata and Kurose/Ross original ninth-edition prose if possible. Check precise source dates, technical currency, duplicates, and every subject/index link.
+2. Broaden toward **software testing, requirements, accessibility/HCI, data engineering**, which lack dedicated recommendations. Do not simply repeat foundations. Unvetted leads from courses/research include Siek's *Essentials of Compilation*, Peterson/Davie's *Computer Networks: A Systems Approach*, and Kalbag's *Accessibility for Everyone*.
+3. Continue rotating older review audits: OSTEP scheduler PDF renders 1.10/CFS while another extraction gave 1.20/EEVDF; CLRS's fourth-edition table differs from an explicitly preliminary JHU course schedule. Errata remain incomplete.
+4. Finish the 25–30-edition classification/findability pilot before renaming/splitting controlled subjects. Keep independent metadata separate. Candidate and retired records never count. Count **works**, not editions/translations/formats or index references.
+5. Preserve checkpoint and decisions, validate metadata/source links, self-review diff, and publish only from a **fresh confirmed `main` head** via a conditional **non-force** update.
 
-Availability is **not a filter** and no work was screened by price, access, region or file format. Older content is accepted only with verified present-day usefulness; the 2020 Google work is assessed using later independent critique and public engineering guidance without claiming unchanged internal practices.
-
-## Next-run priorities
-
-1. **Independently review the three pending recommendations** against the exact new commit; check original source links, dated evidence, content locators and material limitations. Pay particular attention to DDIA secondary subject breadth, author GitHub revision pin in Crafting Interpreters, and Google chapter/maintenance coverage. Mark pass or revert to candidate where required.
-2. Run a small rotating audit of older passes: OSTEP PDF rendering/text-extraction conflict and Linux EEVDF caveat; CLRS printing-specific errata and JHU preliminary schedule. Do not claim issues resolved by inability to read them.
-3. Research underrepresented **security, testing, networking, requirements and accessibility** works, with substantial contents, independent critical assessment or documented 2026 adoption, exact edition and current applicability. Leads (not endorsements): *Essentials of Compilation*, *Algorithm Design*, *Computer Systems: A Programmer's Perspective*.
-4. Validate all new/revised Markdown metadata, source identifiers, indexes and unique work IDs against the actual branch head. Complete the 25–30-edition classification pilot before structural taxonomy changes; eventually final-audit 2,000 works.
-
-## Publication and limitations
-
-Publish only against the freshly confirmed `main` head using a conditional non-force update. Source access date **2026-10-14** is not a source publication date. No full-book reading, completed exercises, exhaustive errata inspection, real-user taxonomy experiment, external purchase or unauthorized book-copy storage is claimed. The records hold exact source URLs, locations and date distinctions. Commit SHA cannot be embedded here without a circular self-reference.
+No cover-to-cover book readings, completed book exercises, complete live-source crawler, conclusive errata audit, availability/access filtering, purchases or unauthorized ebook copies are claimed. Source access date 2026-10-14 is not automatically a source publication date. The commit SHA of this checkpoint is deliberately not embedded inside itself.

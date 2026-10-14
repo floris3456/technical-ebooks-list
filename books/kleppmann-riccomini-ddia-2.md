@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "c1251db102898b3acc3c8ffec259153ae2dc0711"
 ---
 
 # Designing Data-Intensive Applications — Second edition
@@ -79,6 +79,10 @@ No claim is made that other sources do not exist. A potentially relevant 2026 au
 [S9]: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/ch06.html
 [S9-ch1]: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/ch01.html
 
+## Subsequent-run review (2026-10-14)
+
+Reviewed the actual published 2026 second-edition promotion in `c1251db102898b3acc3c8ffec259153ae2dc0711`. O'Reilly's chapter 1 and 6 intros directly confirm the second-edition architecture, replication and tradeoff discussion. Waterloo Fall 2026 CS431 explicitly prescribes this **second edition** and assigns chapters 1 and 3–7, while the March 30, 2026 independent second-edition review assesses its assumptions and architectural value. PostgreSQL 18's isolation documentation confirms that transactions and anomalies remain a live engineering challenge, not that every book example is error-free. The 2024 first-edition critique does not transfer automatically. The broad database, distributed-system and data-engineering secondary tags are supported by substantial listed material but remain open to retrieval-pilot evaluation. **Decision: pass, with depth and errata caveats.** [S1], [S4], [S6], [S7], [S8], [S9]
+
 ## Next review
 
-A later run must review this published promotion, recheck the chapter/edition sources, the scope of all secondary subjects, and current technical caveats. This is not yet an independent later-run pass.
+Check deeper consensus and transaction examples, source-specific errata, the justification for each secondary index, and comparison with a focused distributed-systems title. Subsequent review passed; the final collection audit has not.

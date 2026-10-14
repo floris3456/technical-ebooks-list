@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://craftinginterpreters.com/"
 last_verified: "2026-10-14"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "c1251db102898b3acc3c8ffec259153ae2dc0711"
 ---
 
 # Crafting Interpreters — 2021 publication
@@ -70,6 +70,10 @@ The author's original Markdown chapters, rather than failed HTML site fetches, a
 [S5]: https://github.com/munificent/craftinginterpreters/blob/4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4/book/a-virtual-machine.md
 [S6]: https://github.com/munificent/craftinginterpreters
 
+## Subsequent-run review (2026-10-14)
+
+Independently reviewed the committed promotion in `c1251db102898b3acc3c8ffec259153ae2dc0711`. Via the native GitHub connector, the author's exact pinned revision `4a840f70f69c6ddd17cfef4f6964f8e1bcd8c3d4` was fetched, including complete `book/introduction.md`, `book/scanning.md`, and `book/a-virtual-machine.md`. They substantiate two implementations, Java token scanning and the deliberately simplified global C VM (not production guidance for multiple VM instances). Portland State Winter 2026 **assigns chapters 2 and 15** while naming Siek's *Essentials of Compilation* its main text. USF further reading supports the scanner topic without implying Rust instruction. Edition printing and complete errata remain unknown, not grounds for rejecting the underlying work. **Decision: pass with these limits.** [S1], [S2], [S3], [S4], [S5]
+
 ## Next review
 
-A later run must recheck the published author-source links, printing/errata and how this hands-on title differs from a formal compiler text. This promotion is pending later-run review.
+Review printing/errata changes and compare hands-on interpreter goals with Siek's more formal compiler curriculum. Later-run review passed; final audit remains.

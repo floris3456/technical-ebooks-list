@@ -79,4 +79,4 @@ Reviewed the published recommendation in `66ba2abdc241a80f999bd7e58ad4ca5853ffc4
 
 ## Next review
 
-Inspect a substantive chapter/sample or official worked material, retrieve printing-specific errata if the interface permits, and evaluate audience fit against a focused alternative. Reconfirm that the schedule discrepancy is not being used to support incorrect chapter claims. This record awaits subsequent-run review.
+Inspect a substantive chapter/sample or official worked material, retrieve printing-specific errata if the interface permits, and evaluate audience fit against a focused alternative. Reconfirm that the schedule discrepancy is not being used to support incorrect chapter claims. This work passed its prior later-run review, but printing-specific errata and the comparison with specialized alternatives remain open.
