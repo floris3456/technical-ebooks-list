@@ -1,0 +1,3 @@
+# Cycle 05 validation, 2026-10-15
+
+Inspected front matter of all 29 canonical book files: 28 recommended with 28 unique work IDs, one uncounted candidate, 27 later-reviewed and one pending. The 23 topic pages carry 28 primary and 15 secondary appearances (43 total). The newly added CSAPP3e has one primary and one secondary index entry and all 16 evidence ledger IDs resolve. Python Architecture has passed later-run review at its previously published commit, reflected across all three category links. Compared 69 changed paths against starting main; none deletes earlier records or unrelated work. Persistent exact source logs include failures and provisional discovery. This is metadata/source validation, not a comprehensive 2,000-book audit.
