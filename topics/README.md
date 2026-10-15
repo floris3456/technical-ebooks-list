@@ -8,8 +8,8 @@ Subjects link to canonical book records through primary and substantial addition
 | [Computer Systems & Operating Systems](computer-systems-and-operating-systems.md) | 2 |
 | [Mathematics & Formal Methods](mathematics-and-formal-methods.md) | 1 |
 | [Programming Language Theory & Compilers](programming-language-theory-and-compilers.md) | 1 |
-| [Programming](programming.md) | 1 |
-| [Platform-Specific Development](platform-specific-development.md) | 1 |
+| [Programming](programming.md) | 2 |
+| [Platform-Specific Development](platform-specific-development.md) | 3 |
 | [Software Design & Code Quality](software-design-and-code-quality.md) | 1 |
 | [Software Architecture](software-architecture.md) | 2 |
 | [Requirements & Software Analysis](requirements-and-software-analysis.md) | 1 |
@@ -28,6 +28,6 @@ Subjects link to canonical book records through primary and substantial addition
 | [User Experience & Human–Computer Interaction](user-experience-and-human-computer-interaction.md) | 1 |
 | [Computer Graphics & Visualization](computer-graphics-and-visualization.md) | 1 |
 
-**35 subject appearances represent 24 distinct recommended works.** Twenty-two passed subsequent-run review; two await it. All 23 subjects are populated and 22 have primary coverage; platform-specific development remains secondary-only. One canonical candidate and two further deferred leads are retained in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts.
+**38 subject appearances represent 26 distinct recommended works.** Twenty-four passed later-run review; two await it. All 23 subjects now have primary coverage, but one recommendation per subject does not validate the taxonomy. One canonical candidate and three other deferred works are retained in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts.
 
 [STATE.md](../research/STATE.md) distinguishes pending, passed and final-audit states. Preserve controlled slugs in [TAXONOMY.md](../TAXONOMY.md) and update every affected index when a record changes. No repository generator has been installed.
