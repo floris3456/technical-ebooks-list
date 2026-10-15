@@ -1,0 +1,3 @@
+# Batch 009 A — accessed 2026-10-15
+
+https://ryhl.io/blog/async-what-is-blocking/ — Alice Ryhl original article 2020-12-21, complete scheduling tutorial, thread sleep versus async sleep, spawn_blocking and CPU blocking caveats; new substantive family #20. https://osv.dev/ — original OSV advisory database ecosystem schemas / crates.io, current dependency security context, new substantive family #21; project version shown 1.7.4, date unknown. Both provide independent/current technical context, not book endorsements.

@@ -1,0 +1,3 @@
+# Batch 009 B — accessed 2026-10-15
+
+https://tockos.org/documentation/getting-started/ — original Tock embedded OS tutorial covering Rust kernel, isolation via hardware MPU and untrusted apps. New substantive site #22; date unknown. https://fasterthanli.me/articles/some-mistakes-rust-doesnt-catch — independent 2022-02-07 Amos essay on mistakes Rust safety doesn't catch; 859-line article, opening/context only inspected, not all sections. New relevant site #23, caveat partial read.
