@@ -1,0 +1,3 @@
+# Batch 013 search-only leads, 2026-10-15
+
+https://mara.nl/atomics/preface.html — original preface copyright 2023 and corrections link (snippet, direct inspection pending). https://www.oreilly.co.jp/books/9784814400515/ — Japanese 2023 translation, not distinct work. https://www.penguinrandomhouse.com/books/790517/the-rust-programming-language-3rd-edition-by-steve-klabnik-carol-nichols-and-chris-krycho-with-contributions-from-the-rust-community/9781718504455/ — ebook ISBN metadata. https://www.oreilly.com/library/view/rust-atomics-and/9781098119430/ — publisher resources includes errata link; not yet verified corrections.
