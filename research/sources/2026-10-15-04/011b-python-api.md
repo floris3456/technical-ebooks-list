@@ -1,0 +1,3 @@
+# Batch 011 B, accessed 2026-10-15
+
+https://www.cosmicpython.com/book/chapter_11_external_events.html redirected same no .html, original author ch11 *Temporal Decoupling*, Redis pubsub and verification returned. https://docs.sqlalchemy.org/en/20/orm/mapping_api.html — current 2.0 Class Mapping API, registry.map_imperatively; reinspection pending exact text. https://mara.nl/atomics/ — original Bos whole-book contents and identity rechecked. https://www.habr.com/ru/companies/ssp-soft/articles/824384/ — invalid www host internal error; prior non-www Habr critical review remains saved, failure retained.

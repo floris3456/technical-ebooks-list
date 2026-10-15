@@ -1,0 +1,3 @@
+# Batch 011 A — detailed source reinspection 2026-10-15
+
+https://mara.nl/atomics/memory-ordering.html ch3 *Relaxed*, *Release and Acquire*, *Locking*: single atomic has modification order without cross-thread happens-before, READY Release→Acquire data visibility, spin mutex Acquire/Release; no code executed. https://mara.nl/atomics/building-spinlock.html ch4 *Spin Loop*, *An Unsafe Spin Lock*, *Summary*: busy-spin wastes CPU; std::hint::spin_loop is not scheduler park. Both returning author original 2023 online, revision unspecified.
