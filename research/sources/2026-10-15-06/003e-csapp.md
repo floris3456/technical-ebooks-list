@@ -1,0 +1,1 @@
+2026-10-15 inspected https://csapp.cs.cmu.edu/3e/errata.html, p59 shift, p201 carry flag, p547 SIMD corrections. Author update date 2025-06-25; North American edition only.
