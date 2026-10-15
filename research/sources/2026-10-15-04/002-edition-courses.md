@@ -1,0 +1,15 @@
+# Batch 002 — edition and course-source direct reads (2026-10-15)
+
+All URLs below directly opened; source publication/update dates separate from today's access. The goal is bibliographic truth and adoption boundaries, not purchase/availability research.
+
+| Exact attempted URL | Actually inspected and outcome | Original date / novelty |
+| --- | --- | --- |
+| https://nostarch.com/rust-programming-language-3e | Full publisher landing page lines 13–21 authors **Klabnik, Nichols, Krycho**, **March 2026**, 624pp, print ISBN 9781718504448; contents lines 59–90 including ownership, testing, concurrency, async, Miri and web server. Publisher claims are not independent appraisal. | March 2026; **known publisher family**, zero new |
+| https://doc.rust-lang.org/book/title-page.html | Official online book title page, same 3 authors, explicitly Rust **1.97.0 (released 2026-07-09)** or later, cargo edition 2024. This *living* online text may differ from fixed March 2026 print, so no page-for-page equivalence claim. | Updated release baseline July 2026; **new substantive rust-lang.org** (#1) |
+| https://www.cs.odu.edu/~tkennedy/cs395/sum26/Public/syllabus/index.html | Thomas Kennedy original Summer 2026 syllabus, *Required Materials* §2.1 links the official online Rust Book; §2.3 surprisingly says Rust 1.82.0 with **'Rust 2023 Edition'**, technically inconsistent, so do not infer edition-specific third-edition adoption or up-to-date toolchain teaching. | Last modified 2026-04-30; **new substantive odu.edu** (#2) |
+| https://www.cs.cornell.edu/courses/cs4414/2026fa/syllabus.html | Fall 2026 CS4414/5416 syllabus lists the online Rust Book among two required texts with CSAPP 3e; another Rust pedagogy adoption of an online work, not necessarily fixed 3e. | Fall 2026; **known cornell.edu** |
+| https://www.cse.wustl.edu/~cdgill/courses/cse542/ | Internal retrieval error; no document body read. Search snippet says Programming Rust 2e required, Rust Book 2e optional but **not promoted to examined evidence**. | Unknown; attempted wustl.edu, no substantive credit |
+| https://iqua.ece.toronto.edu/baochun/ece1724/ | Course original webpage opens; required textbook names **Steve Klabnik and Carol Nichols only** (older online edition identity ambiguous), so cannot cite as 3e-specific adoption. Course schedule Fall 2026 incl 2026 dates. | Fall 2026; **new substantive toronto.edu** (#3) |
+| https://www.penguin.com.au/books/the-rust-programming-language-3rd-edition-9781718504455 | Penguin's *EBook* record explicitly ISBN 9781718504455, Mar 31 2026, 3 author names. The separate 9781718504448 is paperback. Territorial print dates differ, not a new work. | 2026-03-31; **new inspected publisher-site family** (#4, metadata only) |
+
+The independent courses establish online work adoption but at present *not exact fixed March 2026 printing use*; this is an open evidence caveat, not an exclusion for access or age. Search snippets, prior results, bookstore rates and advertisements do not count as inspected book review.
