@@ -1,0 +1,1 @@
+Accessed 2026-10-15 original CSAPP3e supplement https://csapp.cs.cmu.edu/3e/waside/waside-blocking.pdf — complete 4-page author essay, visually inspected PDF page 1 (0-index 0) dated March 24 2015; cache blocking for temporal locality, warns readability and workload variation. Screenshot p3 timed out; no assertion of rendered remaining pages.

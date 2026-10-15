@@ -1,0 +1,1 @@
+Search-only 2026-10-15: https://www.cs.umd.edu/class/summer2026/cmsc216/ names CSAPP3e recommended (not newly read); https://cs.wellesley.edu/~cs240/f16/topics.html historical class use; https://csappbook.blogspot.com/ author 4e announcement previously read; OSU Reddit course recollections low-strength and not book assessment.

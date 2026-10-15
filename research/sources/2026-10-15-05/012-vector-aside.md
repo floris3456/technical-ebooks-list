@@ -1,0 +1,1 @@
+Accessed 2026-10-15 https://csapp.cs.cmu.edu/3e/waside/waside-simd.pdf — original 11-page vectorization supplement, visually inspected zero-index page 2 (printed p3): SSE dot-product simple example and AVX2 32-byte alignment/early GCC constraints; compiler claims historically situated. Book content supplements, not current implementation manual.
