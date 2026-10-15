@@ -1,0 +1,3 @@
+# Batch 016, accessed 2026-10-15: **original publisher third-edition sample**
+
+https://nostarch.com/download/samples/RustProgrammingLanguage3E_chapter2.pdf — legitimate publisher excerpt, 18 PDF pages; rendered inspected pp.1,8,18 (PDF zero pages 0,7,17). Chapter 2 *Guessing Game*: Rust 2024 Cargo.toml, Result handling, `rand` **0.8.5** sample, match/error handling, full program. This is fixed-edition text, not assumed identical to live doc.rust-lang.org. Its API dependency versions are time-bound; need compare current rand official docs. No program executed, not a full-book read.
