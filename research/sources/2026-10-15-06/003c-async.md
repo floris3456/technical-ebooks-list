@@ -1,0 +1,1 @@
+2026-10-15: Read https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html . Rust online book chapter 17, futures and async runtime. Original revision unspecified.
