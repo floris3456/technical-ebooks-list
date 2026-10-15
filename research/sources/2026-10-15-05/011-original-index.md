@@ -1,0 +1,1 @@
+Accessed 2026-10-15: https://csapp.cs.cmu.edu/3e/waside.html — authors' Web Asides index, ch2 bit-representation, ch3 assembly, ch5 SIMD, ch6 locality and blocking; copyrighted author material, complete supplemental pages not all inspected. CSAPP 3e ©2015 page; known domain.

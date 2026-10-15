@@ -1,0 +1,1 @@
+Attempted 2026-10-15: https://www.opengroup.org/membership/forums/platform/unix — retrieval internal error, no content inspected; no substantive novelty credit.
