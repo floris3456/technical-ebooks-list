@@ -1,0 +1,1 @@
+2026-10-15: Read https://doc.rust-lang.org/book/ch16-01-threads.html . Rust book chapter 16, thread spawning, join, and moving ownership into thread closures, lines 62-142 and 216-230. Page revision unspecified.
