@@ -4,6 +4,7 @@
 
 | Cycle | Persisted evidence | Novelty / status |
 | --- | --- | --- |
+| [2026-10-15-05](sources/2026-10-15-05/README.md) | Review of Python architecture, rotating OS sample, original CSAPP3e/errata and 2026 independent adoptions; immediate 001–012 source logs | 26 distinct newly visited websites, at least 22 substantively inspected conservatively; failures and partial sources distinguished. |
 | [2026-10-15-03](sources/2026-10-15-03/README.md) | Immediate batches 000–015, original book/reviewer evidence, technical counterchecks and failed discoveries | **22** substantively investigated new website families; no credits from cycle-02 source-only WIP. |
 | [2026-10-15-02](sources/2026-10-15-02/001-initial-technical-checks.md) | Observable source-only work 001–012 including CSS and browser caveats; not a recommendation pass or fully reconciled cycle | All those websites known for future novelty checks. |
 | [2026-10-15-01](sources/2026-10-15-01/README.md) | Exact retrieval batches 001–016, with start checkpoint and failed/discovery-only outcomes | 22 newly investigated website families; browser-book author blog merged, subdomains collapsed. |
@@ -30,3 +31,7 @@ Investigate at least 20 new websites per cycle without using irrelevant sources 
 The associated `browserbook.substack.com` author blog contributes no separate website credit. Oxford storefront failure and successful Oxford Academic bibliography count as one family. Repeated chapters, PDF renders and the known W3C/Pearson/O'Reilly/review sites add zero credits. The [cycle table](sources/2026-10-15-01/README.md#new-website-audit) maps each family to an exact inspected source and contribution.
 
 Discovery-only search hits, including irrelevant and retailer results, are retained in numbered logs and not counted as inspected evidence. Future runs should consult those attempts before assuming novelty; no claim is made that every source surfaced in search was read.
+
+## Newly visited website families — 2026-10-15-05
+
+`llvm.org`, `sourceware.org`, `valgrind.org`, `man7.org`, `gnu.org`, `intel.com`, `qemu.org`, `agner.org`, `openmp.org`, `open-std.org`, `osdev.org`, `dwarfstd.org`, `freebsd.org`, `ziglang.org`, `wellesley.edu`, `alistair.cockburn.us`, `ploeh.dk`, `go.dev`, `jemalloc.net`, `umd.edu`, `lwn.net`, `sel4.systems`, `godbolt.org`, `hmc.edu`, `harvard.edu`, `iso.org`. Four website families that yielded only navigational/index/metadata scope (Intel manual index, DWARF index, Godbolt landing, ISO edition record) do not contribute to the conservative 22 substantive count. Search-only URLs, failed responses and already-known CSAPP/CMU, Cosmic Python, SQLAlchemy, O'Reilly and other authors' site repeats add zero novelty. The [audit](sources/2026-10-15-05/README.md) defines the conservative site-by-site roles.
