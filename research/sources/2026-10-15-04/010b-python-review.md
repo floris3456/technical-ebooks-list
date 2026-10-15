@@ -1,0 +1,3 @@
+# Batch 010B, access 2026-10-15
+
+https://www.cosmicpython.com/book/chapter_02_repository.html → https://www.cosmicpython.com/book/chapter_02_repository : full original ch2 opened, fake repo, dependency inversion and mapping tradeoffs; returning author site. https://www.buresund.se/books/architecture-patterns-with-python/ — original March 13 2022 6/10 critical firsthand review returned; returning independent site. Detailed locators pending next inspection.

@@ -1,0 +1,3 @@
+# Batch 010A, 2026-10-15 direct reads
+
+https://doc.rust-lang.org/std/sync/atomic/enum.Ordering.html — Rust std **1.99.1 / 2026-10-13**, exact Relaxed/Acquire/Release/AcqRel/SeqCst definitions; returning Rust site. https://mara.nl/atomics/memory-ordering.html — Bos ch3 full webpage accessible; targeted semantics still to inspect. https://mara.nl/atomics/building-spinlock.html — original ch4 lock example available; returning author site. These reinforce durable concepts; no new website-family credits.
