@@ -1,7 +1,9 @@
 # Platform-Specific Development
 
-These entries link to canonical, cited book records. Additional subject appearances do not add to the work count.
+| Recommended work | Relationship | Review |
+| --- | --- | --- |
+| [Accessibility for Everyone — original 2017](../books/kalbag-accessibility-for-everyone-2017.md) | Additional: semantic HTML and accessible browser interactions | Passed |
+| [Eloquent JavaScript — fourth edition](../books/haverbeke-eloquent-javascript-4.md) | Additional: sustained browser/DOM and Node development | Pending |
+| [Web Browser Engineering — author text / Oxford edition](../books/panchekha-harrelson-web-browser-engineering.md) | Primary: implementing browser-platform mechanisms | Pending |
 
-- [Accessibility for Everyone (Laura Kalbag, original 2017)](../books/kalbag-accessibility-for-everyone-2017.md) — **additional**: significant coverage of semantic HTML, browser interactions and accessible web implementation; **passed subsequent-run review**.
-
-See the [taxonomy](../TAXONOMY.md) for boundaries and the [checkpoint](../research/STATE.md) for review status.
+A browser implementation is different from an application written for it; both fit this platform-focused browsing route. Follow the records for exact edition/inspection boundaries. See [taxonomy](../TAXONOMY.md), [all indexes](README.md) and [checkpoint](../research/STATE.md).

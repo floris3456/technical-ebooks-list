@@ -15,10 +15,10 @@ focus: [conceptual, practical, reference]
 formats: [epub, pdf]
 access: unknown
 official_url: "https://www.informit.com/store/working-effectively-with-legacy-code-9780132931779"
-last_verified: "2026-10-14"
+last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "f215171185fb7aeeb89a5cede06a006995bf6466"
 ---
 
 # Working Effectively with Legacy Code — First edition
@@ -57,7 +57,7 @@ This record evaluates the identified **first edition**, not an asserted globally
 
 ## Evidence ledger
 
-All sources accessed **2026-10-14**. Publication/update dates are distinct from access dates. Original PDF pages were rendered and inspected; no OCR-derived or full-book reading claim is made.
+The initial sources were accessed **2026-10-14**. The separate review below records **2026-10-15** reinspection; earlier access dates are not silently replaced. Original PDF pages were rendered and inspected; no OCR-derived or full-book reading claim is made.
 
 | ID | Exact source and inspected locator | Source date / role |
 | --- | --- | --- |
@@ -68,6 +68,14 @@ All sources accessed **2026-10-14**. Publication/update dates are distinct from 
 | [S5] | [pytest monkeypatch](https://docs.pytest.org/en/stable/how-to/monkeypatch.html), purpose, cleanup and Path.home example | Live stable documentation; revision date unspecified |
 | [S6] | [Testcontainers Java](https://java.testcontainers.org/), About and Prerequisites | Live documentation; revision date unspecified |
 
+## Subsequent-run review — 2026-10-15
+
+**Passed with existing limitations**, after reviewing the recommendation published at `f215171185fb7aeeb89a5cede06a006995bf6466`. Reinspected the original sample's rendered PDF pages 30 and 42 and the complete June 2005 Petersen review. The seam example and critique support practical dependency-breaking pedagogy; neither establishes that characterization proves desired correctness. [S2], [S3]
+
+Current [Flask testing guidance](https://flask.palletsprojects.com/en/stable/testing/), *Fixtures*, *Sending Requests with the Test Client* and *Tests that depend on an Active Context*, gives a concrete fidelity check: the test client does not run a live server, and a manually pushed request context does not run dispatch hooks automatically. [Vitest Browser Mode](https://vitest.dev/guide/browser/), *Limitations*, likewise explains restrictions on spies and mocked blocking dialogs. Both were inspected on 2026-10-15; exact page-update dates are unspecified. These support a qualified testability recommendation, not a claim that the 2004 examples teach Flask/Vitest or run unchanged today.
+
+Maintenance primary and testing secondary remain justified. No core recommendation was changed, no new edition counted, and no exhaustive errata clearance or executed exercise is claimed. Exact revisit outcomes are in [this cycle's ledger](../research/sources/2026-10-15-01/README.md).
+
 ## Next review
 
-**Pending a genuinely later run.** Reopen the original seam example and independent review; test whether the recommended audience and secondary testing classification are justified. Inspect more characterization material and significant errata. Modern test examples were not executed; availability and age were not selection filters.
+Passed later-run review; final audit remains. Inspect deeper characterization examples, significant printing-specific corrections and one representative modern implementation. Preserve the distinction between observed behavior, desired requirements and the fidelity of isolated tests.
