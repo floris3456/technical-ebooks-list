@@ -1,0 +1,3 @@
+# Search discovery 2026-10-15
+
+Queries on Rust Book third edition, university teaching, Atomics and Locks, and Programming Rust. Search snippets, not full source inspections. URLs surfaced: https://nostarch.com/rust-programming-language-3e ; https://doc.rust-lang.org/book/title-page.html ; https://www.cs.cornell.edu/courses/cs4414/2026fa/syllabus.html ; https://www.cs.odu.edu/~tkennedy/cs395/sum26/Public/syllabus/index.html . All original publication dates and adoption/edition links await direct verification; zero substantive-website credits.
