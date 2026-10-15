@@ -1,0 +1,15 @@
+# Batch 004 — browser engines, HTTP, security, accessibility
+
+Seven new website families opened directly and inspected **2026-10-15**. Their informational role is current context / original engineering comparisons, **not** independent book endorsements. Separate source dates from access. Chromium page contains obsolete-linked designs: no timeless-currency inference.
+
+| Attempted exact URL | Resolved URL and inspected scope | Source date |
+| --- | --- | --- |
+| https://www.chromium.org/developers/design-documents/ | Same URL; *Start Here: Background Reading*, multi-process architecture, IPC, sandbox, GPU compositing, rendering and network section index. Several linked design documents explicitly marked outdated/obsolete; the map shows major production subsystems omitted by teaching browser, not 2026 implementation truth for each legacy link. **New family**. | Original/update unspecified |
+| https://servo.org/ | Same URL; original Servo engine project homepage and focus on embeddable web components. Relevant alternative engine project, not a review of a book. **New family**. | Current page, update unspecified |
+| https://ladybird.org/ | Same URL; Ladybird browser project homepage / mission. Independently documents complexity and existence of modern engine projects; don't transfer marketing/performance claims into pedagogical assessment. **New family**. | Exact update not established |
+| https://www.ietf.org/rfc/rfc9110.html | Redirect to https://www.rfc-editor.org/rfc/rfc9110.html ; normative RFC 9110 *HTTP Semantics* returned (7,447 lines): methods, status, caching and semantics are more complete than educational examples. **One RFC-editor/IETF family**, not two. | RFC 9110 published June 2022, as identified by RFC; page access 2026-10-15 |
+| https://portswigger.net/web-security/cross-site-scripting | Same URL; Web Security Academy *What is cross-site scripting* and prevention. A teaching browser's omissions of full secure JS/HTML integration are substantive, not a reason to exclude concepts. **New family**. | Original update unspecified |
+| https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/ | Same URL; original *Tasks, microtasks, queues and schedules* with Promise versus timer/event ordering. Technical independent explanation useful to cross-check Eloquent JS async chapter and teaching-browser scheduling simplification. **New family**. | 2015 article, exact day still to check |
+| https://www.a11yproject.com/checklist/ | Same URL; checklist organizing keyboard, labels, visual focus, semantic markup and WCAG-focused implementation checks. Context for Kalbag's introductory web accessibility principles, not replacement for official W3C conformance text. **New family**. | Update date unknown |
+
+All seven are new inspected website families against saved site ledger, with subject-specific substantive page scope, though Chromium/Servo/Ladybird homepages are only broad scope evidence. Conservative novelty at least 4 new substantive (RFC-editor, PortSwigger, Jake Archibald, A11Y); verify project-page depth later before claiming more. No price/link availability selection.
