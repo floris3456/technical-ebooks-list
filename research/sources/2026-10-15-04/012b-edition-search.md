@@ -1,0 +1,3 @@
+# Batch 012B — search/discovery 2026-10-15, not new inspected documents
+
+https://www.oreilly.com/library/view/the-rust-programming/0642572230241/ — original 2026 third-edition publisher contents search lead. https://www.hightechmind.io/learn/rust-curriculum/ — prior-read exact-3e independent self-study design. https://doc.rust-lang.org/book/ — current online book. https://nostarch.com/rust-programming-language-3e — primary 2026 book; https://www.penguinrandomhouse.com/books/790517/the-rust-programming-language-3rd-edition-by-steve-klabnik-carol-nichols-and-chris-krycho-with-contributions-from-the-rust-community/9781718504448/ — syndicated publisher listing.

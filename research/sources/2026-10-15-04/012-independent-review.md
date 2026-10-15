@@ -1,0 +1,3 @@
+# Batch 012A — directly read 2026-10-15
+
+https://habr.com/ru/companies/ssp-soft/articles/824384/ — complete short independent firsthand review by Sergey Berezin, published **2024-06-25**: useful concrete atomic and locking examples, comparisons, requires strong Rust and concurrency background, narrow specialization. Publisher-discount advert and company hiring promotion disclosed; not a controlled study. Returning Habr domain. https://www.oreilly.com/library/view/rust-atomics-and/9781098119430/ — O'Reilly bibliographic book page, contents; exact date/subtype verification pending. Known publisher.
