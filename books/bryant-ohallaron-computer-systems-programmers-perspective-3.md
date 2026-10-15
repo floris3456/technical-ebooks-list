@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://csapp.cs.cmu.edu/3e/about.html"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "b230dc31ecfcc3f1fd03d1b1c1e6a25d632f6073"
 ---
 
 # Computer Systems: A Programmer's Perspective — North American third edition
@@ -81,7 +81,14 @@ No exhaustive correction-by-printing check, whole-text inspection, benchmark rep
 | S14 | [GCC optimizer options](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html), levels / flags | Live documentation, update unspecified; not book appraisal |
 | S15 | [Authors' official errata](https://csapp.cs.cmu.edu/3e/errata.html), North American 3e corrections and Global caveat | **Last updated 2025-06-25**; unexhausted printing checks |
 | S16 | [Author's future-edition announcement](https://csappbook.blogspot.com/2026/06/the-4th-edition-is-in-works.html), June posting | **2026-06-02**; planned 4e **not published** |
+| S17 | [Cornell CS4414 Fall 2026](https://www.cs.cornell.edu/courses/cs4414/2026fa/syllabus.html), required CSAPP3e and unit schedule | Independent Fall **2026** academic adoption; compiled **2026-10-08** |
+
+## Subsequent-run review — 2026-10-15
+
+**Passed with significant C-correctness and exercise-set caveats**, reviewing the already published canonical record on main at `b230dc31ecfcc3f1fd03d1b1c1e6a25d632f6073`. Reopened the author's original US-third-edition errata: p.59 requires qualifying C shift counts, p.201 corrects carry-flag analysis, and p.547 revises a SIMD throughput bound (entries dated 2015, 2021 and 2022 in the list updated 2025-06-25). Harvard's **2026** instructors independently warn that the text's explanation of signed-integer overflow and undefined behavior is inaccurate in places and synchronization treatment is less strong; do **not** trust it alone as a current C specification. The 2026 Cornell course additionally specifies the same third edition, consistent with Harvard/Harvey Mudd. The author's **2026-06-02 fourth-edition-in-preparation notice is not a published fourth edition**. [S6], [S7], [S15]–[S17]
+
+The primary subject remains the programming-to-machine/OS interface; the performance secondary rests on concrete cache and vectorization chapters and author asides, not incidental mentions. General reasoning about binary representation, caches, linking and processes survives newer compiler/architecture versions, but detailed code must be checked against a current C standard and concrete platform. The **Global/international exercises** differ and have no established complete official errata; this is a contents/correction warning, not a price/geography exclusion. No C example or lab was executed, and the exact original page-59 paragraph was not available for this review. **Passed is not final-audit clearance**. [S2]–[S6], [S10]–[S17]
 
 ## Next review
 
-**Pending a genuinely subsequent run.** Reinspect author errata directly against one original chapter and Harvard's integer-overflow warning; confirm actual 4e publication status and printing identifiers without conflating Global exercises. Test a representative memory/debug/performance example on a declared compiler/processor rather than assuming 2015 numbers. Independently challenge whether the broad OS subject and performance secondary are well matched. The pending status cannot pass in this publishing cycle.
+Passed later-run assessment with limitations. Compare a specific original C integer/overflow paragraph to WG14's current normative text, run a representative lab on a declared toolchain, inspect printing-specific errata/Global problem differences, and revisit whether the broader performance secondary helps subject retrieval. No complete-book reading or final collection-wide approval.
