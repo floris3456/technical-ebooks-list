@@ -1,0 +1,7 @@
+# Batch 005 — title and errata discovery (search-only)
+
+Access 2026-10-15. Three web searches; excerpts not full-page readings or novel substantive sites.
+
+Relevant exact results: https://www.oreilly.com/library/view/database-internals/9781492040330/copyright-page01.html (2019 first-edition revision-history lead); https://www.oreilly.com/library/view/database-internals/9781492040330/ ; https://www.oreilly.com/library/view/database-internals/9781492040330/cover.html ; https://www.managementboek.nl/boek/9781492040347/database-internals-alex-petrov ; https://www.devreading.com/book/database-internals/ ; https://www.schweitzer-online.de/ebook/Petrov/Database-Internals/9781492040309/A53060283/ ; https://books.google.com/books/about/Database_Internals.html?id=-l2vDwAAQBAJ ; https://d2cvlmmg8c0xrp.cloudfront.net/book/database-internals.pdf (unverified provenance, not downloaded); https://studylib.net/doc/27777547/database-internals and https://studylib.net/doc/27777544/database-internals (unverified reposts, not opened); https://www.buresund.se/books/architecture-patterns-with-python/ (returning). Other irrelevant search results excluded.
+
+No new substantive inspected websites. Only O'Reilly original document or legitimate excerpts will establish version/errata; listings and recycled synopses do not count as independent evaluation.
