@@ -1,0 +1,4 @@
+# Batch 006 — evaluated source excerpts, 2026-10-15
+
+https://habr.com/ru/companies/ssp-soft/articles/824384/ — original 2024-06-25 review by Sergey Berezin, *pros*, *features*, *conclusion*: endorses concrete low-level examples, but warns high prerequisite bar and narrow focus; also has promotional discount code. Independent reviewer not controlled teaching trial. Returning site.
+https://doc.rust-lang.org/book/ch17-01-futures-and-syntax.html — original Rust Book chapter 17 first async example: `trpl` wrapper bundles Tokio/futures and is pedagogical, not a standard library runtime; async main requires an executor. Current live text, revision date unknown. Returning site.
