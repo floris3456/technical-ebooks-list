@@ -1,0 +1,1 @@
+2026-10-15 book review search-only: https://www.oreilly.com/library/view/programming-rust-3rd/9781098176228/ ; https://best-devbooks.github.io/rust-books/books/rust-atomics-and-locks/ . No source bodies inspected or novel-site credits.
