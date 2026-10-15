@@ -1,0 +1,1 @@
+2026-10-15: Opened https://nostarch.com/download/samples/RustProgrammingLanguage3E_chapter2.pdf. Official third-edition chapter 2 excerpt; examined rendered pages 1, 6, 13 (1-based). Guessing-game implementation and error handling. Book dates from publisher are March 2026; no complete-book reading claim.
