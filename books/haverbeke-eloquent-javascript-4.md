@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://eloquentjavascript.net/"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "3c0c9d505e77a0d99bb5cb641b20d54da9df715c"
 ---
 
 # Eloquent JavaScript — Fourth edition
@@ -72,7 +72,7 @@ All sources accessed **2026-10-15**; dates below are original publication/update
 
 ## Next review
 
-Pending a genuinely later run. Recheck exact-edition syllabus evidence and its date conflict, one original async/DOM example, the print-only chapter boundary and significant errata. Compare audience fit against a focused JavaScript reference; do not substitute older-edition publisher praise for independent fourth-edition evidence.
+Passed qualified subsequent-run review (see decision below). For eventual final audit, recheck exact-edition syllabus evidence and its date conflict, one original async/DOM example, the print-only chapter boundary and significant errata. Compare audience fit against a focused JavaScript reference; do not substitute older-edition publisher praise for independent fourth-edition evidence.
 
 [S1]: https://eloquentjavascript.net/
 [S2]: https://nostarch.com/eloquent-javascript-4th-edition
@@ -84,3 +84,11 @@ Pending a genuinely later run. Recheck exact-edition syllabus evidence and its d
 [S8]: https://nodejs.org/api/fs.html#promises-api
 [S9]: https://ecma-international.org/publications-and-standards/standards/ecma-262/
 [S10]: https://react.dev/learn/creating-a-react-app
+
+## Subsequent-run review — 2026-10-15-03
+
+**Pass, with a targeted correction; reviewed previously published work at `3c0c9d505e77a0d99bb5cb641b20d54da9df715c`.** Reopened original fourth-edition chapter 11 (async/Promises and deliberate shared-state failure), chapter 14 (DOM live collection and CSS discussion), official errata and the **rendered** Santa Rosa Spring 2026 syllabus PDF pages 1, 5 and 11. The course actually requires **fourth edition** and assigns specific chapters; a PDF metadata title says Spring 2025, so do not silently harmonize it with the body. [S3], [S4], [S5], [S6]
+
+**Correction:** in chapter 14, the beginner statement that inline styles *always* prevail is too broad. [CSS Cascading and Inheritance Level 5 §6](https://www.w3.org/TR/css-cascade-5/#cascading) orders declarations by cascade origin, importance, layers, specificity and order; a user-important rule may override normal author inline styling. Chapter 11's comparison of async functions with generators is pedagogical: [MDN async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) return Promises, while [async generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function*) expose asynchronous iterators. Neither shorthand is a reason to reject the durable DOM/Promise instruction, but do not treat the book as a complete current CSS/ECMAScript specification. The dated 2024 fourth-edition errata remain open to printing-specific verification.
+
+The book remains primarily **Programming**, with substantial browser and Node material as secondary Platform-Specific Development; neither a CSS nor compiler subject is implied by examples. Current [TypeScript handbook](https://www.typescriptlang.org/docs/handbook/intro.html) assumes JavaScript fundamentals, and modern framework/test tooling requires additional references. No examples were executed, no complete-book evaluation or final-audit clearance is claimed. [Cycle evidence](../research/sources/2026-10-15-03/README.md) records visits and review limits. This pass is not a second vote counted as a new work.

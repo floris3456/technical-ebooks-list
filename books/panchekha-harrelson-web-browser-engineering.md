@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://browser.engineering/"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "3c0c9d505e77a0d99bb5cb641b20d54da9df715c"
 ---
 
 # Web Browser Engineering — Oxford edition and author-hosted text
@@ -71,7 +71,7 @@ All accessed **2026-10-15**, keeping document dates separate.
 
 ## Next review
 
-Pending later-run review. Compare one author chapter with the Oxford edition, seek independent post-publication assessment or adoption, inspect current library assumptions and significant errata, and test whether the primary classification helps readers find browser-internals material. Retain the distinction between earlier online adoption and later print publication.
+Passed qualified subsequent-run review of the author-hosted work (see decision below). For final audit, compare one author chapter with the Oxford edition, seek independent post-publication assessment or adoption, inspect current library assumptions and significant errata, and test whether the primary classification helps readers find browser-internals material. Retain the distinction between earlier online adoption and later print publication.
 
 [S1]: https://academic.oup.com/book/59224
 [S2]: https://browser.engineering/
@@ -82,3 +82,11 @@ Pending later-run review. Compare one author chapter with the Oxford edition, se
 [S7]: https://html.spec.whatwg.org/multipage/webappapis.html#event-loops
 [S8]: https://web-platform-tests.org/
 [S9]: https://webkit.org/blog/17818/announcing-interop-2026/
+
+## Subsequent-run review — 2026-10-15-03
+
+**Pass qualified later-run review of the author-hosted browser-building work published in record `3c0c9d505e77a0d99bb5cb641b20d54da9df715c`.** Reinspected original [chapter 12](https://browser.engineering/scheduling.html) task queues and [the omissions chapter](https://browser.engineering/skipped.html), UW's [Spring 2023 course](https://courses.cs.washington.edu/courses/cse493x/23sp/) with weekly exercises on the **earlier online text**, and Oxford's 2024 electronic / 2025 print bibliographic page. Neither that old syllabus nor a print copyright date proves the author-hosted text is byte-identical to the Oxford edition; no post-publication print review or full publisher chapter was inspected.
+
+The enduring lesson is how a small browser assembles networking, parsing, layout, event scheduling and compositing. The book's simplified FIFO task system, retained callbacks, omitted complete HTML/CSS/JS/TLS compliance and security machinery are **intentional teaching shortcuts**, not a viable recipe for visiting hostile websites. The [HTML event loop standard](https://html.spec.whatwg.org/multipage/webappapis.html#event-loops), [Chromium design document index](https://www.chromium.org/developers/design-documents/) (some linked legacy pages explicitly obsolete), and [PortSwigger XSS academy](https://portswigger.net/web-security/cross-site-scripting) identify much broader real-browser behavior and threats. These are technical counterchecks, not independent book reviews.
+
+**Classification retained:** Platform-Specific Development is the main teaching objective (building a browser), not generic Programming or an exhaustive compilers or graphics textbook. Future final-audit blockers remain Oxford/online version correspondence, significant errata and actually running a representative current-library example. No complete original-text reading, conformance suite, safe production browser or final collection audit is claimed. [Cycle evidence](../research/sources/2026-10-15-03/README.md) preserves exact source checks.

@@ -6,15 +6,15 @@ An evidence-backed catalog of programming, software engineering and computing eb
 
 | Measure | Distinct works |
 | --- | ---: |
-| Recommended after initial research | 26 |
-| Passed a subsequent-run review | 24 |
-| Recommendations awaiting later-run review | 2 |
+| Recommended after initial research | 27 |
+| Passed a subsequent-run review | 26 |
+| Recommendations awaiting later-run review | 1 |
 | Canonical research candidates, not counted | 1 |
-| Retained deferred works, including that candidate | 4 |
+| Retained deferred works, including that candidate | 5 |
 | Completed final collection audit | 0 |
 | Target after review and final audit | 2,000 |
 
-Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Feathers and Reis/Housley have passed later-run review with limitations retained. Eloquent JavaScript and Web Browser Engineering await review. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
+Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Eloquent JavaScript and Web Browser Engineering now pass qualified later-run assessment of their previously published records; the new Architecture Patterns with Python work awaits later review. All pass decisions retain technical and edition limits. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
 
 ## Browse recommendations
 
@@ -28,8 +28,8 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 | [Crafting Interpreters](books/nystrom-crafting-interpreters-2021.md) | 2021 | Programming Language Theory & Compilers | Passed |
 | [Logical Foundations](books/pierce-logical-foundations-v7.md) | Vol. 1, v7.0 (2026; v7.1 noted) | Mathematics & Formal Methods | Passed |
 | [How to Design Programs](books/felleisen-how-to-design-programs-2.md) | Second (2018; web revision 2026) | Programming | Passed |
-| [Eloquent JavaScript](books/haverbeke-eloquent-javascript-4.md) | Fourth (2024) | Programming | Pending |
-| [Web Browser Engineering](books/panchekha-harrelson-web-browser-engineering.md) | Electronic 2024 / print 2025; author text inspected | Platform-Specific Development | Pending |
+| [Eloquent JavaScript](books/haverbeke-eloquent-javascript-4.md) | Fourth (2024) | Programming | Passed |
+| [Web Browser Engineering](books/panchekha-harrelson-web-browser-engineering.md) | Electronic 2024 / print 2025; author text inspected | Platform-Specific Development | Passed (online text) |
 | [Pro Git](books/chacon-straub-pro-git-2.md) | Second (2014; maintained web text) | Software Engineering Practices & Collaboration | Passed |
 | [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Passed |
 | [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Passed |
@@ -44,6 +44,7 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 | [The Site Reliability Workbook](books/beyer-murphy-rensin-kawahara-thorne-site-reliability-workbook-2018.md) | 2018 | Reliability & Observability | Passed |
 | [Continuous Delivery](books/humble-farley-continuous-delivery-1.md) | First (2010; copyright 2011) | DevOps, Cloud & Infrastructure | Passed |
 | [Release It!](books/nygard-release-it-2.md) | Second (2018) | Software Architecture | Passed |
+| [Architecture Patterns with Python](books/percival-gregory-architecture-patterns-with-python-1.md) | First (March 2020) | Software Architecture | Pending |
 | [Working Effectively with Legacy Code](books/feathers-working-effectively-with-legacy-code-1.md) | First (2004; copyright 2005) | Software Maintenance & Legacy Systems | Passed |
 | [Fundamentals of Data Engineering](books/reis-housley-fundamentals-of-data-engineering-1.md) | First (2022) | Data Engineering | Passed |
 
@@ -53,7 +54,7 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 
 [UNSELECTED.md](research/UNSELECTED.md) retains evaluated works that did not meet the criteria, including any future removals, with concise reasons, sources and reconsideration conditions. Incomplete evidence is distinguished from a supported quality rejection.
 
-Currently deferred: Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, and Test-Driven Development with Python third edition. Only Infrastructure as Code has a canonical candidate file. None was excluded because of age, price or acquisition status.
+Currently deferred: Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, Test-Driven Development with Python third edition, and Database Internals first edition. Only Infrastructure as Code has a canonical candidate file. None was excluded because of age, price or acquisition status.
 
 ## Selection principles
 

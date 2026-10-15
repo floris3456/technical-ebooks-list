@@ -1,0 +1,9 @@
+# Cycle 2026-10-15-03 — source audit
+
+All external access was **2026-10-15**, which is distinct from each source's publication/update date. The chronological [000–015 logs](./) preserve exact attempted and redirect URLs, actual inspected parts, search-only results and failures. Prior source-only cycle-02 WIP was reviewed and preserved, not double counted.
+
+**22 newly and substantively inspected site families** (one credit per website): `cosmicpython.com`, `buresund.se`, `noahtigner.com`, `sqlalchemy.org`, `fastapi.tiangolo.com`, `celeryq.dev`, `microservices.io`, `mongodb.com`, `clickhouse.com`, `cockroachlabs.com`, `yugabyte.com`, `questdb.com`, `mariadb.com`, `temporal.io`, `nats.io`, `rabbitmq.com`, `pydantic.dev`, `eventcatalog.dev`, `opensearch.org`, `asyncapi.com`, `redpanda.com`, `conductor-oss.org`.
+
+The original author chapters on cosmicpython.com and dated critical book assessment on buresund.se are book-specific evidence; the separate modern platform/API sites substantiate currency or alternatives, **not** independent endorsements of a textbook. The solo reader's Database Internals chapter notes are not a whole-work expert assessment. Failed Redis, FoundationDB, TiKV, ScyllaDB, Percona, SingleStore, Sentry, EventStore and O'Reilly errata opens and a blocked Reddit full review remain recorded and uncredited. Unverified book reposts were not downloaded. Known sites including author JavaScript/browser texts, publisher O'Reilly, university syllabi and PostgreSQL gained no new-family credit.
+
+Outcome: later-run assessments on two pending original works, one newly researched Python architecture work pending later-run approval, one retained unselected database-systems work. No full-book reading, exercise execution, availability filter or final collection audit. [STATE](../../STATE.md), [UNSELECTED](../../UNSELECTED.md), [REJECTIONS](../../REJECTIONS.md) record decisions.
