@@ -1,0 +1,1 @@
+2026-10-15: https://corrode.dev/blog/bugs-rust-wont-catch/ original Matthias Endler essay dated 2026-04-29. Inspected full text including filesystem checks, error handling, input byte encoding. Returning site, technical critique, not book review.
