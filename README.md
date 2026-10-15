@@ -6,21 +6,21 @@ An evidence-backed catalog of programming, software engineering and computing eb
 
 | Measure | Distinct works |
 | --- | ---: |
-| Recommended after initial research | 28 |
-| Passed a subsequent-run review | 27 |
+| Recommended after initial research | 29 |
+| Passed a subsequent-run review | 28 |
 | Recommendations awaiting later-run review | 1 |
 | Canonical research candidates, not counted | 1 |
 | Retained deferred works, including that candidate | 5 |
 | Completed final collection audit | 0 |
 | Target after review and final audit | 2,000 |
 
-Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Architecture Patterns with Python now passes a qualified subsequent-run review of the previously published work; the new third-edition Computer Systems: A Programmer's Perspective awaits later review. All passes retain technical and edition limits. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
+Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Computer Systems: A Programmer's Perspective now passes qualified later-run review while retaining major C/errata and edition cautions. The Linux Programming Interface is a new recommendation awaiting an independent later-run review. All passes retain technical and edition limits. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
 
 ## Browse recommendations
 
 | Work | Edition recorded | Primary subject | Review |
 | --- | --- | --- | --- |
-| [Computer Systems: A Programmer's Perspective](books/bryant-ohallaron-computer-systems-programmers-perspective-3.md) | Third US edition (2015 publication; 2016 copyright) | Computer Systems & Operating Systems | Pending |
+| [Computer Systems: A Programmer's Perspective](books/bryant-ohallaron-computer-systems-programmers-perspective-3.md) | Third US edition (2015 publication; 2016 copyright) | Computer Systems & Operating Systems | Passed |
 | [Operating Systems: Three Easy Pieces](books/arpaci-dusseau-ostep-1-10.md) | 1.10 (2023) | Computer Systems & Operating Systems | Passed |
 | [Introduction to Algorithms](books/cormen-introduction-to-algorithms-4.md) | Fourth (2022) | Algorithms & Data Structures | Passed |
 | [Database System Concepts](books/silberschatz-korth-sudarshan-database-system-concepts-7.md) | Seventh (2019) | Databases & Data Modeling | Passed |
@@ -31,6 +31,7 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 | [How to Design Programs](books/felleisen-how-to-design-programs-2.md) | Second (2018; web revision 2026) | Programming | Passed |
 | [Eloquent JavaScript](books/haverbeke-eloquent-javascript-4.md) | Fourth (2024) | Programming | Passed |
 | [Web Browser Engineering](books/panchekha-harrelson-web-browser-engineering.md) | Electronic 2024 / print 2025; author text inspected | Platform-Specific Development | Passed (online text) |
+| [The Linux Programming Interface](books/kerrisk-linux-programming-interface-1.md) | First edition (2010; corrected-printing notes checked 2026) | Platform-Specific Development | Pending |
 | [Pro Git](books/chacon-straub-pro-git-2.md) | Second (2014; maintained web text) | Software Engineering Practices & Collaboration | Passed |
 | [Software Engineering at Google](books/winters-manshreck-wright-software-engineering-at-google-2020.md) | 2020 | Software Engineering Practices & Collaboration | Passed |
 | [Security Engineering](books/anderson-security-engineering-3.md) | Third (2020) | Software Security & Privacy | Passed |

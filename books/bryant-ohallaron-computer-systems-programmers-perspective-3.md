@@ -15,10 +15,10 @@ focus: [conceptual, practical]
 formats: []
 access: unknown
 official_url: "https://csapp.cs.cmu.edu/3e/about.html"
-last_verified: "2026-10-15"
+last_verified: "2026-10-16"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "b230dc31ecfcc3f1fd03d1b1c1e6a25d632f6073"
 ---
 
 # Computer Systems: A Programmer's Perspective — North American third edition
@@ -84,4 +84,12 @@ No exhaustive correction-by-printing check, whole-text inspection, benchmark rep
 
 ## Next review
 
-**Pending a genuinely subsequent run.** Reinspect author errata directly against one original chapter and Harvard's integer-overflow warning; confirm actual 4e publication status and printing identifiers without conflating Global exercises. Test a representative memory/debug/performance example on a declared compiler/processor rather than assuming 2015 numbers. Independently challenge whether the broad OS subject and performance secondary are well matched. The pending status cannot pass in this publishing cycle.
+Passed subsequent-run assessment with substantial caveats. Reinspect original printed integer-arithmetic chapter against Harvard's undefined-behavior warning, and printing-specific errata; confirm 4e publication status and distinguish Global exercises. Test a representative memory/debug/performance example on a declared compiler/processor rather than assuming 2015 numbers. Independently challenge whether the broad OS subject and performance secondary are well matched. The pending status cannot pass in this publishing cycle.
+
+## Subsequent-run independent review — 2026-10-16
+
+**Decision: pass with explicit correctness and edition limitations**, reviewing the recommendation as previously published in `b230dc31ecfcc3f1fd03d1b1c1e6a25d632f6073`. Reopened the original **2015-03-24 MEM:BLOCKING** Web Aside and visually inspected page 1: blocking improves temporal locality but complicates source readability, a useful optimization tradeoff rather than a modern speed guarantee. Independently rechecked **Harvard CS61 2026** exact unit assignments and its critical counterclaim: incorrect descriptions of signed-integer overflow/undefined behavior and weaker synchronization coverage. [S3], [S6]
+
+Author errata last updated **2025-06-25** confirm nontrivial defects in **p.59** shift rules, **p.201** subtraction carry-flag conditions and **pp.546–547** vector code/table annotations, not only typographical slips. The errata apply specifically to the North American edition; no correspondence to the Global exercise set or all printings is assumed. The author's **2026-06-02** statement still described edition 4 as *in development*, estimated Spring 2027; this does not create a new 2026 recommendation. [S15], [S16]
+
+Taken with the independent 2026 educational adoption, original machine/memory contents and modern C/compiler references already mapped above, the central systems-model learning remains useful **provided readers do not rely on this text as an authoritative source for every C undefined-behavior detail, 2026 GCC optimization or updated microarchitecture**. Keep **Computer Systems & Operating Systems** primary, **Debugging & Performance Engineering** additional; another separate language/architecture category is not justified. No full original ch2 text, printed-page side-by-side verification, actual benchmark reproduction, comprehensive errata audit or final catalog-wide audit occurred. All four direct rechecks accessed **2026-10-16**, separate from their source dates; [exact retrieval log](../research/sources/2026-10-16-01/010-csapp-review.md) records outcomes. Remain open to removal/reclassification if an original-depth audit finds central unsoundness.
