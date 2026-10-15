@@ -1,0 +1,1 @@
+Research log: 2026-10-15. Six returning sources opened. Exact URL details to follow.
