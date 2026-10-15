@@ -1,0 +1,3 @@
+# Batch 005 A — original publication data, accessed 2026-10-15
+
+https://nostarch.com/download/resources/RustProgrammingLanguage3E_Copyright.pdf — **rendered page 1 visually inspected**: third edition ©2026, first printing, ISBN 9781718504448 *print*, 9781718504455 *ebook*. First-edition Library of Congress entry also appears and must not be mistaken for third-edition author metadata. Original 2026. Known No Starch family, zero novelty.

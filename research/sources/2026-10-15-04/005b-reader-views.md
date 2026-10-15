@@ -1,0 +1,4 @@
+# Batch 005 B — actual source bodies accessed 2026-10-15
+
+https://habr.com/ru/companies/ssp-soft/articles/824384/ — Russian original dated 2024-06-25 review of Mara Bos's Atomics book, covers prerequisites and low-level scope. Practitioner appraisal, not a formal experiment. New substantive **habr.com** family (#6).
+https://hightechmind.io/learn/rust-curriculum/ — extensive 15-module independent Rust curriculum naming March 2026 Rust Book 3e and chapter assignments; author credentials/adoption not established, treat as educational design not accredited course. New **hightechmind.io** family (#7).
