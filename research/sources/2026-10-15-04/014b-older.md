@@ -1,0 +1,3 @@
+# Batch 014 B — rotating older Security Engineering check, 2026-10-15
+
+https://www.cl.cam.ac.uk/~rja14/book.html -> https://www.cl.cam.ac.uk/archive/rja14/book.html : Ross Anderson original third-edition outline, author-hosted chapters, Edinburgh lectures, third-edition errata link and writing window April 2019–September 2020, not replacement for 2026 security implementation. Revisited known cam.ac.uk, no new site. https://www.rust-lang.org/learn -> https://rust-lang.org/learn/ : current primary Rust documentation hub, returning ecosystem domain.

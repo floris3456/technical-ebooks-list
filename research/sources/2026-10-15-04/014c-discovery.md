@@ -1,0 +1,3 @@
+# Batch 014 C — search-only discoveries, 2026-10-15
+
+https://github.com/rust-lang/book/releases — snippets suggest a tagged 2026 print version; actual tag/date not inspected; NOT proof of unchanged living text. https://rust-book.cs.brown.edu/title-page — independent experimental pedagogical remix distinct from fixed print, not verified adoption. https://doc.rust-lang.org/beta/book/ and https://doc.rust-lang.org/nightly/book/title-page.html — beta/nightly revision snapshots, not selected edition. https://hasip-timurtas.github.io/rust-book/ — unofficial mirror snippet; not used as evidence. Penguin EBook/print listings previously verified, no new site credit.

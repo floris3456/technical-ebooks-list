@@ -1,0 +1,3 @@
+# Batch 014 A — errata & identity, 2026-10-15
+
+https://mara.nl/atomics/preface.html — original Bos copyright 2023 / book preface returned. https://www.oreilly.com/library/view/rust-atomics-and/9781098119430/ — returned Publisher Resources errata link. https://www.oreilly.com/catalog/errata.csp?isbn=9781098119430 — direct access internal error, no corrections inspected. Clicking O'Reilly errata link also internal error; missing inspection is NOT an empty errata list. Returning publisher & author sites.
