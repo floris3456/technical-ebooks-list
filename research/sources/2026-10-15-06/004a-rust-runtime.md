@@ -1,0 +1,1 @@
+2026-10-15 inspected https://tokio.rs/tokio/tutorial (async runtime I/O not CPU-bound), https://rustsec.org/ (security advisories, cargo-audit), and https://rustlings.cool/ (redirect to rustlings.rust-lang.org exercises). New substantive sites: tokio.rs, rustsec.org. Rustlings grouped with previously visited rust-lang.org. Document update dates unknown.
