@@ -1,0 +1,1 @@
+2026-10-15 inspected https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html , section stack and heap and String move, double free. Online living book, update date unknown.
