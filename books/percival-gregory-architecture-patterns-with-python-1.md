@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://www.cosmicpython.com/book/preface"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "dca423978a1a7ab5a5e491eca1c2f59d499b75ea"
 ---
 
 # Architecture Patterns with Python — first edition
@@ -70,4 +70,15 @@ All documents attempted/accessed **2026-10-15**; source dates below are independ
 
 ## Next review
 
-**Pending a genuinely subsequent cycle.** Reopen repository and event examples, check a representative fake-versus-real adapter test, verify more independent reviews and significant errata, and compare the exact SQLAlchemy 2.x mapper port. Distinguish proven domain abstraction value from 2020 implementation dependencies. No final collection audit or tested runtime compatibility is claimed.
+**Passed a qualified later-run assessment**; further review should execute a declared-version fake-versus-real test, check exact SQLAlchemy 2.1 mapping ports and source-level migration, resolve significant edition-specific errata, and investigate additional independent criticism. No full program execution or final collection audit is claimed.
+
+## Independent subsequent-run review — 2026-10-15
+
+Reviewed the published recommendation from **`dca423978a1a7ab5a5e491eca1c2f59d499b75ea`**, not a change created in this same run. Reopened full original [chapter 2](https://www.cosmicpython.com/book/chapter_02_repository) and [chapter 6, Unit of Work](https://www.cosmicpython.com/book/chapter_06_uow). In chapter 6's *Fake Unit of Work for Testing* example, the fake merely sets a **committed flag** while rollback is a no-op; successful fake tests **do not demonstrate real database atomicity or rollback correctness**. The authors themselves acknowledge a SQLAlchemy Session already provides unit-of-work behavior and discuss abstraction cost. This qualifies, rather than undermines, the architectural teaching: complement isolated service tests with real-DB integration checks. [S3], [S11]
+
+The independently critical [Buresund review, 2022-03-13](https://www.buresund.se/books/architecture-patterns-with-python/) was reopened in full. Its **6/10**, dry exposition, narrow business setting, and assumed knowledge remain limiting evidence, not proof of universal superiority. [S5] Current [SQLAlchemy 2.0 migration notes](https://docs.sqlalchemy.org/en/20/changelog/migration_20.html) confirm `mapper()` moved to `registry.map_imperatively()`, while direct string execution through `Connection.execute()` needs `text()` or driver-specific execution. SQLAlchemy **2.0.54 (2026-09-15)** is marked legacy relative to **2.1**, so **no unchanged modern compatibility claim** is warranted. [S12] Preserve the event-delivery and correction gaps in the original assessment. The **Architecture** primary, **Design** and **Testing** secondaries remain supported by substantial chapters and exercises, not incidental keywords. No code was executed or comprehensive errata verified.
+
+| Additional evidence | Locator / original source date | Access date |
+| --- | --- | --- |
+| [S11] [Author's Unit of Work chapter](https://www.cosmicpython.com/book/chapter_06_uow) | *Fake Unit of Work for Testing*, *Explicit Tests for Commit/Rollback Behavior*, *Wrap-Up*; 2020 text, site footer 2023-11-24 | 2026-10-15 |
+| [S12] [SQLAlchemy migration 1.4→2.0](https://docs.sqlalchemy.org/en/20/changelog/migration_20.html) | *execute() method more strict* and *original mapper() function renamed*; displayed 2.0.54 release 2026-09-15 | 2026-10-15 |
