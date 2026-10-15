@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://eloquentjavascript.net/"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "3c0c9d505e77a0d99bb5cb641b20d54da9df715c"
 ---
 
 # Eloquent JavaScript — Fourth edition
@@ -47,6 +47,8 @@ ECMA-262 now identifies **ECMAScript 2026, 17th edition (June 2026)**, whereas t
 
 ## Limitations, alternatives and corrections
 
+**Correction after inspecting the original:** chapter 14 says inline CSS styles *always win*. That is overbroad: cascade origin, `!important`, element-attached styles and cascade layers have ordering rules under W3C CSS Cascade Level 5, §6.1. This is a real limitation of the short CSS exposition, not evidence the central JavaScript/DOM instruction is obsolete. Chapter 11 analogizes `async` functions to generators; its purpose is explaining suspension, **not** asserting that ordinary async functions return iterators. Ordinary `async` functions return Promises; `function*` returns an iterator; `async function*` is a separate construct. See [S3], [S4], [S11]–[S13].
+
 The original fourth-edition errata identify a missing earlier definition on p.104 and an invalid generator template on p.407, plus smaller illustration/wording corrections. Consult the corrections; no error-free or all-printings claim is made. The print contents include an additional performance chapter not in the main web chapter list, so exact print/web coverage or pagination is not assumed. [S1], [S2], [S5]
 
 For a specific modern React application, current framework guidance covers concerns beyond this language foundation; its existence does not make learning DOM and JavaScript obsolete. For browser internals, compare the separately catalogued [Web Browser Engineering](panchekha-harrelson-web-browser-engineering.md), which implements a browser rather than primarily using browser APIs. This is task-based positioning, not a measured ranking. [S10]
@@ -69,10 +71,17 @@ All sources accessed **2026-10-15**; dates below are original publication/update
 | S8 | [Node filesystem reference](https://nodejs.org/api/fs.html#promises-api), concurrency warning | Displayed v26.12.0; no LTS-status assertion |
 | S9 | [ECMA-262](https://ecma-international.org/publications-and-standards/standards/ecma-262/), normative edition statement | 17th edition, June 2026 |
 | S10 | [React application guide](https://react.dev/learn/creating-a-react-app), framework versus from-scratch scope | Current guide; update unspecified |
+| S11 | [CSS Cascade Level 5](https://www.w3.org/TR/css-cascade-5/), §6.1 Origin/Importance and Element-Attached Styles | W3C Candidate Recommendation Snapshot, 2022-01-13; not book appraisal |
+| S12 | [MDN async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), Return value and Description | Current reference, exact update unknown |
+| S13 | [MDN async generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function*), Syntax and Description | Current reference, exact update unknown |
+
+## Subsequent-run review (2026-10-15)
+
+**Passed**, assessing the earlier published book record at `3c0c9d505e77a0d99bb5cb641b20d54da9df715c`, not self-approving a new entry. Reopened chapter 14 live DOM transformations and erroneous CSS cascade simplification; original chapter 11 Promise/generator explanation; inspected the previously saved exact-edition Santa Rosa Spring 2026 body/schedule and its older metadata conflict. Cross-checked CSS Level 5 §6.1 and separate current async function/generator references. Independent educational adoption and useful language instruction remain supported; correction and limitations are added, rather than hiding the flaw. No full JavaScript test suite, all-printings errata audit or final collection audit is claimed.
 
 ## Next review
 
-Pending a genuinely later run. Recheck exact-edition syllabus evidence and its date conflict, one original async/DOM example, the print-only chapter boundary and significant errata. Compare audience fit against a focused JavaScript reference; do not substitute older-edition publisher praise for independent fourth-edition evidence.
+Passed later-run review; future audit: Recheck exact-edition syllabus evidence and its date conflict, one original async/DOM example, the print-only chapter boundary and significant errata. Compare audience fit against a focused JavaScript reference; do not substitute older-edition publisher praise for independent fourth-edition evidence.
 
 [S1]: https://eloquentjavascript.net/
 [S2]: https://nostarch.com/eloquent-javascript-4th-edition
@@ -84,3 +93,7 @@ Pending a genuinely later run. Recheck exact-edition syllabus evidence and its d
 [S8]: https://nodejs.org/api/fs.html#promises-api
 [S9]: https://ecma-international.org/publications-and-standards/standards/ecma-262/
 [S10]: https://react.dev/learn/creating-a-react-app
+
+[S11]: https://www.w3.org/TR/css-cascade-5/
+[S12]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+[S13]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function*

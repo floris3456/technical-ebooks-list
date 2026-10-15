@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://browser.engineering/"
 last_verified: "2026-10-15"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "3c0c9d505e77a0d99bb5cb641b20d54da9df715c"
 ---
 
 # Web Browser Engineering — Oxford edition and author-hosted text
@@ -69,9 +69,13 @@ All accessed **2026-10-15**, keeping document dates separate.
 | S8 | [Web Platform Tests](https://web-platform-tests.org/), cross-browser test methodology and result/source distinction | Current project documentation; revision unspecified |
 | S9 | [WebKit Interop 2026](https://webkit.org/blog/17818/announcing-interop-2026/), methodology and focus areas | 2026-02-12; original implementation-project announcement |
 
+## Subsequent-run review (2026-10-15)
+
+**Passed with bounded scope**, reviewing the prior published record at `3c0c9d505e77a0d99bb5cb641b20d54da9df715c`. Reopened original chapter 12 task queue and explicitly simplified FIFO (Tasks and Task Queues), callback-handle memory risk (Timers) and authors' What Wasn't Covered appendix. The independent UW Spring 2023 course demonstrably uses the **online work**, not a subsequently printed Oxford edition; Oxford's original bibliographic identity remains distinct from unverified prose equivalence. This is a recommendation for learning browser internals through a teaching implementation, **not** production-browser correctness, security or exact-print technical certification. Course adoption and current HTML task/microtask concerns support lasting educational value while leaving post-publication independent print appraisal and version comparison open. No code executed or complete errata audit claimed.
+
 ## Next review
 
-Pending later-run review. Compare one author chapter with the Oxford edition, seek independent post-publication assessment or adoption, inspect current library assumptions and significant errata, and test whether the primary classification helps readers find browser-internals material. Retain the distinction between earlier online adoption and later print publication.
+Passed later-run review of online-work scope; future audit: Compare one author chapter with the Oxford edition, seek independent post-publication assessment or adoption, inspect current library assumptions and significant errata, and test whether the primary classification helps readers find browser-internals material. Retain the distinction between earlier online adoption and later print publication.
 
 [S1]: https://academic.oup.com/book/59224
 [S2]: https://browser.engineering/
