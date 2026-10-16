@@ -1,0 +1,2 @@
+# Publisher original previews (access 2026-10-16)
+https://www.oreilly.com/library/view/database-internals/9781492040330/ch02.html and https://www.oreilly.com/library/view/database-internals/9781492040330/ch06.html — 2019 book, chapter TOCs and only a few actual opening lines visible, NOT full original chapters. Returning known publisher; no novelty. Access limits do not automatically disqualify book; depth of evidence still incomplete.
