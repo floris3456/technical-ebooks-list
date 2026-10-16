@@ -15,7 +15,7 @@ focus: [conceptual, reference]
 formats: []
 access: unknown
 official_url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
-last_verified: "2026-10-14"
+last_verified: "2026-10-16"
 status: recommended
 review_status: passed
 reviewed_commit: "66ba2abdc241a80f999bd7e58ad4ca5853ffc487"
@@ -55,7 +55,7 @@ The JHU schedule calls itself preliminary. Some later-semester chapter reference
 
 ## Evidence ledger
 
-All listed sources were inspected/accessed **2026-10-14**; access dates are not publication dates.
+The original S1–S6 sources were inspected/accessed **2026-10-14**; access dates are not publication dates. The cycle06 section below records the narrower fresh checks on2026-10-16.
 
 | ID | Source and inspected location | Source date/version |
 | --- | --- | --- |
@@ -77,6 +77,14 @@ All listed sources were inspected/accessed **2026-10-14**; access dates are not 
 
 Reviewed the published recommendation in `66ba2abdc241a80f999bd7e58ad4ca5853ffc487`. MIT Press fourth-edition companion *Selected Solutions* includes Exercise 2.3-6 on binary search, adding inspected worked material beyond the table of contents. Johns Hopkins Fall 2026 explicitly teaches using the fourth edition; mismatched preliminary schedule chapter numbers do not override publisher contents. The work remains relevant for analysis, proofs and classic algorithms. Printing-specific errata were not fully enumerated and no full reading is claimed. Decision: pass with these caveats. [S1], [S2], [S3], [S4], [S5], [S6]
 
+## Rotating review — 2026-10-16, cycle06
+
+Reviewed this record as published at `f164164656102f2381ad7548993f616b13792774`; **retain its prior qualified pass and classification, not a new final-audit clearance**. Freshly rendered/read the original selected-solution PDFp10, including iterative/recursive binary search and inversion reasoning [S6]. As a curator implementation caution, the mathematical midpoint `(low + high)/2` should be translated with the target integer representation in mind; this is not a claim that the pseudocode was executed or that it promises fixed-width arithmetic.
+
+The [JUST syllabus](https://services.just.edu.jo/CourseQA/Uploads/Syllabus/1737840.pdf#page=1), renderedp1, names CLRS4e as primary text. Its actual semester is2024–25 and print date2024-11-03; access2026-10-16 does not turn it into a2026 course. JHU's resource reopening **failed**, so its earlier evidence is retained rather than described as freshly read. The official errata interface again exposed printing/severity controls but no complete selected rows [S5]. That gap remains open.
+
+This cycle compared four algorithm-text scopes: [DPV](dasgupta-papadimitriou-vazirani-algorithms-2006.md) for a compact conceptual course, [Skiena](skiena-algorithm-design-manual-3.md) for practical problem selection, and uncounted [Kleinberg–Tardos](kleinberg-tardos-algorithm-design-1.md) and [Sedgewick–Wayne](sedgewick-wayne-algorithms-4.md) for problem-driven arguments and Java implementations. CLRS's broad reference role remains distinct. No comparative learning trial or complete proof/errata audit was performed. [Exact retrievals](../research/sources/2026-10-16-06/README.md), especially020 and022–026, retain source dates and failures.
+
 ## Next review
 
-Inspect a substantive chapter/sample or official worked material, retrieve printing-specific errata if the interface permits, and evaluate audience fit against a focused alternative. Reconfirm that the schedule discrepancy is not being used to support incorrect chapter claims. This work passed its prior later-run review, but printing-specific errata and the comparison with specialized alternatives remain open.
+Inspect a substantive chapter/sample or official worked material, retrieve printing-specific errata if the interface permits, and deepen the comparison with the now explicitly assessed alternatives. Reconfirm that the schedule discrepancy is not being used to support incorrect chapter claims. This work passed its prior later-run review, but printing-specific errata and final collection audit remain open.

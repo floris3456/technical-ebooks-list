@@ -1,0 +1,11 @@
+# Focused source findings — accessed 2026-10-16
+
+https://www.informit.com/store/algorithms-9780321573513 — inspected identity, edition, metadata, description and opening TOC through sorting. **2011-03-24**, copyright2011, fourth edition, Robert Sedgewick/Kevin Wayne, 976pages, print ISBN9780321573513; explicit EPUB/PDF offered (not a selection criterion). Later Pearson product refresh must not be mistaken for a fifth edition. Publisher praise not independent assessment.
+
+https://link.springer.com/book/10.1007/978-3-030-54256-6 — inspected overview and new-to-3e section. Copyright2020, Steven S. Skiena, third edition, two-part design/resource organization, additional randomized/approximation/divide-and-conquer content. Header says latest edition. Full bibliographic dates/TOC still to inspect; testimonials not treated as independent3e reviews.
+
+https://www.salleurl.edu/en/programacion-avanzada-y-estructura-de-datos-2 — substantive original syllabus §§Contents/Methodology/Evaluation/AdditionalMaterial read. Explicit supplementary Skiena2020 third edition, Sedgewick/Wayne2011 fourth and CLRS2022 fourth. Proof, recursion, dynamic programming, graphs and implementation projects evaluated. Course page update unspecified; adjacent2026/27 news is NOT a syllabus date. New substantive LaSalle/RamonLlull family; supplementary reading, not required full-book assignment.
+
+https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf — original §§6.1 opening, PDFpp1–2 / printed169–170 read as extracted text: topological DAG shortest-path recurrence and dependency interpretation of DP. Figure6.1 rendering still next; entire31pages not read. Positive/negative edge-product generalization needs assumptions; do not blindly adopt it.
+
+https://www3.cs.stonybrook.edu/~skiena/algorist/book/errata-adm3 — detailed rows through line67 inspected, last addition2026-01-09. Material corrections include p158 returning M rather than S, BFS/DFS diagram/processing disagreements pp214–235, DP helper parameters pp321–323, p404 inverted hill-climbing termination, and p516 bound missing n. These limit direct copying, not the value of algorithm-selection teaching. Author statements that processing-order differences do not matter are not independently proved here.

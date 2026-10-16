@@ -1,0 +1,11 @@
+# Rendered original evidence — accessed 2026-10-16
+
+https://cseweb.ucsd.edu/~dasgupta/book/preface.pdf#page=1 — rendered and read complete first page (printed9). Authors deliberately emphasize a compact progression of mathematical ideas rather than encyclopedic/formal exposition; scope includes linear programming and quantum factoring. This is author intent, not independently measured readability. Original work date not printed on this page.
+
+https://cseweb.ucsd.edu/~dasgupta/book/errata.pdf#page=1 and #page=2 — both pages rendered and read; explicit **first edition**, dated **2007-12-18**. Material errors include p47 multiplication formula, graph explore calls pp84–85, p139 Prim priority updates, p140 min-cut probability, p193 missing LP terminal constraint and p260 reduction inequality. Historical notes mislabel Shor as primality instead of factoring. No assertion all printings corrected or this ledger exhaustive/current.
+
+https://www3.cs.stonybrook.edu/~skiena/algorist/book/errata-adm3 — first22 lines inspected in this response; last addition **2026-01-09**. Flags p48 geometric sum exponent, p71 summation lower bound, p85 logarithm notation. Remaining ledger not yet fully inspected.
+
+Single query `"Kleinberg" "Tardos" "2026"` returned mainly author pages and collisions, not course adoption. Exact new leads (search only): https://www.duffield.cornell.edu/people/jon-m-kleinberg/ ; https://tex.stackexchange.com/questions/214071/kleinberg-tardos-style-of-book-writing ; https://dl.acm.org/doi/10.5555/1051910 ; https://www.goodreads.com/book/show/145055.Algorithm_Design ; https://www.pearson.com/en-us/subject-catalog/p/algorithm-design/P200000003259/9780137546350?srsltid=AU7gw4WDbHTfEnfcxagh_a7tLbn6GC1Stpa8lrD-BTW9u0UCSBLi84nw ; https://scholar.google.com/citations?hl=en&user=h6jljQQAAAAJ ; https://arxiv.org/abs/2604.00444 ; https://arxiv.org/abs/2602.17916 . Author research list does not establish book quality.
+
+Unverified-provenance search hits not opened: https://github.com/the-robot/algorithm-notes/blob/master/Course%20Books/%28KT%29%20Algorithm%20Design%20by%20Jon%20Kleinberg%2C%20Eva%20Tardos.pdf ; https://www.scribd.com/document/1062034064/Solution-Manual-for-Algorithm-Design-1st-Edition-Jon-Kleinberg-Eva-Tardos-2026-free-google-drive . No private-drive or commercial-copy instructions followed.

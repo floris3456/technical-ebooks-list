@@ -4,7 +4,7 @@ Subjects link to canonical book records through primary and substantial addition
 
 | Subject | Recommended works linked |
 | --- | ---: |
-| [Algorithms & Data Structures](algorithms-and-data-structures.md) | 1 |
+| [Algorithms & Data Structures](algorithms-and-data-structures.md) | 3 |
 | [Computer Systems & Operating Systems](computer-systems-and-operating-systems.md) | 4 |
 | [Mathematics & Formal Methods](mathematics-and-formal-methods.md) | 1 |
 | [Programming Language Theory & Compilers](programming-language-theory-and-compilers.md) | 1 |
@@ -28,6 +28,6 @@ Subjects link to canonical book records through primary and substantial addition
 | [User Experience & Human–Computer Interaction](user-experience-and-human-computer-interaction.md) | 1 |
 | [Computer Graphics & Visualization](computer-graphics-and-visualization.md) | 1 |
 
-**53 subject appearances represent32 distinct recommended works:29 passed later-run review and3 awaiting it.** All23 subjects have primary coverage, but this is not empirical validation of the taxonomy. Two canonical candidates and four other deferred works are retained in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts. Bos's historical deferral is preserved but superseded, not an additional active deferred work.
+**55 subject appearances represent 34 distinct recommended works: 30 passed later-run review and four awaiting it.** All 23 subjects have primary coverage, but this is not empirical validation of the taxonomy. Four canonical candidates and four other deferred works are retained in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts. Bos's historical deferral remains superseded, not an additional active deferred work.
 
 [STATE.md](../research/STATE.md) distinguishes pending, passed and final-audit states. Preserve controlled slugs in [TAXONOMY.md](../TAXONOMY.md) and update every affected index when a record changes. No repository generator has been installed.

@@ -17,8 +17,8 @@ access: unknown
 official_url: https://mara.nl/atomics/
 last_verified: 2026-10-16
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "ba27c63a3dbc093ceb91dc96a529f8fae76fd059"
 ---
 
 # Rust Atomics and Locks
@@ -51,7 +51,7 @@ Author landing identifies January2023 and ISBN9781098119447 [B1]. The identifier
 
 ## Claim-to-source ledger
 
-All access dates: **2026-10-16**. Unknown update dates remain unknown.
+All access dates: **2026-10-16**. Unknown update dates remain unknown. Rows B1–B10 preserve initial-research evidence; the later-run section identifies which sources were freshly reopened.
 
 | ID | Exact source and inspected locator | Document date / role and boundary |
 | --- | --- | --- |
@@ -65,7 +65,20 @@ All access dates: **2026-10-16**. Unknown update dates remain unknown.
 | B8 | https://doc.rust-lang.org/std/marker/trait.Sync.html — definition and reference relationships | Current rustdoc header1.99.1/build2026-10-13 when inspected; not a book update date. |
 | B9 | https://www.ralfj.de/blog/2016/01/09/the-scope-of-unsafe.html — representation invariants/abstraction boundary | 2016-01-09, update01-11. Original researcher argument, not today's complete Rust specification. |
 | B10 | ../research/sources/2026-10-16-04/025-newer-edition-search.md | Dated search trace, not substantive recommendation evidence. |
+| B11 | https://mara.nl/atomics/memory-ordering.html — More Formally and Example: Locking, through lazy-initialization introduction | Original2023 chapter; live update unstated. Fresh later-run ordering and static-mut example inspection, not full chapter. |
+| B12 | https://doc.rust-lang.org/edition-guide/rust-2024/static-mut-references.html — Summary, Details and Alternatives through OnceLock/LazyLock | Current edition guide; page revision unstated. Migration boundary, not a blanket data-race claim. |
+| B13 | https://doc.rust-lang.org/std/sync/atomic/enum.Ordering.html — variant contracts through SeqCst | Rust1.99.1/build2026-10-13; modern API contract, not a complete book correctness proof. |
 
-## Subsequent-run review required
+## Subsequent-run review — 2026-10-16, cycle06
 
-Independently recheck corrected original guards and the meaningful errata; examine a fresh original chapter and a current platform primitive contract. Do not reinstate the disproved assumption that blank correction dates imply the live text is still unfixed. Do not silently drop printing/version caveats. Historical deferral remains in [UNSELECTED](../research/UNSELECTED.md) and [REJECTIONS](../research/REJECTIONS.md).
+**Qualified pass of the recommendation published in `ba27c63a3dbc093ceb91dc96a529f8fae76fd059`, observed on main at `f164164656102f2381ad7548993f616b13792774`.** This is a later invocation than initial selection. The audience, work identity and core recommendation remain unchanged; the prior version/printing warning is made concrete below.
+
+Fresh original ch4/ch9 inspection confirms the distinction between `T: Send` for the lock and `T: Sync` for sharing its guard, plus the corrected reader-counter condition `s < u32::MAX - 2` [B2–B3,B8]. The deliberately unsafe raw-unlock stage in ch4 is not its final safe interface. These checks resolve specific corrections, not every interleaving, liveness property or implementation defect. The confirmed errata table still does not identify correction dates for all copies; p54's explicit second-printing note must not be transferred to unrelated entries [B4].
+
+A fresh reading of ch3's release-ordering/try-lock sections adds original material beyond the previous guard/counter sample [B11]. **Its `static mut DATA` method-call example is not a drop-in Rust2024 example:** that edition denies `static_mut_refs` by default, including implicit references [B12]. This is a migration boundary, not evidence that the intended synchronized access was necessarily racy. Prefer locally reasoned encapsulation; disabling a lint alone is not a safety argument. Current ordering contracts continue to support the central Acquire/Release teaching [B13].
+
+Westbrook's full2024 review was reopened and its criticism of the later reference-like chapters retained [B5]. His casual discussion of adding an unsafe `Sync` implementation is not accepted as general permission without representation-invariant reasoning [B8–B9]. No code was compiled, no concurrency test was run and no complete platform-primitive audit was performed. Exact retrievals and failures are in [cycle06 logs022–026](../research/sources/2026-10-16-06/README.md).
+
+## Next review
+
+Retain all printing, Rust2024 and unsafe-invariant qualifications. Check an actual current OS wait/wake implementation against the corresponding author chapter; earlier Windows/SRWLock leads are not verified facts here. Broaden original-chapter and correction coverage before final-audit clearance. A qualified subsequent-run pass is not a production-library endorsement. Historical deferral remains in [UNSELECTED](../research/UNSELECTED.md) and [REJECTIONS](../research/REJECTIONS.md).

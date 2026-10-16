@@ -1,54 +1,58 @@
-# Research checkpoint — 2026-10-16-04
+# Research checkpoint — 2026-10-16-06
 
-## Starting state and reviewed saved work
+## Starting state and reviewed work
 
-Started from live main **e0e6c5543a4af14116361ef9d5cbfca29cb8d19e**, tree c725e269fa76018801afef123634257cb3015650. Reviewed repository state, README, TAXONOMY, BOOK_TEMPLATE, STATE, REJECTIONS, UNSELECTED, current/archived source registries and latest STATE-only commit. The earlier checkpoint is preserved byte-for-byte in [STATE-through-e0e6c55](STATE-through-e0e6c55.md). No unpublished work was assumed.
+Started from live main **f164164656102f2381ad7548993f616b13792774**, with32 recommended works,29 prior subsequent-run passes,3 pending recommendations,2 canonical candidates and6 active deferrals. Read README, TAXONOMY, BOOK_TEMPLATE, STATE, source/rejection history, pending Bos/Gjengset/Palmieri records and older CLRS4e. Latest initial commit was validation-only; reviewed the underlying catalog at **ba27c63a3dbc093ceb91dc96a529f8fae76fd059**. The [previous checkpoint](STATE-through-f164164.md), source/rejection ledgers and non-selection list are preserved using their exact original Git blobs.
 
-Observed separate saved source-only branches at9e688a0314536aa22e22370f9fdcf84ead7c38ad (Rust) and5a00d6f9b88aa0835eaf42868553cc9be4c6f88a (curation). Multiple relevant Rust logs were read; changed-file comparisons do not establish that every source-only file was reviewed. They were neither blindly merged nor counted as this invocation's external research. [Current source audit](sources/2026-10-16-04/README.md) records scope, source novelty and retrieval failures.
+Observed cycle05 saved WIP at0d4441ac7793388c7304252cd6fc09673415db66, not unpublished work. Rechecking main found **b1f414261241f2540ceefe559ee201a793a43295**, eight commits ahead, all eight added files under research/sources/2026-10-16-05 and no catalog changes. Read the saved logs and preserve every blob and both histories in reconciliation. Their external sources were not re-opened in this cycle and are not claimed as new evidence reads here. Publication must still use a fresh conditional non-force head check; remote success is reported only after verification.
 
-## Catalog counts and completed curation
+## Catalog counts and decisions
 
 | Measure | Count |
 | --- | ---: |
-| Distinct recommended works | 32 |
-| Recommended works with a prior genuine subsequent-run pass | 29 |
-| New recommendations pending subsequent-run review | 3 |
-| Canonical candidates, uncounted | 2 |
-| Active deferred works, including canonical candidates | 6 |
+| Distinct recommended works | 34 |
+| Passed genuine subsequent-run review | 30 |
+| Recommendations awaiting subsequent-run review | 4 |
+| Canonical candidates, uncounted | 4 |
+| Active deferred works, including canonical candidates | 8 |
 | Retired recommendations | 0 |
-| Subject-index appearances, not distinct works | 53 |
-| Works cleared by the final completion audit | 0 |
-| Target after later review and staged audit | 2,000 |
+| Subject-index appearances, not works | 55 |
+| Final-audit clearances | 0 |
+| Target after review and final audit | 2,000 |
 
-**This cycle: four strong candidate investigations; three additions; one older-record review annotation; zero removals.** New canonical recommendations: [Bos](../books/bos-rust-atomics-and-locks-1.md), [Gjengset](../books/gjengset-rust-for-rustaceans-1.md), [Palmieri](../books/palmieri-zero-to-production-in-rust-2022.md). All remain pending; no same-invocation self-approval. [Programming Rust3e](../books/blandy-orendorff-tindall-programming-rust-3.md) is a substantive uncounted candidate alongside Morris3e. Bos's previous deferral is retained as superseded, not deleted or counted twice. Five other historical active deferrals plus the new Programming Rust candidate leave six active deferred works.
+**Cycle06: four strong candidate investigations, two additions, two uncounted canonical candidates, one qualified later-run pass, one older-record annotation, zero removals or reclassifications.** Taxonomy remains23 controlled subjects in7 navigation groups; no automatic additional subjects for incidental chapters or implementation language.
 
-The older [Systems Performance2e](../books/gregg-systems-performance-2.md) record at the starting commit was reviewed for scope and provenance. Its prior qualified pass is retained, with an annotation that the author's blank, stale errata page is not error-free certification and current scheduler details require primary documentation. The previously inspected book sample and independent translation review were not claimed as newly re-read. Its classification and substantive recommendation are unchanged.
+New recommendations: [DPV Algorithms](../books/dasgupta-papadimitriou-vazirani-algorithms-2006.md) and [Skiena3e](../books/skiena-algorithm-design-manual-3.md). Both are **pending**, not same-invocation approved. DPV is specifically the inspected July2006 author electronic text of the first-edition work, not a certified latest print build. Skiena's third-edition sample and independent supplementary-course evidence are explicitly limited. Distinct author/work IDs, not matching title strings, control deduplication.
 
-The Linux networking index was corrected from stale pending to its already established canonical pass reviewing521ad153. This is an index reconciliation, not a newly earned review. The topic summary's stale28passed/onepending and deferral wording were also repaired. The revised indexes contain seven additional appearances for three works; candidates remain outside recommendation indexes.
+New candidates: [Kleinberg–Tardos1e](../books/kleinberg-tardos-algorithm-design-1.md) and [Sedgewick–Wayne4e](../books/sedgewick-wayne-algorithms-4.md). Both have substantial identity/scope/adoption evidence but lack sufficient original worked-example and correction inspection. They join Morris and Programming Rust as the four canonical candidates; no candidate appears in recommendation indexes. [UNSELECTED](UNSELECTED.md) retains all eight active deferrals and the superseded historical Bos row.
 
-## Evidence and decisions
+## Subsequent and rotating review
 
-**27 immediate source logs** retain exact successful/failed/search-only retrievals. **20 new substantive website families** are enumerated with locators, dates and roles against the inspected saved baseline. Related domains, known websites, failed bodies and mere snippets earn no novelty credit. Publication/update dates remain distinct from access2026-10-16. No entire-book reading, executed examples, security certification or exhaustive historical-source audit is claimed.
+[Bos](../books/bos-rust-atomics-and-locks-1.md) passes a **qualified subsequent-run review** of published catalogba27c63a3dbc093ceb91dc96a529f8fae76fd059. Fresh ch4/ch9 reads confirm targeted guard/counter fixes; fresh ch3 memory-ordering sections, current Sync/Ordering/Rust2024 contracts and a full re-read of Westbrook's2024 critique support the unchanged core recommendation. The `static mut DATA` method-call example requires Rust2024 migration; unknown printing repair dates, unsafe invariants and unresolved OS-primitive details remain explicit. No concurrency program was executed or certified.
 
-Bos's actual chapters4/9 now show the targeted guard/counter repairs; blank publisher correction dates did not imply the live text remained unfixed. Printing/build correction identity remains unverified. Gjengset's first edition has documented educational use and original worked material, but material unsafe/FFI errata and post2021 language changes remain explicit. Palmieri has original project/testing evidence, independent production-practitioner counterassessment and course reading use; exact digital build is unspecified and tutorial completion is not a production guarantee. Programming Rust publisher3e identity is separated from2e reviews; original chapter depth, exact-edition independent evidence and errata remain incomplete.
+[CLRS4e](../books/cormen-introduction-to-algorithms-4.md) was rotated beyond the frequently reviewed systems books. Re-rendered the original binary-search solution, inspected a newly found exact4e JUST syllabus with its actual2024–25 date, and compared all four algorithm-candidate scopes. The errata interface still does not expose a complete selected correction list; JHU reopening failed. Its earlier qualified pass remains, not a new approval or complete errata audit.
 
-[REJECTIONS](REJECTIONS.md) records R095–R105 and preserves the previous ledger byte-for-byte. [UNSELECTED](UNSELECTED.md) retains active decisions, the superseded Bos deferral and incidental directions separately. Availability was not a filter, and no purchase or unauthorized copy was made.
+Gjengset and Palmieri remain **pending**. Intervening [saved correction research](sources/2026-10-16-05/003-errata-and-edition-corrections.md) flags Gjengset p207 `c_void` and p235 `DropGuard` issues requiring primary recheck; saved third-edition Programming Rust preview is explicitly early-release. [Saved Petrov research](sources/2026-10-16-05/004-database-book-evidence.md) documents a specific MIT chapter assignment and a critical review, improving the prior adoption gap but leaving original chapter depth unfinished. These are retained, observable leads—not silently promoted source-only findings.
 
-## Metadata, classification and validation boundaries
+## Evidence and corrected claims
 
-Four new canonical files have distinct stable work IDs. The three recommendation scopes are different: advanced language/library practice, concentrated low-level concurrency, and web-backend development. Edition/format variants are not additional works. Verified print identifiers are not reassigned to ebook formats; unknown build/ISBN/access fields remain unknown. Each recommendation maps identity, inspected original material, independent assessment/teaching and current-relevance checks to exact URLs/sections.
+[Cycle source audit](sources/2026-10-16-06/README.md) contains the exact representative/locator table for **20 conservatively new substantive website families**, plus links to initial review and **26 immediate external retrieval logs**. Source publication/update dates remain separate from access2026-10-16. Failed opens, irrelevant search collisions, uncertain-provenance copy leads and partial excerpts are retained but not counted as substantive reads. Related institutional/author ecosystems and ambiguous additional sites are withheld conservatively.
 
-Controlled subjects are unchanged: Bos primary concurrency, Gjengset primary programming, Palmieri primary platform-specific development with substantial testing/API secondary indexes. This applies existing taxonomy boundaries rather than inventing a Rust top-level subject. README now explicitly requires four strong research candidates without requiring four approvals. The provisional taxonomy still needs empirical retrieval testing.
+Important distinctions: DPV author-text and printed-errata pagination are not interchangeable; work-level2026 course adoption does not establish assignment of the2006 draft. The signed-product DP aside has a concrete counterexample without domain restrictions. Skiena's significant pseudocode corrections remain explicit, and loose wording on undated author-site LP/shortest-path excerpts is not attributed to a3e print page without comparison. Pearson product refreshes and later paperback dates do not create new works. Current graph/solver/geometry contracts establish present applicability and limitations, not book endorsements. [R106–R115](REJECTIONS.md) record decisions with evidence.
 
-Counts reconcile as29 baseline recommended works plus3 unique additions; the two canonical candidates and superseded deferral are excluded. Existing catalog rows and unrelated source history are preserved. Final publication requires a re-fetched main head, self-reviewed changed files and conditional non-force ref update; remote commit verification is reported only after the update succeeds. The subsequent validation record records the actual final checks, not a full audit of every historical claim.
+## Counts, taxonomy and validation boundaries
+
+The32-work baseline is preserved; two distinct new recommendations yield34, one genuine Bos pass raises29 to30, and remaining pending count is4. Four candidate files and eight active deferrals are excluded. Two algorithms-primary additions raise53 subject appearances to55. Bos's two recommendation-index labels are updated consistently; CLRS keeps its old reviewed_commit. No primary/secondary classifications of old works changed. Price, formats, geography and access did not govern selection.
+
+Final validation must compare the reconciled commit with the latest observed main, inspect changed-file scope, verify archive/WIP blob preservation, metadata/work-ID uniqueness and all affected index counts, then re-fetch main for conditional publication. The validation record states which checks were actually completed; these structural checks are not a fresh evidence audit of every old record. No book code, solver, test suite, benchmark or deployment was executed.
 
 ## Next priorities
 
-1. Independently review the three newly published recommendations in a later invocation. For Bos, inspect another original chapter and current platform primitive behavior; retain printing caveats and recheck any Windows-lock claim before asserting it. For Gjengset, deepen unsafe/FFI and another original chapter. For Palmieri, inspect another application chapter, exact version/errata information and a current crate comparison.
-2. Close Programming Rust3e's substantive original/independent-edition evidence gap, or select a better-supported earlier edition on its own merits. No automatic newest-edition preference. Separately retain the saved Rust Programming Language third-edition/maintained-online-text distinction; it is a different work, not this candidate.
-3. Rotate older recommendations beyond the repeatedly checked systems books. Prioritize Database Internals original chapter evidence, and the unresolved exact-edition gaps for Morris, Python TDD, SRE and Feathers' advertised work. Preserve all earlier checkpoint caveats.
-4. Stage final audits: first bibliographic identity and work-level deduplication; then original/independent evidence completeness; then contemporary relevance and errata; then subject/index accuracy and cross-record consistency. Recheck source drift in manageable recorded batches. No stage is cleared collection-wide yet, and removals reopen the target.
+1. Independently review DPV and Skiena after publication. For DPV inspect another substantive original section and map draft/print corrections; challenge whether work-level adoption adequately supports the explicitly scoped version. For Skiena inspect a longer original3e worked section and compare it with the correction ledger and undated web excerpts. Keep both pending until that review.
+2. Complete Gjengset and Palmieri later-run reviews. Prioritize Gjengset's saved p207/p235 safety corrections and another original chapter; for Palmieri inspect another application chapter, version/change information and one current crate contract. Do not claim unsupported production readiness.
+3. Close KT/SW original worked-example and errata gaps; resolve Programming Rust3e early-release vs final-text evidence; use the improved Petrov adoption lead to target its remaining original-content gap. Preserve all Morris, PythonTDD, SRE and Feathers evidence deferrals.
+4. Stage the final audit: work/edition identity and deduplication, then original/independent evidence, then present-day relevance/errata, then subject/index consistency. Cycle-level structural checks do not clear any stage collection-wide. Continue rotating older records and test taxonomy retrieval choices before large-scale expansion.
 
-## Completion status
+## Completion
 
-**Not complete:32/2,000 recommended,29 later-reviewed, zero final-audit clearances.** The recurring automation was not changed by this invocation. Only at2,000 passing works with no unresolved quality blockers may completion be recorded and an active automation disabled. Quality outranks throughput.
+**Not complete:34/2,000 recommended works,30 subsequently reviewed, zero final-audit clearances.** No automation setting changed. Completion requires2,000 passing distinct works with no unresolved quality blockers; removals reopen the target.

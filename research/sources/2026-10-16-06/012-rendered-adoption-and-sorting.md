@@ -1,0 +1,9 @@
+# Rendered adoption/original example — accessed2026-10-16
+
+https://omscs.gatech.edu/sites/default/files/documents/Syllabi/CS%206515%202026-3.pdf#page=1 and #page=2 — rendered/read Fall2026 syllabus pp1–2. DPV Algorithms explicitly **required**, KT Algorithm Design recommended; associated textbook reading required with each required lecture, mapping kept on Canvas (not accessed). Learning outcomes cover proofs, asymptotics, modeling and hardness. Exam-heavy grade policy is not proof of measured book effectiveness. Strong independent current adoption; edition number not explicitly printed.
+
+https://page-one.springer.com/pdf/preview/10.1007/978-3-030-54256-6_1#page=1 and #page=2 — rendered both original Skiena3e preview pages, printed3–4. Problem/instance distinction; insertion-sort C code and Figure1.1 trace; correctness/efficiency/ease tradeoff. Substantive original example, but only2pages and helper item_type/swap assumptions are not complete stand-alone C program. Do not treat introductory example as validation of later catalog or every erratum.
+
+https://igraph.org/c/html/latest/igraph-Structural.html#igraph_distances_dijkstra resolved without fragment to https://igraph.org/c/html/latest/igraph-Structural.html — inspected §§3.1–3.4 with worked C API and nonnegative/non-NaN restrictions, infinity unreachable convention, binary-heap implementation and directed modes. New substantive igraph family. No entire6815-line manual read; revision unspecified. Library preconditions corroborate algorithm-model relevance, not book endorsement.
+
+Failed guessed original-source paths, no body: https://www.informit.com/content/images/9780321573513/samplepages/9780321573513.pdf ; https://www.cs.cornell.edu/home/kleinber/algbook/Chapter1.pdf . Do not construe retrieval limitations as availability exclusion; candidates remain assessed on evidence gathered.
