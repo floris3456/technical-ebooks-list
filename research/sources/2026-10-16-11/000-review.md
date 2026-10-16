@@ -1,0 +1,3 @@
+# Research cycle 2026-10-16-11
+
+Initial review: main 0f669a008d60b95b5c5003193dd209a35a3c57ba. Read README, TAXONOMY, BOOK_TEMPLATE, STATE, REJECTIONS, UNSELECTED, SOURCES, latest commit, pending DPV/Skiena/Gjengset/Palmieri and KT/SW candidates. Baseline 34 recommended, 30 subsequent-reviewed, four pending, four candidates, eight active deferrals, 55 subject appearances and zero final audit clearances. Older rotation: Database System Concepts seventh edition. Other observable source-only WIP: branches 07 systems, 08/09 database, 10 security; only saved logs seen, no unpublished work assumed. Priority: original algorithms/errata and current contracts; do not count a candidate or choose by availability.
