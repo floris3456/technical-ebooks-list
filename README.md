@@ -10,7 +10,7 @@ An evidence-backed catalog of programming, software engineering and computing eb
 | Passed a subsequent-run review | 29 |
 | Recommendations awaiting later-run review | 0 |
 | Canonical research candidates, not counted | 1 |
-| Retained deferred works, including that candidate | 5 |
+| Retained deferred works, including that candidate | 6 |
 | Completed final collection audit | 0 |
 | Target after review and final audit | 2,000 |
 
@@ -56,7 +56,7 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 
 [UNSELECTED.md](research/UNSELECTED.md) retains evaluated works that did not meet the criteria, including any future removals, with concise reasons, sources and reconsideration conditions. Incomplete evidence is distinguished from a supported quality rejection.
 
-Currently deferred: Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, Test-Driven Development with Python third edition, and Database Internals first edition. Only Infrastructure as Code has a canonical candidate file. None was excluded because of age, price or acquisition status.
+Currently deferred: Rust Atomics and Locks first edition (pending safety-errata reconciliation), Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, Test-Driven Development with Python third edition, and Database Internals first edition. Only Infrastructure as Code has a canonical candidate file. None was excluded because of age, price or acquisition status.
 
 ## Selection principles
 
