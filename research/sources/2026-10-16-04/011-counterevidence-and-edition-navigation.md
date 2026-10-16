@@ -1,0 +1,9 @@
+# Counterevidence and edition navigation
+
+Access2026-10-16.
+- https://bitemyapp.com/blog/notes-on-zero2prod-rust/ — full original Chris Allen article inspected, dated2022-06-25, explicitly a production-Rust user's skim of then511pages. Recommends the work but disputes black-box testing overhead, SQLx versus Diesel, iterative detours and initial password-hashing exposition; favors eventual Argon2 recommendation. These are experience/opinion, not proof every preferred alternative is superior. Distinguish narrated wrong turns from final book advice, and verify actual sample plus current primary security/testing documentation.
+- https://www.oreilly.com/catalog/errata.csp?isbn=0636920635048 — full confirmed entries inspected. Guard Sync-bound correction remains without correction date; p209 assertion explicitly says operator should be < and 'Fixed' without date; p54 repeat explicitly fixed in second printing; p68 ordering and p76 loop-test corrections dated2023-01-27. Missing ledger date does NOT mean live text unfixed: original chapters4/9 now show the repairs. Do not infer every format/printing corrected.
+- https://www.zero2prod.com/ (same resolved geoURL recorded007) — revisited only for exact authorized sample navigation. No additional novelty or independence.
+- https://www.oreilly.com/library/view/-/9781098176228/ resolved https://www.oreilly.com/library/view/programming-rust-3rd/9781098176228/ —526-line publisher response; edition-specific body inspection pending.
+- https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/ch04.html — original chapter4 preview retrieved534lines including navigation; substantive preview extent must be checked before counting it as a full chapter.
+- Publisher errata link165 from the second-edition page failed internally before a resolved URL was returned. Preserve unresolved navigation failure; later direct errata URL may succeed. No claimed errata clearance.
