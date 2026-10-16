@@ -39,7 +39,7 @@ This work's problem-driven organization would distinguish it from CLRS's broader
 
 Pearson explicitly calls it **first edition**, names both authors, and identifies paperback9780321295354 as published2005. The same storefront labels its electronic product9780137546350 as published2021-07-14/copyright2022. Those platform dates are not proof of a revised second edition or of exact equivalence to every2005 printing [T1]. Only the unambiguous paperback identifier is stored by format.
 
-Georgia Tech's Fall2026 syllabus recommends this work while requiring DPV; it does not require KT cover to cover [T2]. NUS's2013 course says it may use parts of the Pearson International Edition, not that it assigned the current US electronic build [T3]. Neither source resolves errata. No relevant errata body was successfully inspected; absence of such a read is not proof of correctness. The bounded search did not establish a replacement edition, and no universal latest-edition guarantee is made.
+Georgia Tech's Fall2026 syllabus recommends this work while requiring DPV; it does not require KT cover to cover [T2]. NUS's2013 course says it may use parts of the Pearson International Edition, not that it assigned the current US electronic build [T3]. Neither source resolves errata. No relevant errata body was successfully inspected; absence of such a read is not proof of correctness. The earlier search did not establish a newer edition, but independently inspected university evidence from 2022 and 2026 now supports a distinct second-version lead. The first-edition record remains separate; no universal latest-edition claim is made.
 
 ## Evidence ledger
 
@@ -56,3 +56,8 @@ All access dates **2026-10-16**.
 ## Reconsideration
 
 Inspect an original substantive design argument (for example weighted interval scheduling or a flow reduction), verify its edition and associated errata, and reassess pedagogical value against the already recommended alternatives. Preserve this candidate in [UNSELECTED](../research/UNSELECTED.md). No recommendation-index appearance or target count until the evidence gate passes.
+
+
+## Cycle11 edition and course review — 2026-10-16
+
+[George Mason Spring2022 syllabus (PDF p5)](https://cs.gmu.edu/media/syllabi/Spring2022/CS_483LiF002.pdf#page=5) explicitly announces a second version due2022-02-25 and states its course-covered subjects are unchanged; this is **not** a complete two-edition comparison. [Oxford 2026–27](https://www.cs.ox.ac.uk/teaching/courses/2026-2027/algdesign/) independently names a second edition; [Gothenburg Autumn2026](https://www.gu.se/en/reading-list/70eef809-c919-11f0-a255-650837bd40cf) and [Sapienza2026–27](https://corsidilaurea.uniroma1.it/en/course/33515/attendance/lesson/76a6cda9-0d31-4562-a93f-e5f7c429572a/1/2/58f6888a-fd41-482f-8669-7b9ac3241991?channel=0) support current first-edition work/section teaching. Reseller second-edition ISBN leads are **not** assigned to a format without publisher corroboration. A university-hosted chapter7.4 PDF showed cover identity, but its substantive pages could not be rendered, so no original algorithm argument was claimed. **Candidate remains uncounted**, pending original content, corrections and edition mapping. Neither age nor price matters.
