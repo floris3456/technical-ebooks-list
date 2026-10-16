@@ -1,0 +1,9 @@
+# Source batch 007 (accessed 2026-10-16)
+
+https://www.redblobgames.com/pathfinding/a-star/implementation.html — full original pathfinding Python and C++ worked examples and sections 4–6 on priority queues, duplicate frontier entries and optimization caveats. Document revisions displayed 2014, 2016, 2018, 2020, 2022, August 2026. New substantive family #19 in corrected count.
+https://realpython.com/python-heapq-module/ — full Moshe Zadka practitioner guide: heap invariant, implementation examples and paths, distinction between asymptotics and measurement; original publication around 2020, exact page date unverified. New substantive family #20.
+https://www.cs.princeton.edu/courses/archive/spring26/cos226/ — rich search result shows SW fourth edition required for Princeton Spring2026; direct open failed Internal Error; not a full read or new family.
+https://www.cs.swarthmore.edu/~ngrammel/cs41/f26/ — rich search result shows KT Fall2026 suggested weekly reading; direct open failed Internal Error; no substantive site credit.
+https://www.redblobgames.com/pathfinding/a-star/introduction.html ; https://realpython.com/ref/stdlib/heapq/ — search excerpts, no full-body read or extra family.
+
+Corrected novelty against archived SOURCES registry: go.dev and boost.org are returning sites, not new. Exactly 20 conservatively newly substantive families to date: open.umn.edu, araujo.eng.uerj.br, opendatastructures.org, aupress.ca, ccom.uprrp.edu, utoledo.edu, teachingexcellence.syr.edu, gu.se, cs.ox.ac.uk, sites.cs.ucsb.edu, cse.iitd.ac.in, cs.tufts.edu, oregonstate.edu, uniroma1.it, cs.gmu.edu, abseil.io, illinois.edu, cppreference.com, redblobgames.com, realpython.com. Full technical manuals here are not endorsements of textbooks. Access date differs from original dates. No code execution.
