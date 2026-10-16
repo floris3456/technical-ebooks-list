@@ -16,7 +16,7 @@ formats: [epub, pdf]
 access: unknown
 official_url: https://www.informit.com/store/algorithms-9780321573513
 last_verified: "2026-10-16"
-status: candidate
+status: recommended
 review_status: pending
 reviewed_commit: null
 ---
@@ -25,9 +25,9 @@ reviewed_commit: null
 
 ## Decision and audience
 
-**High-potential, deeply documented teaching candidate; still uncounted.** Original author preface and publisher contents describe a second-course approach combining data abstraction, complete Java implementations and empirical performance analysis [W1,W2]. The intended reader already programs and wants to connect a cost model to an implementation, not only memorize interview answers.
+**Recommend, with edition-specific source and errata qualifications.** Original author preface and publisher contents describe a second-course approach combining data abstraction, complete Java implementations and empirical performance analysis [W1,W2]. The intended reader already programs and wants to connect a cost model to an implementation, not only memorize interview answers.
 
-Independent exact-edition adoption is strong: TEDU requires4e2011, and San José State's Summer2025 syllabus assigns specific SW chapters [W3,W4]. What remains incomplete is this invocation's inspection of a substantive original algorithm implementation/explanation and its errata. The author preface is genuine original material but does not substitute for examining an actual technical example. Consequently the candidate is not promoted solely from curricular reputation or a detailed TOC. No availability criterion was used.
+Independent exact-edition adoption is strong: TEDU requires4e2011, and San José State's Summer2025 syllabus assigns specific SW chapters [W3,W4]. In cycle11 the authors' complete maintained Java Quick.java was freshly inspected, including shuffle, partition and selection code [W8]. This is a distinct practical teaching role and complements the independent chapter-level course evidence. It does not establish exact agreement with all 2011 printed copies or certify code correctness. A complete errata body was not available [W10]. Availability was irrelevant.
 
 ## Contents, fit and present relevance
 
@@ -61,4 +61,11 @@ All access dates **2026-10-16**.
 
 ## Reconsideration
 
-Inspect an original fourth-edition worked implementation, check its significant corrections and compare its assumptions with the current Java/library environment. Determine whether its distinct implementation-centered value warrants recommendation beside the existing algorithm texts. Candidate remains in [UNSELECTED](../research/UNSELECTED.md), outside counts and topic recommendation indexes.
+Inspect an original fourth-edition worked implementation, check its significant corrections and compare its assumptions with the current Java/library environment. Determine whether its distinct implementation-centered value warrants recommendation beside the existing algorithm texts. This recommendation is pending later-run review; the former deferral is preserved as superseded in [UNSELECTED](../research/UNSELECTED.md).
+
+
+## Cycle11 original implementation and edition check — 2026-10-16
+
+Fresh full author-maintained [Quick.java](https://github.com/kevin-wayne/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Quick.java) was read: shuffle-before-partition, recursive sort, quickselect, in-bounds scans and supporting StdRandom/StdIn dependencies. File copyright2002–2025 explicitly links to fourth edition2011. This is original worked implementation, **not proof all printings are identical or verified correct**. Current [Java25 Comparable](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html) requires consistent transitive ordering; raw Comparable code has type/compatibility caveats. Independent required/adopted fourth-edition use remains in W3–W5. Publisher [fourth-printing errata](https://algs4.cs.princeton.edu/errata/errata-printing4.php) yielded selected indexed corrections but direct open was HTTP403; full correction ledger and which printings contain fixes are unknown. The author's [quicksort booksite](https://algs4.cs.princeton.edu/23quicksort/) likewise exposed meaningful search-indexed algorithm explanations but direct open failed. These search snippets are leads, not the substantive original proof used for approval. Technical novelty versus CLRS/DPV/Skiena is the Java implementation-and-measurement pathway, not another format of those works.
+
+**Newly recommended, subsequent-run review pending.** Next review must compare an actual printed chapter with the maintained code, inspect full edition-specific corrections and test one current Java API contract; no same-run pass or final clearance.
