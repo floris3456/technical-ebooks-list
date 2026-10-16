@@ -1,0 +1,12 @@
+# Scope/adoption retrievals — accessed 2026-10-16
+
+- https://www.algorist.com/ — full 47-line author landing read; 3e identity, techniques/reference split, algorithms repository and errata links, affiliate disclosure. Date unknown. Promotional superlatives/testimonials not independent evaluation. Same author/institution family as Stony Brook, one novelty credit only after substantive chapter work.
+- https://cseweb.ucsd.edu/~dasgupta/book/index.html — complete 17-line original TOC and author identification read. Chapter topics through linear programming/NP/quantum; errata marked updated 2007-12-18. Known UCSD, no novelty. TOC alone not substantive original explanation.
+- https://algs4.cs.princeton.edu/home/ — retry returns 403, no body read.
+- https://www.cs.cornell.edu/home/kleinber/algbook/ — inaccessible, no body read.
+- https://www.cs.sfu.ca/~ishinkar/teaching/fall26/cmpt225/syllabus.html — full syllabus, Fall2026, topics/grading/recommended literature. Sedgewick/Wayne linked directly to algs4 but reading explicitly nonmandatory. New substantive SFU family. No evidence of book exercises assigned from this page alone.
+- https://reserves.calstate.edu/sacramento/course/45756190400001671 — full short original CSC140 reserve record, instructor Shobaki, Skiena3e and CLRS3e; updated 2026-03-15. New CalState/Sacramento family, course-use metadata not deep independent assessment; withhold conservative substantive credit unless actual syllabus inspected.
+- https://www3.cs.stonybrook.edu/~skiena/373/ — full Fall2026 original course page, objectives and assignments dated Sep–Dec2026, third-edition text identified. Author-taught course, NOT independent adoption; author ecosystem grouped with algorist.com. Dates of future assignments are schedule, not completed teaching.
+- https://se-radio.net/2020/11/episode-434-steven-skiena-on-preparing-for-the-data-structures-and-algorithm-job-interview/ — dated 2020-11-10; inspected opening transcript through 00:07:28 and book-topic show notes, not full interview. First-person author rationale, not independent quality review. Transcript contains questionable array/vector wording, not accepted as technical authority. Conservatively no novelty credit owing to IEEE/Computer Society relationship already known.
+
+Newness is against persisted baseline, not a claim to inspect whole websites. None of these documents alone completes a book evidence gate. No binaries acquired or examples run.
