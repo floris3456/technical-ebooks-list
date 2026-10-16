@@ -17,8 +17,8 @@ access: unknown
 official_url: "https://nostarch.com/tlpi"
 last_verified: "2026-10-16"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "521ad1538df267f9fff2eb45420b02d6e64a8f7d"
 ---
 
 # The Linux Programming Interface — first edition (2010)
@@ -71,4 +71,6 @@ No edition-specific full audit was performed. The original author's correction l
 
 ## Next review
 
-**Pending genuinely later-run scrutiny.** Read chapter 4 error and short-write semantics more fully; verify printing-specific corrections against another original sample, assess chapter-coverage classification and independent reviewers' expertise, and check modern kernel/glibc current interfaces by version. No same-run pass, whole-book read, live code benchmark or final collection audit is implied.
+**Qualified subsequent-run review of commit `521ad1538df267f9fff2eb45420b02d6e64a8f7d` passed on 2026-10-16.** Inspected/rendered original chapter 4 printed p71, compared [current write(2) manual](https://man7.org/linux/man-pages/man2/write.2.html) §RETURN VALUE / NOTES confirming short writes and interruption require handling, and re-opened [William & Mary Fall 2026 chapter assignments](https://www.cs.wm.edu/~smherwig/courses/csci415-f2026/index.html), [LWN's 2011 technical critique](https://lwn.net/Articles/423417/), and [author's printing errata](https://kerrisk.com/tlpi/errata/errata_by_print_run.html). The introductory `copy.c` aborts on partial write instead of retrying; its chapter 4 pp74–76 already explains close-on-exec races with `O_CLOEXEC`. Neither specific short-write limitation nor the unfinished printing audit negates the continued value of file-descriptor and process API teaching. Review source attempts and open limits in [cycle log](../research/sources/2026-10-16-02/001-discovery.md).
+
+**Further scrutiny required.** Read chapter 4 error and short-write semantics more fully; verify printing-specific corrections against another original sample, assess chapter-coverage classification and independent reviewers' expertise, and check modern kernel/glibc current interfaces by version. No whole-book read, live code benchmark or final collection audit is implied.
