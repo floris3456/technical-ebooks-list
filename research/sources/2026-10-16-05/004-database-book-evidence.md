@@ -1,0 +1,9 @@
+# Batch 004 — direct database-book research, accessed 2026-10-16
+
+https://dsg.csail.mit.edu/6.5830/lectures/lecture5.php — original MIT 6.5830 Spring 2026 Lecture 5 page, lines 0–11: explicitly assigns **Chapter 2, B+Tree Basics** of Petrov's Database Internals, with three instructor discussion questions. Independent *specific chapter adoption*; known MIT domain, zero novelty.
+https://hippocampus-garden.com/book_review_petrov/ — Shion Honda 2025-04-27 firsthand review, full 218-line text: specific storage-engine vs distributed-systems scope, concrete LSM, B-tree and transactional examples. **New substantive independent-review domain #1**. The review's three-way CAP shorthand is oversimplified; use source as firsthand appraisal, not a normative distributed-systems specification.
+https://www.oreilly.com/library/view/database-internals/9781492040330/ch02.html — O'Reilly original B-Tree Basics preview, 510-line wrapper largely nav/TOC, verify visible body before crediting original chapter. Known publisher.
+https://www.oreilly.com/library/view/database-internals/9781492040330/ch01.html — original Introduction and Overview preview, 512-line wrapper; full-book content inaccessible by preview, not read as full chapter. Known publisher.
+https://noahtigner.com/articles/database-internals-summary/ — 2026-03-29 independent reader's detailed summary and review, 178 lines. Previously known author site, no novelty; book-level appraisal, not original content or operational authority.
+
+Publisher and MIT evidence together close the previous absence of explicit university chapter adoption, but a substantive authorized original chapter is still missing. No availability criterion used. Search discovery additionally surfaced retailer ebook format identifiers, not required for selection; do not equate access date with their edition dates.
