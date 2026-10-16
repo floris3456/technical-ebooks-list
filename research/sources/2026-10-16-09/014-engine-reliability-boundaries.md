@@ -1,0 +1,4 @@
+# Technical source checks 014 — access 2026-10-16
+https://docs.timescale.com/use-timescale/latest/hypercore/secondary-indexes/ — direct open failed unsupported text/markdown; search excerpt only, not original substantive read and no domain credit.
+https://docs.redpanda.com/streaming/current/manage/cluster-maintenance/disk-utilization/ — opened full 407-line Redpanda v26.2, release Jul2026; Configure retention, disk thresholds, segment rolling. Retention/compaction operate on closed segments; disk exhaustion can block writes. New substantive Redpanda-family website. Primary operational context for DBRE, not book endorsement.
+https://docs.yugabyte.com/stable/releases/techadvisories/ta-30104/ — opened full technical advisory dated 2026-02-11: specific Yugabyte versions have partial/expression-index inconsistent UPDATE bug and fixed builds. Previously logged provider/domain in cycle08, not new credit. This does not characterize generic PostgreSQL correctness.
