@@ -5,5 +5,6 @@
 | [Operating Systems: Three Easy Pieces — 1.10](../books/arpaci-dusseau-ostep-1-10.md) | Additional: threads and synchronization | Passed |
 | [Designing Data-Intensive Applications — second edition](../books/kleppmann-riccomini-ddia-2.md) | Additional: replication, consistency and distributed faults | Passed |
 | [Distributed Systems — fourth edition](../books/van-steen-tanenbaum-distributed-systems-4.md) | Primary: clocks, coordination, consistency and faults | Passed |
+| [Rust Atomics and Locks — first edition, corrected live text](../books/bos-rust-atomics-and-locks-1.md) | Primary: memory ordering and synchronization primitives; printing and safety caveats retained | Pending |
 
-These are links to canonical book assessments, not distinct edition counts. [All subject indexes](README.md).
+These are links to canonical book assessments, not distinct edition counts. The combined subject includes single-machine concurrency; Bos is not a distributed-consensus textbook. [All subject indexes](README.md).

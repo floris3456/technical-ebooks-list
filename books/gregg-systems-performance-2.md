@@ -15,10 +15,10 @@ focus: [conceptual, practical, reference]
 formats: [epub, pdf]
 access: unknown
 official_url: "https://www.informit.com/store/systems-performance-9780136821649"
-last_verified: "2026-10-14"
+last_verified: "2026-10-16"
 status: recommended
 review_status: passed
-reviewed_commit: "154e499e02b872a859e7ee6b641b72365dd245a9"
+reviewed_commit: "e0e6c5543a4af14116361ef9d5cbfca29cb8d19e"
 ---
 
 # Systems Performance — Second Edition
@@ -43,6 +43,16 @@ Evidence inspected/accessed **2026-10-14**: [S1 publisher date/TOC/ebook](https:
 
 **Passed after independent inspection of published commit `154e499e02b872a859e7ee6b641b72365dd245a9`.** Reopened the original [publisher chapter 3 sample](https://www.informit.com/content/images/9780136820154/samplepages/9780136820154_Sample.pdf#page=42) at **PDF pp. 42 and 56** (printed pp. 91 and 105) and checked the kernel/system-call/CPU scheduling diagrams. Revisited the [2024-01-14 firsthand second-edition translation review](https://blog.serizawa.me/p/2024-01-14-system-performance-2nd) and [current Linux Ftrace manual](https://docs.kernel.org/trace/ftrace.html). Translation review is **not** evidence of English page identity; documentation confirms tracing remains operational, **not** that all old flags or commands will work. The book is distinct from OSTEP because its dominant teaching purpose is diagnosis of live systems, not OS introduction, so its OS secondary tag remains justified. No benchmark or command was executed and no exhaustive errata audit is claimed. Decision: **pass with kernel/version and inspection caveats**.
 
+## Rotating review — 2026-10-16
+
+Reviewed the saved canonical record at `e0e6c5543a4af14116361ef9d5cbfca29cb8d19e`. The existing qualified scope and prior pass are retained; this is a targeted provenance/currency annotation, not a new unqualified recommendation or final-audit pass. The earlier original sample and independent translation review were not re-read in this rotation; their access dates above remain2026-10-14.
+
+The [author's second-edition page](https://www.brendangregg.com/systems-performance-2nd-edition-book.html), inspected in full, states **last updated11-Jan-2020** and retains draft/future-ebook wording. An empty first-printing errata heading on that stale page does **not** establish that the published book is error-free or that a current corrections audit is complete. More recent sidebar links do not update the body by implication. First-edition company-use statements on the same page are not transferred to the second edition.
+
+The [current kernel EEVDF explanation](https://docs.kernel.org/scheduler/sched-eevdf.html), full retrieved20-line page inspected, discusses eligibility/lag and virtual-deadline selection. It reinforces the record's existing boundary: use current kernel documentation for scheduler details rather than treating a2020 systems book as a contemporary implementation manual. The document's update date was not supplied; access2026-10-16 is not a publication date. No release chronology was inferred from its brief parenthetical wording.
+
+The bpftrace documentation landing produced no parsed body in this run; that failure establishes neither abandonment nor correctness. Exact attempts and dates are retained in [the cycle log](../research/sources/2026-10-16-04/README.md). No benchmark, tool flag or example was executed.
+
 ## Next review
 
-Passed subsequent review. Inspect later chapters on CPU and BPF, author errata and other independent evaluations, then test one dated tracing command in a pinned environment. Retain platform-specific qualifications; do not transfer kernel examples uncritically.
+Inspect later original CPU/BPF chapters, a genuinely updated correction source and another independent exact-edition assessment. Test a dated tracing example only in an explicitly pinned environment and distinguish execution success from a full compatibility audit. Retain platform-specific qualifications and the stale-page warning.

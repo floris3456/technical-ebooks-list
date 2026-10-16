@@ -6,15 +6,15 @@ An evidence-backed catalog of programming, software engineering and computing eb
 
 | Measure | Distinct works |
 | --- | ---: |
-| Recommended after initial research | 29 |
+| Recommended after initial research | 32 |
 | Passed a subsequent-run review | 29 |
-| Recommendations awaiting later-run review | 0 |
-| Canonical research candidates, not counted | 1 |
-| Retained deferred works, including that candidate | 6 |
+| Recommendations awaiting later-run review | 3 |
+| Canonical research candidates, not counted | 2 |
+| Retained active deferred works, including those candidates | 6 |
 | Completed final collection audit | 0 |
 | Target after review and final audit | 2,000 |
 
-Count by stable `work_id`, not editions, translations, formats or subject-index appearances. Computer Systems: A Programmer's Perspective now passes qualified later-run review while retaining major C/errata and edition cautions. The Linux Programming Interface has now passed a qualified later-run review, with its nonretrying chapter-4 copy demo and contemporary API caveats retained. All passes retain technical and edition limits. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
+Count by stable `work_id`, not editions, translations, formats or subject-index appearances. This cycle adds Rust Atomics and Locks, Rust for Rustaceans and Zero To Production In Rust, all **pending** genuine later-run review. Programming Rust's third edition remains an uncounted candidate; earlier-edition reviews are not transferred to it. The Systems Performance rotation retains its qualified recommendation and adds a stale-errata-page warning. All earlier passes retain their technical and edition limits. See [research/STATE.md](research/STATE.md), [retained non-selections](research/UNSELECTED.md), and [the source registry](research/SOURCES.md).
 
 ## Browse recommendations
 
@@ -49,14 +49,17 @@ Count by stable `work_id`, not editions, translations, formats or subject-index 
 | [Architecture Patterns with Python](books/percival-gregory-architecture-patterns-with-python-1.md) | First (March 2020) | Software Architecture | Passed |
 | [Working Effectively with Legacy Code](books/feathers-working-effectively-with-legacy-code-1.md) | First (2004; copyright 2005) | Software Maintenance & Legacy Systems | Passed |
 | [Fundamentals of Data Engineering](books/reis-housley-fundamentals-of-data-engineering-1.md) | First (2022) | Data Engineering | Passed |
+| [Rust Atomics and Locks](books/bos-rust-atomics-and-locks-1.md) | First (2023); corrected live text inspected | Concurrency & Distributed Systems | Pending |
+| [Rust for Rustaceans](books/gjengset-rust-for-rustaceans-1.md) | First (2021); material errata retained | Programming | Pending |
+| [Zero To Production In Rust](books/palmieri-zero-to-production-in-rust-2022.md) | 2022 work cited in teaching; maintained digital build unspecified | Platform-Specific Development | Pending |
 
-**Passed means later-run assessment, not final-audit clearance.** Follow each record for exact edition boundaries and unresolved limitations. [Topic indexes](topics/README.md) provide substantial secondary subjects without duplicating works. All 23 subjects now have a primary recommendation; coverage is not proof of optimal organization.
+**Passed means later-run assessment, not final-audit clearance.** Follow each record for exact edition boundaries and unresolved limitations. [Topic indexes](topics/README.md) provide substantial secondary subjects without duplicating works. All23 subjects have a primary recommendation; coverage is not proof of optimal organization.
 
 ## Retained non-selections
 
 [UNSELECTED.md](research/UNSELECTED.md) retains evaluated works that did not meet the criteria, including any future removals, with concise reasons, sources and reconsideration conditions. Incomplete evidence is distinguished from a supported quality rejection.
 
-Currently deferred: Rust Atomics and Locks first edition (pending safety-errata reconciliation), Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, Test-Driven Development with Python third edition, and Database Internals first edition. Only Infrastructure as Code has a canonical candidate file. None was excluded because of age, price or acquisition status.
+Currently deferred: Programming Rust third edition, Infrastructure as Code third edition, the Site Reliability Engineering second-edition lead, Brutal Refactoring, Test-Driven Development with Python third edition, and Database Internals first edition. The first two have canonical candidate files. Bos's previous deferral is preserved as superseded after direct live-text/errata reconciliation; it is not an active seventh deferral. None was excluded because of age, price or acquisition status.
 
 ## Selection principles
 
@@ -66,13 +69,15 @@ Currently deferred: Rust Atomics and Locks first edition (pending safety-errata 
 
 Each recommendation needs at least three inspected substantive documents collectively supporting identity/edition, actual contents, independent expert assessment or educational adoption, and relevance today. Claims link to exact sources and section/page locators. Publication/update dates are separate from access dates. Snippets, ratings, publisher praise and recycled lists alone are insufficient. Disclose partial previews and edition-specific evidence gaps.
 
-Record every external source attempt in Git after its retrieval batch, before the next batch, including failures. Each cycle investigates at least 20 new websites, not repeated pages on one site; returning sources remain valuable but earn no novelty credits. Source breadth is not a substitute for book-specific quality evidence.
+Record every external source attempt in Git after its retrieval batch, before the next batch, including failures. Each cycle investigates at least20 new websites, not repeated pages on one site; returning sources remain valuable but earn no novelty credits. Source breadth is not a substitute for book-specific quality evidence.
+
+**Research at least four strong candidates per invocation.** This is a research breadth requirement, not a minimum number of approvals. Keep candidates uncounted until their evidence passes; never pad recommendations or relax standards to meet a quota.
 
 Cycles review earlier work and may add, revise, reclassify or remove entries with reasons. New recommendations require later-run review; final completion additionally requires an evidence, relevance, categorization and deduplication audit. Work-level non-selections stay in [UNSELECTED.md](research/UNSELECTED.md), and claim-level corrections in [REJECTIONS.md](research/REJECTIONS.md).
 
 ## Explore all subjects
 
-The **7 browsing groups and 23 controlled subjects** remain provisional. No empirical user test has established an optimum.
+The **7 browsing groups and23 controlled subjects** remain provisional. No empirical user test has established an optimum.
 
 | Navigation group | Subjects |
 | --- | --- |

@@ -1,43 +1,21 @@
-# Source registry and visit protocol
+# Source registry and immediate-visit protocol
 
-## Cycle indexes
+## Current cycle
 
-| Cycle | Persisted evidence | Novelty / status |
-| --- | --- | --- |
-| [2026-10-16-01](sources/2026-10-16-01/README.md) | Linux userspace API primary chapters, independent 2010/11 critique and 2026 teaching; CSAPP later review; rotating security check; immediate 001–012 logs | **23 newly visited website families; 21 conservatively substantive** after two questionable families excluded; inaccessible attempts retained. |
-| [2026-10-15-06](sources/2026-10-15-06/001-discovery.md) | Observed source-only Rust/CSAPP work in progress on main; some exact logs incomplete | **Previously observed, not this cycle's novelty or a completed review**. |
-| [2026-10-15-05](sources/2026-10-15-05/README.md) | Review of Python architecture, rotating OS sample, original CSAPP3e/errata and 2026 independent adoptions; immediate 001–012 source logs | 26 distinct newly visited websites, at least 22 substantively inspected conservatively; failures and partial sources distinguished. |
-| [2026-10-15-03](sources/2026-10-15-03/README.md) | Immediate batches 000–015, original book/reviewer evidence, technical counterchecks and failed discoveries | **22** substantively investigated new website families; no credits from cycle-02 source-only WIP. |
-| [2026-10-15-02](sources/2026-10-15-02/001-initial-technical-checks.md) | Observable source-only work 001–012 including CSS and browser caveats; not a recommendation pass or fully reconciled cycle | All those websites known for future novelty checks. |
-| [2026-10-15-01](sources/2026-10-15-01/README.md) | Exact retrieval batches 001–016, with start checkpoint and failed/discovery-only outcomes | 22 newly investigated website families; browser-book author blog merged, subdomains collapsed. |
-| [Previous registry through f215171](SOURCES-through-f215171.md) | Previous registry preserved byte-for-byte, linking cycle12, interrupted cycle11, cycle10 and original baseline | All prior attempted websites remain known, including unsuccessful visits. |
-| [2026-10-14-12](sources/2026-10-14-12/README.md) | Original research and source audit | Previously 22 families / 21 conservative ecosystems; not new now. |
-| [2026-10-14-10](sources/2026-10-14-10/README.md) | Earlier full ledger | Previously 25 sites; not new now. |
+[2026-10-16-04 source audit](sources/2026-10-16-04/README.md) links27 immediately committed retrieval/search logs, four candidate decisions, source-date limitations and a conservative register of **20 newly investigated substantive website families** against the inspected saved baseline. Returning sources, failed retrievals and discovery-only snippets do not add novelty credits.
 
-Read this registry, the archived baseline and all later cycle logs before calling a site new. Historical unrecorded browsing is unknowable; novelty is against persisted evidence, not an invented complete execution history.
+Newly registered families: `mhh.dev`, `revinder.dev`, `elliotcsmith.com`, `rustapopoulos.wordpress.com`/`rustapopoulos.com` (one author family), `vsb.cz`, `preslav.me`, `markodowd.dev`, `bitemyapp.com`, `actix.rs`, `diesel.rs`, `jetbrains.com`, `oida.dev`, `nexte.st`, `deterministic.space`, `dystroy.org`, `render.com`, `fly.io`/`docs.fly.io` (one provider), `corrode.dev`/author-associated sites (one family), `rerun.io`, `ralfj.de`. A family being new says nothing about whether its opinions or code are correct.
 
-## Immediate logging
+## Preserved baseline and unfinished histories
 
-After each external retrieval batch, commit exact attempted/resolved URLs and outcomes before the next batch. Include errors, redirects, partial previews, navigation-only responses, search-only discoveries and any unresolved tool links. Record actual inspected sections/pages, evidence role, original source dates and access date separately. Search snippets and successful navigation alone are not substantive source reads.
+[Registry through e0e6c55](SOURCES-through-e0e6c55.md) preserves the prior source registry byte-for-byte, including all earlier cycle indexes and baseline archives. Consult that history before crediting a domain again. Additional saved [cycle03 Rust audit](sources/2026-10-16-03/001-rust-audit.md) and [prior checkpoint](STATE-through-e0e6c55.md) retain failed/repeated research and its novelty shortfall; they are not credited to this cycle.
 
-Investigate at least 20 new websites per cycle without using irrelevant sources as padding. Merge subdomains, mirrors and author-associated sites conservatively. Return to known sites for depth, but award no new-site credit. Source breadth does not replace independent book evaluation. Work-level non-selections remain in [UNSELECTED.md](UNSELECTED.md).
+The source-only branch `research/2026-10-15-04-rust` at9e688a0314536aa22e22370f9fdcf84ead7c38ad was observed and multiple relevant logs inspected. Its known Rust ecosystem sites were excluded from current novelty. Not every saved branch file was substantively reviewed; unseen historical browsing is not claimed. The sibling curation branch's changed-file list was observed, not treated as a new completed review. Exact scope is in the current audit.
 
-## Newly known in cycle 2026-10-15-03
+## Protocol
 
-`cosmicpython.com`, `buresund.se`, `noahtigner.com`, `sqlalchemy.org`, `fastapi.tiangolo.com`, `celeryq.dev`, `microservices.io`, `mongodb.com`, `clickhouse.com`, `cockroachlabs.com`, `yugabyte.com`, `questdb.com`, `mariadb.com`, `temporal.io`, `nats.io`, `rabbitmq.com`, `pydantic.dev`, `eventcatalog.dev`, `opensearch.org`, `asyncapi.com`, `redpanda.com`, `conductor-oss.org`. Failed sites and all discovery-only attempts remain known from numbered logs but are excluded from this 22 substantive-site count. The [cycle audit](sources/2026-10-15-03/README.md) records roles and caveats.
+After each external retrieval batch, commit exact attempted and resolved URLs, outcomes, inspected sections/pages, original document dates where supplied, and the separate access date before the next external batch. Include failures, redirect-only bodies, partial previews, irrelevant search collisions and unresolved navigation links. Do not present a search snippet or ratings page as a substantive read.
 
-## Newly known in cycle 2026-10-15-01
+Investigate at least20 new website families each invocation; merge related author/provider domains and subdomains conservatively. Return to older sources for needed depth without new-site credits. At least four strong candidates must be researched, but approval remains evidence-driven with no minimum addition quota. Candidate/retired records and multiple editions or formats cannot inflate the recommendation count.
 
-`eloquentjavascript.net`, `santarosa.edu`, `obeythetestinggoat.com`, `browser.engineering`, `washington.edu`, `mozilla.org`, `whatwg.org`, `nodejs.org`, `ecma-international.org`, `nostarch.com`, `python.org`, `djangoproject.com`, `selenium.dev`, `palletsprojects.com`, `testing-library.com`, `oup.com`, `web-platform-tests.org`, `vitest.dev`, `react.dev`, `javascript.info`, `sqlite.org`, `webkit.org`.
-
-The associated `browserbook.substack.com` author blog contributes no separate website credit. Oxford storefront failure and successful Oxford Academic bibliography count as one family. Repeated chapters, PDF renders and the known W3C/Pearson/O'Reilly/review sites add zero credits. The [cycle table](sources/2026-10-15-01/README.md#new-website-audit) maps each family to an exact inspected source and contribution.
-
-Discovery-only search hits, including irrelevant and retailer results, are retained in numbered logs and not counted as inspected evidence. Future runs should consult those attempts before assuming novelty; no claim is made that every source surfaced in search was read.
-
-## Newly visited website families — 2026-10-15-05
-
-`llvm.org`, `sourceware.org`, `valgrind.org`, `man7.org`, `gnu.org`, `intel.com`, `qemu.org`, `agner.org`, `openmp.org`, `open-std.org`, `osdev.org`, `dwarfstd.org`, `freebsd.org`, `ziglang.org`, `wellesley.edu`, `alistair.cockburn.us`, `ploeh.dk`, `go.dev`, `jemalloc.net`, `umd.edu`, `lwn.net`, `sel4.systems`, `godbolt.org`, `hmc.edu`, `harvard.edu`, `iso.org`. Four website families that yielded only navigational/index/metadata scope (Intel manual index, DWARF index, Godbolt landing, ISO edition record) do not contribute to the conservative 22 substantive count. Search-only URLs, failed responses and already-known CSAPP/CMU, Cosmic Python, SQLAlchemy, O'Reilly and other authors' site repeats add zero novelty. The [audit](sources/2026-10-15-05/README.md) defines the conservative site-by-site roles.
-
-## Newly known in cycle 2026-10-16-01
-
-`wm.edu`, `tum.de`, `slashdot.org`, `strace.io`, `libevent.org`, `landlock.io`, `libuv.org`, `unixism.net`, `ebpf.io`, `rr-project.org`, `curl.se`, `boost.org`, `debian.org`, `depaul.edu`, `systemd.io`, `busybox.net`, `podman.io`, `docker.com`, `gvisor.dev`, `linuxcontainers.org`, `firecracker-microvm.github.io`, `wireshark.org`, `haproxy.org` — **23 opened families, 21 conservatively substantive**; BusyBox was shallow and Firecracker's GitHub Pages ecosystem was withheld from the independent count. Repeated author/publisher sites add zero. Failed or search-only new sites are recorded by their exact URLs in [cycle 01 audit](sources/2026-10-16-01/README.md) and are now known for future novelty checks. The observed cycle-06 source-only Rust leads include `rust-lang.org`, `odu.edu`, and `hightechmind.io`; these belong to that WIP, not this cycle's new evidence or counts.
+Original technical manuals support relevance or counterchecks, not automatically book endorsement. Source publication/update dates are not access dates. Retain every evaluated non-selection with a concise evidence gap or quality reason in [UNSELECTED](UNSELECTED.md). Availability never supplies a rejection reason.
