@@ -1,0 +1,6 @@
+# Safety boundaries and language use
+
+Access2026-10-16.
+- https://corrode.dev/blog/pitfalls-of-safe-rust/ — Matthias Endler, updated2025-10-09. Inspected worked overflow/conversion/bounded-domain examples through line187, not whole724-line article. Commercial consultant's primary technical exposition: checked arithmetic and validated newtypes address logic failures that memory safety alone does not prevent. Its broad `as` safety language and illustrative performance costs are not accepted as universal measured facts.
+- https://rerun.io/blog/why-rust — Emil Ernerfeldt's firsthand production/design account, relative '3 years ago' only; exact date unknown. Read borrowing, enum/error/resource-scope and Wasm examples through line143. Concrete engineering use, not independent assessment of any book. Promotional speed/hiring/general language comparisons not imported as verified facts.
+- https://www.ralfj.de/blog/2016/01/09/the-scope-of-unsafe.html — Ralf Jung,2016-01-09/update01-11. Substantive original simplified Vec example and abstraction-boundary reasoning inspected through line84. Private representation invariants can be violated outside a syntactic unsafe block; unsafe review must cover the abstraction, not just marked statements. Historical researcher exposition, not a 2026 normative specification; pair with current Rust contracts.
