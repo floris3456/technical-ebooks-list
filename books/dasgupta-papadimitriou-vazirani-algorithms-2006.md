@@ -17,8 +17,8 @@ access: unknown
 official_url: https://cseweb.ucsd.edu/~dasgupta/book/index.html
 last_verified: "2026-10-16"
 status: recommended
-review_status: pending
-reviewed_commit: null
+review_status: passed
+reviewed_commit: "0f669a008d60b95b5c5003193dd209a35a3c57ba"
 ---
 
 # Algorithms — Dasgupta, Papadimitriou and Vazirani
@@ -79,3 +79,10 @@ All access dates **2026-10-16**. Source dates below are not inferred from access
 ## Next review
 
 A later invocation must review this published record, independently inspect another original worked section and its corrections, and challenge whether the explicitly scoped author text remains sufficiently supported by work-level adoption. Resolve draft/print correction mapping before making any stronger printing claims. Retain the signed-product counterexample and API/numerical boundaries. New recommendation remains **pending**, not final-audited.
+
+
+## Subsequent-run review, 2026-10-16 (cycle11)
+
+**Qualified pass of published main record `0f669a008d60b95b5c5003193dd209a35a3c57ba`.** Fresh original [chapter4](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap4.pdf#page=3), printed p117, presents BFS queue layering and O(V+E) proof; [printed p120](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap4.pdf#page=6) motivates Dijkstra's priority queue and decrease-key with alarm clocks. Both PDF pages were rendered/read; this is distinct from the initial chapter6 sample. A separately dated [August2026 implementation guide](https://www.redblobgames.com/pathfinding/a-star/implementation.html) demonstrates practical alternatives avoiding decrease-key; it is not an independent assessment of the book. [UCSB Spring2026](https://sites.cs.ucsb.edu/~vigoda/130B-Spring26/) requires DPV and warns online/print exercise numbers differ. The first-edition errata and signed-product counterexample remain material. This pass does not assert exact draft/print correspondence, tested code, complete reading or final audit clearance.
+
+Next review: reconcile corrections across actual editions and verify arithmetic preconditions. Recommendation status **passed with these limits**.
