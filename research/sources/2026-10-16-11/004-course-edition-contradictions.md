@@ -1,0 +1,16 @@
+# 004 — algorithms adoption and edition conflict (access 2026-10-16)
+
+- https://www.gu.se/en/reading-list/70eef809-c919-11f0-a255-650837bd40cf — full Gothenburg DIT093 approved list: valid Autumn 2026, decision 2026-01-30, KT named course book (ISBN 0-321-29535-8). New family #8.
+- https://www.cs.ox.ac.uk/teaching/courses/2026-2027/algdesign/ — full Oxford 2026–27 syllabus, KT and DPV useful references; **claims KT second edition Feb2022**, unlike Pearson catalog first-edition label. Treat as edition conflict, not resolved identity. New family #9.
+- https://sites.cs.ucsb.edu/~vigoda/130B-Spring26/ — full UCSB CS130B Spring2026, DPV **required**; explicit warning online-version exercise numbers differ; independent support for work and draft/print caveat. New family #10.
+- https://www.cse.iitd.ac.in/~amitk/SemII-2025/main.html — full IIT Delhi course: KT named text and actual chapter-specific greedy/flow/reduction lectures; DPV supplementary. Semester indicated 2025 by path, not 2026. New family #11.
+- https://www.cs.tufts.edu/comp/160/ — full Tufts Spring2026 syllabus: CLRS 4e core; KT and DPV as further reading, Skiena **second** edition only. No 3e Skiena adoption inferred. New family #12.
+- https://www.cs.swarthmore.edu/~ngrammel/cs41/f26/ — direct opening failed DisabledError, no substantive credit; search suggested KT weekly readings, not independently validated.
+- https://www-di.inf.puc-rio.br/~mmolinaro/PAA26-1/ — direct opening failed HTTP502; no credit; search suggested KT/DPV syllabus only.
+- https://ds.cs.rutgers.edu/ — direct opening timed out; search described required SW4e Fall2026, **not** validated body.
+- https://www.pearson.com/en-us/subject-catalog/p/algorithm-design/P200000003259 — publisher page/search full title and first-edition label; 2021 eText product ISBN9780137546350 and 2005 paperback ISBN9780321295354 are distinct formats/product dates, not proof about 2022 2e. Returning publisher domain.
+- https://www.pearson.com/en-us/subject-catalog/p/algorithm-design/P200000003259/9780321295354 — first-edition print identifier2005; publisher page. Returning publisher.
+- https://www.abebooks.com/9780132131087/Algorithm-Design-2nd-Edition-Kleinberg-0132131080/plp and https://www.campusbooks.com/books/9780132131087-algorithm-design — second-edition 2022 hardcover ISBN9780132131087 appears in reseller feeds. Snippet-only; no publisher confirmation or actual contents inspected. **Do not claim no second edition exists.**
+- Other search-only KT 2e leads: https://www.moluna.de/buch/303954885-Kleinberg%2C%2BJ%3A%2BAlgorithm%2BDesign/, https://www.libreriauniversitaria.it/algorithm-design-kleinberg-jon-pearson/book/9780132131087, https://www.goodreads.com/work/editions/139960-algorithm-design, https://cs.gmu.edu/media/syllabi/Spring2022/CS_483LiF002.pdf, https://www.pearson.com/en-us/pearsonplus/p/9780137546350. No second-edition content or changes validated.
+
+Focused discovery also surfaced Oregon State2026, Sapienza2026, Rutgers2026, Swarthmore2026, Gatech2026, Tufts2026, Oxford2026: do not count search snippets as full reads. Publication/semester dates above are from sources, separate from access. Cumulative conservative substantive website families: **12**.
