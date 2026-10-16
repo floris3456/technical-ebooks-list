@@ -1,36 +1,26 @@
-# Research checkpoint — 2026-10-16-01
+# Research checkpoint — 2026-10-16-02
 
-Starting `main`: `60251a7b1cc3ebadadaf3011da3af82eb81a5789` (tree `f1e4ac88b880e0dbe98ad6d76b61824a8ee3744e`). Inspected live README, TAXONOMY, template, STATE, SOURCES, REJECTIONS, UNSELECTED, topic indexes, latest source-only commit, CSAPP pending record, an older Security Engineering record and observable saved cycle-06 WIP. [Prior checkpoint](STATE-through-60251a7.md) retained. The separate Rust3e source-only investigation is **not** this cycle's recommendation or credited research; all visible history must be preserved. Unknown unpublished work was not assumed.
+Starting live `main` was `c175a47e4cb5cd4de97d1d62edeedd8d6216254a`, containing the prior Rust search-only WIP in `research/sources/2026-10-16-02/001-discovery.md`. Reviewed README, TAXONOMY, canonical book template, previous STATE and source audit, REJECTIONS, UNSELECTED, the latest source-only commit and TLPI record, plus platform index. Did not assume unpublished work. The preceding checkpoint remains in git history.
 
-## Counted catalog
+## Verified collection metrics
 
-| Metric | Works |
-| --- | ---: |
-| Recommended distinct work IDs | **29** |
-| Passed later-run review | **28** |
-| Awaiting later-run review | **1** |
-| Canonical candidates, uncounted | **1** |
-| Deferred works including that candidate, uncounted | **5** |
-| Completed final audit | **0 / 2,000** |
+- **29** distinct recommended work IDs; **29** qualified subsequent-run reviews and **0** pending, subject to final audit (**0 / 2,000** completed).
+- **1** canonical uncounted candidate; **6** distinct deferred works including it (newly deferred Mara Bos). No promoted Rust work, no removal, no category changes.
+- All **23** controlled subjects remain in original taxonomy; the topic index and README were updated for TLPI's later-run pass. Formats, editions and subject appearances are not new works.
 
-**46 subject appearances represent 29 works**, 23 controlled subjects/7 groups. Net **one added, one prior later-reviewed, zero removals or reclassifications of older books**. All subjects have at least one primary title; no empirical retrieval test proves coverage quality. Editions, formats, subject memberships, deferrals and translations never inflate the distinct count.
+## Reviewed and newly researched
 
-## Decisions
+**TLPI** from the published record at `521ad1538df267f9fff2eb45420b02d6e64a8f7d`: qualified independent later-run pass. The original publisher chapter4 PDF was reopened with printed p71 code visually rendered; introductory `copy.c` treats short writes as fatal rather than retrying. Current [write(2)](https://man7.org/linux/man-pages/man2/write.2.html) confirms partial writes are valid. Chapter4 pp74–76 already describes `O_CLOEXEC`/exec race; avoid claiming that topic absent. Fall 2026 William & Mary course, Jake Edge's independent 2011 review, and printing-specific errata reopened. Durable descriptors/process control still useful, but full chapter corpus, all corrections, modern Linux API additions and example execution remain unverified. Older sample rotating Security Engineering 3e was reviewed at preceding checkpoint; no new fresh older-sample inspection claimed beyond TLPI itself.
 
-**Computer Systems: A Programmer's Perspective, North American third edition:** **passed** a qualified subsequent-run review of the version at `b230dc31ecfcc3f1fd03d1b1c1e6a25d632f6073`. Reopened a rendered original March 2015 cache-blocking aside, Harvard CS61 2026 sections and instructor caveats, author official errata last updated **2025-06-25** (including p59 shifting, p201 CF and pp546–547 SIMD corrections), and author's **2026-06-02** notice that a fourth edition is merely planned for spring 2027. Preserve Harvard's warning of inaccurate C signed-overflow/undefined-behavior discussion and weaker concurrency unit. No direct complete original chapter2 read or benchmark reproduction; passed does not mean correctness of all C claims or every Global printing exercise. Keep systems primary and performance secondary.
+**Rust Atomics and Locks** (Mara Bos, 2023): inspected original ch3 memory ordering and ch8 OS primitives, author preface/TOC, an independent 2024 reviewer with promotional conflict disclosure, publisher errata and Rust modern references. The reviewer describes strong examples and high prerequisites; publisher errata flag a direction-of-happens-before issue and a missing safety bound on `Guard` in ch4/9. Deferred in UNSELECTED until page-level live text and corrected print/ebook mapping are reconciled. The 2026 Rust Book 3e discovery remains a lead only; 2026 publisher and maintained online text do not establish independent exact-print expert evaluation.
 
-Rotating older **Security Engineering third edition**: visually rechecked original chapter1 §1.2 (policy/mechanism/assurance/incentives) and the author's specific third-edition errata pp406,627,887. Reopening the earlier expert review timed out, so no fresh external expert read is claimed; retain the existing qualified pass and its open detailed-currency/errata tasks.
+**Sources:** [exact URL audit](sources/2026-10-16-02/001-discovery.md), accessed 2026-10-16. Multiple website families directly opened (some timed out); previous site history, index-only and duplicates make the demanded 20 **new** website families unverified. No 20-source-completion claim. Pages inspected are not equivalent to 20 independent book assessments. No full book or executable test was performed.
 
-**New [The Linux Programming Interface](../books/kerrisk-linux-programming-interface-1.md), first edition (October 2010)**: initial recommendation **pending later-run review**. Publisher bibliographic/TOC record, **three original first-edition chapter samples** (descriptor I/O and copy p71, processes p515, POSIX queues p1066), two independent firsthand evaluations (Lucifredi 2010 and Jake Edge 2011), William & Mary **Fall 2026** explicit chapter assignments and TUM **summer 2021** course support identity, actual material and independent educational value. Original author printing-specific errata updated **2026-09-12**. Current Debian open APIs and Linux uAPI manuals corroborate continuing concepts without endorsing older implementation details. The original copy demo does not retry short writes; 2010 code, pre-container API coverage, current namespaces/sandboxing and io_uring are not treated as contemporary manuals. No newer finished edition or file-specific ebook ISBN was established. **Platform-Specific Development** primary (Linux userspace application building); **Computer Systems & Operating Systems** and **Networking, APIs & Integration** additional. Complements, not duplicates, CSAPP and OSTEP. Availability, age and price were not filters.
+## Next focus
 
-## Sources and unselected work
+1. Reconcile original Rust Atomics ch4/9 lock guard `Sync` and chapter3 ordering errata with current reference; seek independent adoption or detailed technical critique without publisher/discount dependency.
+2. Deepen 2026 Rust Programming Language third-print independent adoption and original chapter/errata; distinguish maintained HTML from printed edition.
+3. Rotating older review and incomplete Petrov/OSTEP/CLRS issues; make a separate staged audit of source validity, present-day usefulness, duplicates and categories.
+4. Investigate **at least 20 genuinely new** website families with substantive sources next cycle; this run's cross-website opens are logged but not miscounted.
 
-[Exact visited URLs and chronology](sources/2026-10-16-01/README.md): **23 new website families opened; 21 conservatively substantively inspected** after withholding a shallow project overview and a GitHub-hosted site from independent credit. Known sites, search-only leads and inaccessible tools earn zero novelty. Source publication/update dates and **2026-10-16 access** are distinct; technical docs are current-practice crosschecks, not book reviews. Failures and partial reads are logged. Source checkpoint commits preserve visits.
-
-[UNSELECTED](UNSELECTED.md) still holds five deferred, uncounted works (IaC3, SRE2 lead, Brutal Refactoring, Python TDD3, Database Internals). This cycle did not evaluate another rejected-quality work or remove any recommendation.
-
-## Open blockers and next sequence
-
-Later-run review TLPI original chapter4 edge cases, print-specific errata, edition claim and deployed current API examples. Recheck CSAPP chapter2 undefined behavior and Global corrections. Investigate Rust3e only after reviewing saved cycle-06 WIP and exact 2026 print/online content. For Database Internals, obtain original chapter and external independent assessment or actual assigned chapters. Older OSTEP version conflict, CLRS print errata, Logical Foundations 7.0/7.1 and browser online/print alignment remain unclosed. Audit topic retrieval quality and all 2,000 before completion.
-
-New record is self-reviewed but cannot pass until a **genuinely later** invocation. Counts, unique work IDs, controlled subjects, source IDs and all topic memberships must match the final tree. Re-fetch main, preserve concurrent source-only work, publish without force and verify remote SHA. No complete book reading, executed lab, exhaustive errata reconciliation or final catalog audit is claimed. Automation settings unchanged.
+This checkpoint reflects observable saved work only. Do not count deferred works. Work target remains **2,000** and final audit incomplete.
