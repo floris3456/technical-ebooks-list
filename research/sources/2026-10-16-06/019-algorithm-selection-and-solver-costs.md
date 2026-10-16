@@ -1,0 +1,7 @@
+# Dispatch/solver costs — accessed 2026-10-16
+
+https://graph-tool.skewed.de/static/docs/stable/autosummary/graph_tool.topology.shortest_distance.html — actual parameters/Notes/examples lines375–521 read, version3.9. DAG mode permits negative weights, explicit initialization obligations, BFS/Dijkstra/Bellman–Ford and Johnson/Floyd–Warshall dispatch. Its generic weighted single-source complexity omits E; do not repeat that bound as universal. New substantive graph-tool/skewed.de family; revision unspecified.
+
+https://petsc.org/release/manual/ksp/ — inspected Monitoring/OperatorSpectrum/FlexibleKrylov/PipelinedKrylov/Preconditioners through ILU discussion, lines323–429. Version3.26.0, update unspecified. True-residual monitoring can distort timing; convergence depends on preconditioned spectrum; communication overlap and memory costs distinguish implementations from abstract operation counts. New substantive PETSc family, not an endorsement of a book. Not entire1335-line chapter.
+
+Retrieved for targeted reading next (no body inspection claimed here): https://www.fftw.org/fftw3_doc/Planner-Flags.html (33lines, version3.3.11); https://www.comp.nus.edu.sg/~rahul/cs6234-13.html (301line course); https://www.pearson.com/en-us/subject-catalog/p/algorithm-design/P200000003259/9780137546350 (480line publisher); https://services.just.edu.jo/CourseQA/Uploads/Syllabus/1737840.pdf (3pages, repeated retrieval). No new-source credit for headers alone.
