@@ -1,0 +1,5 @@
+# Batch 003, focused re-read 2026-10-16
+
+https://rust-for-rustaceans.com/ — full original errata page, inspected pp187, 202, 207 and 235; prior record missed the material p235 DropGuard unlock bug and p207 c_void layout claim. Source reports dated 2021–2024, current page update unknown; no revision-by-printing proof.
+https://www.oreilly.com/library/view/programming-rust-3rd/9781098176228/ch04.html — inspected chapter-4 preview near lines 440–456: **explicit early-release draft warning**, a brief opening paragraph only before paywall. This is NOT substantive final-third-edition chapter proof. Contents lists 24 chapters including Futures and Unsafe Code; does not prove current chapter correctness.
+https://book.mynavi.jp/ec/products/detail/id=149835 — Japanese publisher 2026-03-16 translation lists 13 chapters, unlike publisher-group distribution listings of 15 chapters; translator page is edition evidence for a translation, not a second counted work or certainty about reseller copy. Reseller search snippets not treated as full reads. Returning to these three already logged URLs creates no new-domain credit.
