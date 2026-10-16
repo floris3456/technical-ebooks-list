@@ -1,0 +1,7 @@
+# Batch009, accessed 2026-10-16
+
+https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html — full Spring Security7.1.1 primary manual, lines5–105 and 205–378; method-level Pre/PostAuthorize, annotation-based safeguards, explicit warning that unannotated methods are NOT secured and postauthorize on write operations can be too late. New substantive family #19; newer API details supersede fixed2019 Java examples.
+https://semgrep.dev//blog/2021/taint-mode-is-now-in-beta/ — full original Semgrep engineering post (2021) with code examples; §§sources/sanitizers/sinks for taint flow; article's beta label is historical, not assertion that feature remains beta2026. New substantive family #20.
+https://soatok.blog/ — website access blocked by robots.txt; no page inspected, no novelty credit.
+
+These current/historical concrete implementations support secure-design modeling and potential modern tooling comparisons, not endorsement of a particular book. Source dates distinct from access date, publisher documentation update dates unknown. New-site register now 20 conservative families: 7 earlier course/author/interview, 4 independent book reviews, 2 crypto docs, 5 technical expert practices, and 2 current framework/tool sites. Returning publisher, OWASP and Kerrisk sites excluded.
