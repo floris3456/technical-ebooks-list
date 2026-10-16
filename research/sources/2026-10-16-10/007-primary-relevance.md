@@ -1,0 +1,9 @@
+# Batch007 — primary relevance checks, accessed 2026-10-16
+
+https://man7.org/linux/man-pages/man4/random.4.html — full Linux man-pages 6.19 random(4), dated 2026-02-08; lines34–89 explicitly Linux 5.6 /dev/random nonblocking except early boot. This contradicts unconditional low-entropy blocking claim in Aumasson 2e original ch2 printed p36; retain as material dated/error boundary. Author Kerrisk site known, no new family.
+https://cryptography.io/en/stable/hazmat/primitives/aead/ — full Cryptography 50.0.2 AEAD contracts lines11–69 and 156–205; 12-byte ChaCha20-Poly1305 nonces and never reuse, authenticated data; update date unknown. New substantive website family #12.
+https://libsodium.gitbook.io/doc/generating_random_data — full original libsodium generating-random-data guide, randombytes_buf/deterministic, VM restore caveat; web relative last-updated '3 days' not precise publication date, no claim about book. New family #13.
+https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html — full OWASP project threat identification, STRIDE and alternative techniques, source update unstated; corroborates durable Shostack four-question method and need for context-specific choices. Known OWASP-family, no novelty credit.
+https://cybersecurity101.net/cheatsheets/threat-modeling/ — full 2026-06-29 checklist, but mostly repackages OWASP/Shostack; not independent expert evidence or new substantive family credit.
+
+All URLs exact; source dates separate from access. The documented Linux-page contradiction is narrow and does not refute cryptographic core or every other part of the 2024 book.
