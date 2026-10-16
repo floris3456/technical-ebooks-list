@@ -66,3 +66,8 @@ Breadth and mathematical detail make it valuable for foundations and later refer
 ## Next review
 
 Later final-audit tasks: compare a focused database internals book and current PostgreSQL MVCC documentation; investigate significant errata without treating lack of an accessible errata list as proof of no errors. **Subsequent-run review passed; full catalog audit remains outstanding.**
+
+
+## Rotating review (2026-10-16)
+
+Freshly rendered original chapter27 PDF page2 from https://db-book.com/online-chapters-dir/27.pdf#page=2: tuple relational calculus uses existential quantification in instructor/department queries. Modern PostgreSQL18 https://www.postgresql.org/docs/18/monitoring-stats.html documents shared-memory statistics and read delays, rather than the seventh-edition book's dated separate collector. Retain qualified pass; older example data and implementation details are not guaranteed current. Original chapter date 2019, modern manual version18; access date2026-10-16. No query executed or final audit cleared.
