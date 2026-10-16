@@ -73,3 +73,8 @@ All access dates **2026-10-16**. Where page updates are unstated, they remain un
 ## Next review
 
 Independently review this published recommendation; inspect a longer original3e worked section and map its relevant errata. Challenge the weight of supplementary-course evidence and compare author-site catalog prose against the actual3e text before attributing wording errors to that edition. Keep code/API and numeric limitations visible. New recommendation is **pending subsequent-run review**, not final-audited.
+
+
+## Cycle11 subsequent-check attempt — 2026-10-16
+
+The [full author errata](https://www3.cs.stonybrook.edu/~skiena/algorist/book/errata-adm3) was reopened, including the substantive p158/p214/p321–323/p404/p516 corrections. The official original third-edition introductory preview again failed; only two printed pages from the initial run are verifiably examined, and undated author catalog passages cannot automatically be labeled current3e print text. The independent La Salle course designation remains supplementary, not proof of assigned exercises. **Retain recommendation with review_status pending**, rather than invent a subsequent-run pass without sufficient new original3e argument and printing comparison. Preserve original date2020, errata last addition2026-01-09 and access2026-10-16 as distinct dates. Next task: obtain a longer authorized3e sample or additional chapter evidence and reconcile correction rows.
