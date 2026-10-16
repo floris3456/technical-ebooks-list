@@ -60,3 +60,11 @@ One new recommendation stays pending subsequent-run review, one earlier work pas
 | R088 | Conservative website novelty, independent of book quality | [Source log](sources/2026-10-16-01/README.md) records **23** first-time website families and credits **21** substantively, withholding two doubtful families; returning publisher/author/manual sites, failures and search-only discovery count zero. |
 
 No work was removed, no new rejected-quality title was invented, and the five existing [retained deferrals](UNSELECTED.md) remain uncounted. New Kerrisk entry is **pending** genuine later-run review; all earlier corrections remain historical.
+
+## Cycle 2026-10-16-02
+
+| ID | Decision | Evidence / limitation |
+| --- | --- | --- |
+| R089 | Pass TLPI later-run assessment with targeted C I/O warning | [Original chapter4 printed p71](https://nostarch.com/download/samples/LinuxProgrammingInterface_Chapter4_Updated.pdf#page=3) aborts on any partial write; [current write(2)](https://man7.org/linux/man-pages/man2/write.2.html) describes legally short writes. Chapter4 pp74–76 already explains O_CLOEXEC multithreaded-exec race; avoid falsely presenting that as an omitted 2010 feature. Keep qualified recommendation with no code execution or full printing audit. |
+| R090 | Defer Rust Atomics and Locks rather than treating all examples as verified | [O'Reilly errata](https://www.oreilly.com/catalog/errata.csp?isbn=0636920635048) correct p68 happens-before direction and flag missing Guard Sync bounds ch4/9; inspect [original ch3](https://mara.nl/atomics/memory-ordering.html) / [ch8](https://mara.nl/atomics/os-primitives.html). [Independent 2024 review](https://habr.com/ru/companies/ssp-soft/articles/824384/) values examples but is commercially promotional and explicitly warns beginners. Defer full inclusion pending targeted reconciliation, not availability. |
+| R091 | No false 20-new-source claim | [Cycle audit](sources/2026-10-16-02/001-discovery.md) has exact 20+ page openings across multiple sites but many were previously visited domains, some failed or were only index pages; **required 20 new websites not verified**. Research/bibliographic review valuable but incomplete breadth. |
