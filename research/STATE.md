@@ -1,26 +1,22 @@
-# Research checkpoint — 2026-10-16-02
+# Research checkpoint — 2026-10-16-03
 
-Starting live `main` was `c175a47e4cb5cd4de97d1d62edeedd8d6216254a`, containing the prior Rust search-only WIP in `research/sources/2026-10-16-02/001-discovery.md`. Reviewed README, TAXONOMY, canonical book template, previous STATE and source audit, REJECTIONS, UNSELECTED, the latest source-only commit and TLPI record, plus platform index. Did not assume unpublished work. The preceding checkpoint remains in git history.
+Live starting `main` `b4da510e517c327c083ad22b25cbdea2a9c2b18e` (latest commit synchronizing six deferred books). Inspected README, TAXONOMY, books/BOOK_TEMPLATE.md, STATE, REJECTIONS, UNSELECTED, saved cycle-02 source WIP, and rotating older [Systems Performance 2e](../books/gregg-systems-performance-2.md); the latter's 2020 original sample and 2024 review remain qualified, with modern Linux tracing flag/tool currency unresolved. Unpublished work was not assumed.
 
-## Verified collection metrics
+## Counts / actual decisions
 
-- **29** distinct recommended work IDs; **29** qualified subsequent-run reviews and **0** pending, subject to final audit (**0 / 2,000** completed).
-- **1** canonical uncounted candidate; **6** distinct deferred works including it (newly deferred Mara Bos). No promoted Rust work, no removal, no category changes.
-- All **23** controlled subjects remain in original taxonomy; the topic index and README were updated for TLPI's later-run pass. Formats, editions and subject appearances are not new works.
+- **29 distinct recommended works**, all **29** previously passed subsequent-run review; **0 pending**; **0 final-audited for completion**. No additions, revisions to counted book records, reclassifications or removals this cycle.
+- **6 deferred, uncounted** works, including **one canonical candidate**. Retain Mara Bos as a deferred title, not quality-rejected; no availability-related filtering.
+- Topic indexes and README counts remain unchanged. Stable work IDs, controlled 23 subjects and indexes unaffected.
 
-## Reviewed and newly researched
+## New evidence and outstanding work
 
-**TLPI** from the published record at `521ad1538df267f9fff2eb45420b02d6e64a8f7d`: qualified independent later-run pass. The original publisher chapter4 PDF was reopened with printed p71 code visually rendered; introductory `copy.c` treats short writes as fatal rather than retrying. Current [write(2)](https://man7.org/linux/man-pages/man2/write.2.html) confirms partial writes are valid. Chapter4 pp74–76 already describes `O_CLOEXEC`/exec race; avoid claiming that topic absent. Fall 2026 William & Mary course, Jake Edge's independent 2011 review, and printing-specific errata reopened. Durable descriptors/process control still useful, but full chapter corpus, all corrections, modern Linux API additions and example execution remain unverified. Older sample rotating Security Engineering 3e was reviewed at preceding checkpoint; no new fresh older-sample inspection claimed beyond TLPI itself.
+[Source attempts and exact URLs](sources/2026-10-16-03/001-rust-audit.md), access date **2026-10-16**. Full 2023-01-20 Budilovsky and 2024-09-02 Westbrook independent practitioner assessments substantiate instructional value of original *Rust Atomics and Locks*; the latter first direct open failed, then later succeeded. Book-embedded McKenney foreword is not independent external adoption. O'Reilly confirmed errata p68 reversed happens-before phrase was corrected **2023-01-27**, but ch4/9 `Guard` trait bound and p209 reader-count assertion show **no correction date** in current ledger. Original author chapters 3/8 previously examined; attempts to guess ch4 URL failed, so *original code-to-erratum mapping is incomplete*. Community [2024 HN remarks](https://news.ycombinator.com/item?id=41239913) flag potential obsolete Windows SRWLock commentary, requiring Rust primary-code confirmation. Selection deferred with sharper documented rationale.
 
-**Rust Atomics and Locks** (Mara Bos, 2023): inspected original ch3 memory ordering and ch8 OS primitives, author preface/TOC, an independent 2024 reviewer with promotional conflict disclosure, publisher errata and Rust modern references. The reviewer describes strong examples and high prerequisites; publisher errata flag a direction-of-happens-before issue and a missing safety bound on `Guard` in ch4/9. Deferred in UNSELECTED until page-level live text and corrected print/ebook mapping are reconciled. The 2026 Rust Book 3e discovery remains a lead only; 2026 publisher and maintained online text do not establish independent exact-print expert evaluation.
+**Novelty shortfall:** The source log spans multiple domains and multiple substantive reads, but fails to establish the required **20 genuinely new websites**; known publisher/author sites, failed opens, and reuse cannot count. Source attempts committed. Research sweep and new-book selection incomplete; do not claim run-wide quota success. Publication/update dates separate from 2026-10-16 access; no examples compiled or tests executed.
 
-**Sources:** [exact URL audit](sources/2026-10-16-02/001-discovery.md), accessed 2026-10-16. Multiple website families directly opened (some timed out); previous site history, index-only and duplicates make the demanded 20 **new** website families unverified. No 20-source-completion claim. Pages inspected are not equivalent to 20 independent book assessments. No full book or executable test was performed.
+## Next priorities
 
-## Next focus
-
-1. Reconcile original Rust Atomics ch4/9 lock guard `Sync` and chapter3 ordering errata with current reference; seek independent adoption or detailed technical critique without publisher/discount dependency.
-2. Deepen 2026 Rust Programming Language third-print independent adoption and original chapter/errata; distinguish maintained HTML from printed edition.
-3. Rotating older review and incomplete Petrov/OSTEP/CLRS issues; make a separate staged audit of source validity, present-day usefulness, duplicates and categories.
-4. Investigate **at least 20 genuinely new** website families with substantive sources next cycle; this run's cross-website opens are logged but not miscounted.
-
-This checkpoint reflects observable saved work only. Do not count deferred works. Work target remains **2,000** and final audit incomplete.
+1. Retrieve correct ch4/ch9 original pages and repository example versions, verify `Guard: Sync` bound and p209 correction against Rust standard library/target-platform source; document any 2026 status.
+2. Find exact-third-edition independent evaluation/adoption for 2026 *The Rust Programming Language* versus continuously updated web text, without passing publisher advertisements as review.
+3. Investigate 20 genuinely novel substantive website families in a new run, audit rotating older entries, and revisit Database Internals first-edition original chapter evidence.
+4. Continue staged final evidence, present-relevance, deduplication and subject-index audit; target 2,000 passing works remains open.
