@@ -1,0 +1,10 @@
+# Batch 005, original primary-storage documentation, 2026-10-16
+
+https://tikv.org/docs/7.1/reference/architecture/overview/ — directly inspected TiKV version-7.1 docs Architecture/PD/Transactional vs RawKV, lines 76–116: RocksDB local storage, Raft replication, PD timestamps; source edition version 7.1, page update unknown. New substantive family #2; **do not** call this current latest release.
+https://docs.scylladb.com/manual/stable/cql/compaction.html — directly inspected ScyllaDB 2026.3 stable compaction guide, §§Common options/STCS/LCS/ICS/TWCS; SSTable merging, tombstones and operational thresholds. Source version 2026.3, precise update date unknown. New substantive family #3.
+https://rocksdb.org/blog/2022/10/31/align-compaction-output-file.html — original RocksDB engineer article 2022-10-31, compaction file alignment/write amplification claim for RocksDB 7.8.0+, bounded platform example not 2026 benchmark. New substantive family #4.
+https://apple.github.io/foundationdb/architecture.html — original FoundationDB 8.0.0 architecture: transactional ordered KV API, coordinator/storage roles, distributed coordination. Hosting apple.github.io; related FoundationDB ecosystem, counted conservatively as one possibly new family #5 (do not separately credit foundationdb.org). Page revision date unknown.
+https://notes.stonecharioteer.com/books/database-internals/index.html — chapter-index review notes for Alex Petrov, full 179-line page but mostly navigation. New site visited, **withhold substantive credit** pending opening actual chapter notes.
+https://www.oreilly.com/library/view/database-internals/9781492040330/ch06.html — original chapter 6 B-tree variants preview body and TOC; shallow original excerpt, 2019 text; returning publisher, no new family. Original-preview evidence is partial, not complete book verification.
+
+Source-role warning: database-engine docs support present relevance and potential corrections, not independent endorsement of a book. Four firm new substantive families (#2–4 plus perhaps #5), plus book-review family #1 in previous batch. No examples run.
