@@ -1,0 +1,7 @@
+# Signed review and version boundaries — accessed 2026-10-17
+
+https://open.umn.edu/opentextbooks/textbooks/171 — directly read all four signed faculty reviews (lines110–304). Cory Scott, Colorado College, 2026-02-11, reports years of actual course use; praises concise rigor but notes out-of-order reading difficulties. Joseph Jess (2020-01-14) wants stronger proof preparation. Andrew Black (2016-08-21) questions some names, hashing context and quicksort partition choices, explicitly without checking every proof. Breeann Flesch (2019-02-25) describes topic dependencies. Ratings alone not used. This is independent firsthand teaching/appraisal, not correctness certification. Page revision unstated. UMN is provisionally novel against inspected baseline; other branches still to audit.
+
+https://opendatastructures.org/ods-java/ — exact original header reads Edition 0.1G, author Pat Morin; it does not give a calendar revision date. Original HTML will not be silently equated with the 2013 print/PDF build.
+https://www.aupress.ca/books/120226-open-data-structures/ — full metadata/contents/license directly read again. Publisher lists August2013 and a PDF-specific ISBN; license differs from the broader author-site wording, so no universal licensing claim will be imported. Book assessment remains about content, not access or licensing as a selection filter.
+https://www.cs.cornell.edu/~kleinber/algdes/ — alternate author URL explicitly inaccessible, no original book or errata read. Failed attempt retained; no novel credit.
