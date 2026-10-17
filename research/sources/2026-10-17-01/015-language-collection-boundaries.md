@@ -1,0 +1,12 @@
+# Collection semantics across implementations — accessed 2026-10-17
+
+Six original documentation families not found in the inspected persisted baseline. These checks address an explicit research gap: textbooks' abstract set/map operations do not specify every language's equality, mutation, iteration, concurrency or cost contracts. They are not six book endorsements.
+
+- https://dlang.org/spec/hash-map.html — read associative-array declaration, class/struct hashing, reference-semantics and iteration sections (118–230,367–410). Hash/equality consistency, reference aliasing and invalidated iteration are concrete obligations. Page generated2026-10-07, not a claim of independent correctness testing.
+- https://nim-lang.org/docs/tables.html — read original overview/value-vs-reference examples224–264 and mgetOrPut copy caveats1673–1750. Assignment to Table and TableRef differs; copied sequence values can defeat intended updates. Living documentation, version/update unstated; not all2,963 lines read.
+- https://haxe.org/manual/std-Map.html — complete substantive §10.2.5 including map examples and compile-time specialization383–437. The common Map abstraction is lowered to different key-specific runtime types; no universal data-layout guarantee imported. Update unstated.
+- https://chapel-lang.org/docs/modules/standard/Map.html — map declaration/constructors and resizeThreshold/parSafe26–86. Documentation2.10 explicitly calls parallel-safe mode unstable and makes resizing thresholds tunable. A sequential textbook implementation cannot acquire concurrency guarantees from its type name. Update unstated.
+- https://crystal-lang.org/api/Hash.html → https://crystal-lang.org/api/1.22.0/Hash.html — Overview747–764 and each/each_key1439–1495. Insertion-order enumeration, equality/hash agreement and mutable-key rehash caveat inspected. Version1.22.0, update date unstated.
+- https://www.erlang.org/doc/apps/stdlib/ets.html — original introduction/failures15–51, OTP29.1.2/stdlib8.1.1. set versus ordered_set equality, ownership/lifetime, copy behavior and collision/bag limits distinguish in-memory runtime tables from durable database transactions. Strong general constant-time wording was not accepted as an independently proved worst-case guarantee. Update date unstated.
+
+No code run, no chapter falsely attributed to these languages. These six families raise the provisional substantive tally to14, or13 with fastutil's hosting family conservatively withheld. Existing sites and repeated sections add no credits.
