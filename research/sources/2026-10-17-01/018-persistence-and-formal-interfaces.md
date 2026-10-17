@@ -1,0 +1,7 @@
+# Persistence and formal interfaces — accessed 2026-10-17
+
+https://www.cs.cmu.edu/~rwh/students/okasaki.pdf — authorized institutional thesis, Chris Okasaki, CMU-CS-96-177, September1996. Read abstract/opening and rendered PDFp1 identity plus PDFp31/printed19, §3.2 Persistence: Problem of Multiple Futures. Repeatedly taking the tail of the same two-list queue repeats a costly reversal; a sequential amortization argument cannot simply reuse credits across persistent branches. This is substantive original counterevidence to extrapolating mutable-array analysis to persistent structures, not a full thesis review. No correspondence with every page of the later Cambridge book established. Retain Purely Functional Data Structures as an uncounted research direction pending edition, independent assessment and correction checks. Returning CMU, no new-family credit.
+
+https://rocq-prover.org/doc/V9.0.0/stdlib/Stdlib.FSets.FMapInterface.html — read WSfun introduction, add/find operators, add specifications and Equal/Equiv/Equivb definitions. Explicit version9.0.0; page update unstated. Original formal interface distinguishes specifications from mere successful examples; not a full library proof audit. Rocq/Coq already known, no novelty.
+
+Failed https://ocaml.janestreet.com/ocaml-core/latest/doc/base/Base/Comparator/index.html and https://www.gleam.run/book/tour/dictionaries.html — no bodies read, no credit. Wrong/inaccessible paths do not establish absence of documentation. No book binary stored in the repository, no program or proof executed.
