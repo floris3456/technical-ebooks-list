@@ -4,7 +4,7 @@ Subjects link to canonical book records through primary and substantial addition
 
 | Subject | Recommended works linked |
 | --- | ---: |
-| [Algorithms & Data Structures](algorithms-and-data-structures.md) | 3 |
+| [Algorithms & Data Structures](algorithms-and-data-structures.md) | 5 |
 | [Computer Systems & Operating Systems](computer-systems-and-operating-systems.md) | 4 |
 | [Mathematics & Formal Methods](mathematics-and-formal-methods.md) | 1 |
 | [Programming Language Theory & Compilers](programming-language-theory-and-compilers.md) | 1 |
@@ -15,10 +15,10 @@ Subjects link to canonical book records through primary and substantial addition
 | [Requirements & Software Analysis](requirements-and-software-analysis.md) | 1 |
 | [Software Maintenance & Legacy Systems](software-maintenance-and-legacy-systems.md) | 2 |
 | [Software Engineering Practices & Collaboration](software-engineering-practices-and-collaboration.md) | 2 |
-| [Databases & Data Modeling](databases-and-data-modeling.md) | 2 |
+| [Databases & Data Modeling](databases-and-data-modeling.md) | 3 |
 | [Data Engineering](data-engineering.md) | 2 |
 | [Networking, APIs & Integration](networking-apis-and-integration.md) | 3 |
-| [Concurrency & Distributed Systems](concurrency-and-distributed-systems.md) | 4 |
+| [Concurrency & Distributed Systems](concurrency-and-distributed-systems.md) | 5 |
 | [Software Testing & Quality Assurance](software-testing-and-quality-assurance.md) | 6 |
 | [Debugging & Performance Engineering](debugging-and-performance-engineering.md) | 2 |
 | [Software Security & Privacy](software-security-and-privacy.md) | 1 |
@@ -28,6 +28,6 @@ Subjects link to canonical book records through primary and substantial addition
 | [User Experience & Human–Computer Interaction](user-experience-and-human-computer-interaction.md) | 1 |
 | [Computer Graphics & Visualization](computer-graphics-and-visualization.md) | 1 |
 
-**55 subject appearances represent 34 distinct recommended works: 30 passed later-run review and four awaiting it.** All 23 subjects have primary coverage, but this is not empirical validation of the taxonomy. Four canonical candidates and four other deferred works are retained in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts. Bos's historical deferral remains superseded, not an additional active deferred work.
+**59 subject appearances represent 37 distinct recommended works: 31 passed later-run review and six awaiting it.** All23 subjects have primary coverage, but this is not empirical validation of the taxonomy. Three canonical candidates and four other deferred works remain in [UNSELECTED.md](../research/UNSELECTED.md), outside these counts. Superseded Bos, SW and Petrov deferrals are preserved historically, not additional active works.
 
 [STATE.md](../research/STATE.md) distinguishes pending, passed and final-audit states. Preserve controlled slugs in [TAXONOMY.md](../TAXONOMY.md) and update every affected index when a record changes. No repository generator has been installed.
