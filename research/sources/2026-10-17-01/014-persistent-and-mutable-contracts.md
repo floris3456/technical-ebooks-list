@@ -1,0 +1,11 @@
+# Persistent and mutable collection contracts — accessed 2026-10-17
+
+https://immutable-js.com/docs/v5/List/ — inspected List introduction, set/delete/insert and sort contracts: persistent indexed collections differ from mutable arrays; deletion/insertion can reindex and cost O(N); sorting is stable with a pure comparator and returns a new collection. Version5, document update unstated. Old browser/tooling notes are not current recommendations. New substantive family against the inspected persisted baseline.
+
+https://api.dart.dev/dart-core/List-class.html — inspected class introduction and fixed/growable examples: default growable-list append amortization does not make an arbitrary length change constant-time, and other List implementations may differ. Living primary API, exact release/update not established. Useful return/context source; withheld from conservative novelty under the already-known Google ecosystem.
+
+https://docs.julialang.org/en/v1/base/collections/ — inspected Dictionaries section, especially Dict, IdDict, WeakKeyDict, ImmutableDict and PersistentDict, plus Set equality examples. Mutable keys can invalidate hash-table assumptions; identity-based, weak-key and persistent representations have different contracts. Living v1 manual, exact revision date unstated. New substantive Julia family; not a full 4,197-line manual read.
+
+Failed exact openings: https://www.lmdb.tech/doc/ (timeout); https://pcollections.org/ (internal error); https://hppc.carrotsearch.com/ (internal error). No bodies, substantive credits or inferred guarantees from those attempts. All are now encountered families for future audit; a successful deeper read in this invocation may establish substance but not another family.
+
+These documents qualify representation/equality/cost assumptions, not independently endorse a textbook. No implementation was executed or benchmarked. Conservative running new-family count eight including Maastricht, Babeș–Bolyai, Vavr, Eclipse Collections, fastutil's originating author/University-of-Milan family, Clojure, Immutable.js and Julia. The fastutil hosting association remains explicit; a final stricter count can withhold it without inventing another GitHub-site credit.
